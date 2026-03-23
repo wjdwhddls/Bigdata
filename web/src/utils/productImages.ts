@@ -1,0 +1,71 @@
+export interface ProductVisual {
+  emoji: string
+  bgColor: string
+}
+
+const productMap: Record<string, ProductVisual> = {
+  갈치: { emoji: '🐟', bgColor: '#dbeafe' },
+  계란: { emoji: '🥚', bgColor: '#fef3c7' },
+  고구마: { emoji: '🍠', bgColor: '#fde68a' },
+  고등어: { emoji: '🐟', bgColor: '#bfdbfe' },
+  과일: { emoji: '🍇', bgColor: '#e9d5ff' },
+  국수: { emoji: '🍜', bgColor: '#fed7aa' },
+  김: { emoji: '🌿', bgColor: '#bbf7d0' },
+  김치: { emoji: '🥬', bgColor: '#fecaca' },
+  깻잎: { emoji: '🌿', bgColor: '#d1fae5' },
+  나물: { emoji: '🥗', bgColor: '#d1fae5' },
+  낙지: { emoji: '🐙', bgColor: '#fecdd3' },
+  냉동: { emoji: '🧊', bgColor: '#e0f2fe' },
+  닭고기: { emoji: '🍗', bgColor: '#fed7aa' },
+  당면: { emoji: '🍜', bgColor: '#fef9c3' },
+  도라지: { emoji: '🌱', bgColor: '#d1fae5' },
+  돼지고기: { emoji: '🥩', bgColor: '#fecaca' },
+  드레싱: { emoji: '🫗', bgColor: '#fef3c7' },
+  딸기: { emoji: '🍓', bgColor: '#fecdd3' },
+  땅콩: { emoji: '🥜', bgColor: '#fde68a' },
+  라면: { emoji: '🍜', bgColor: '#fed7aa' },
+  마른안주: { emoji: '🍿', bgColor: '#fef9c3' },
+  맛김: { emoji: '🌿', bgColor: '#bbf7d0' },
+  멸치: { emoji: '🐟', bgColor: '#e0f2fe' },
+  미역: { emoji: '🌿', bgColor: '#bbf7d0' },
+  밤: { emoji: '🌰', bgColor: '#fde68a' },
+  배: { emoji: '🍐', bgColor: '#fef9c3' },
+  북어: { emoji: '🐟', bgColor: '#dbeafe' },
+  블루베리: { emoji: '🫐', bgColor: '#e9d5ff' },
+  빵: { emoji: '🍞', bgColor: '#fed7aa' },
+  사과: { emoji: '🍎', bgColor: '#fecaca' },
+  상추: { emoji: '🥬', bgColor: '#d1fae5' },
+  생선: { emoji: '🐟', bgColor: '#bfdbfe' },
+  생수: { emoji: '💧', bgColor: '#e0f2fe' },
+  소시지: { emoji: '🌭', bgColor: '#fed7aa' },
+  쇠고기: { emoji: '🥩', bgColor: '#fecaca' },
+  수박: { emoji: '🍉', bgColor: '#d1fae5' },
+  스낵: { emoji: '🍪', bgColor: '#fde68a' },
+  아몬드: { emoji: '🥜', bgColor: '#fef3c7' },
+  오징어: { emoji: '🦑', bgColor: '#fecdd3' },
+  잼: { emoji: '🍯', bgColor: '#fef3c7' },
+  전복: { emoji: '🐚', bgColor: '#e0f2fe' },
+  조기: { emoji: '🐟', bgColor: '#bfdbfe' },
+  조미료: { emoji: '🧂', bgColor: '#f3f4f6' },
+  즉석: { emoji: '🍱', bgColor: '#fed7aa' },
+  참외: { emoji: '🍈', bgColor: '#fef9c3' },
+  치즈: { emoji: '🧀', bgColor: '#fef3c7' },
+  카레: { emoji: '🍛', bgColor: '#fed7aa' },
+  커피: { emoji: '☕', bgColor: '#fde68a' },
+  콩나물: { emoji: '🌱', bgColor: '#d1fae5' },
+  키위: { emoji: '🥝', bgColor: '#bbf7d0' },
+  탄산음료: { emoji: '🥤', bgColor: '#fecdd3' },
+  토마토: { emoji: '🍅', bgColor: '#fecaca' },
+  파: { emoji: '🧅', bgColor: '#d1fae5' },
+  파스타: { emoji: '🍝', bgColor: '#fed7aa' },
+  파프리카: { emoji: '🫑', bgColor: '#bbf7d0' },
+  풋고추: { emoji: '🌶️', bgColor: '#d1fae5' },
+  호박: { emoji: '🎃', bgColor: '#fed7aa' },
+  혼합및이온음료: { emoji: '🧃', bgColor: '#e0f2fe' },
+}
+
+const fallback: ProductVisual = { emoji: '🛒', bgColor: '#f3f4f6' }
+
+export function getProductVisual(name: string): ProductVisual {
+  return productMap[name] || fallback
+}

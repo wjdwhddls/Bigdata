@@ -1,2 +1,3 @@
-C반과제-유통-새벽배송매출증대/
 *.csv
+node_modules/
+data/
