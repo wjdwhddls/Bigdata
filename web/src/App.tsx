@@ -11,12 +11,13 @@ import './index.css'
 
 function AppContent() {
   const [currentUserId, setCurrentUserId] = useState<string>()
+  const [activeCategory, setActiveCategory] = useState<string | null>(null)
 
   return (
     <div className="min-h-screen bg-organic">
-      <Header currentUserId={currentUserId} onUserChange={setCurrentUserId} />
+      <Header currentUserId={currentUserId} onUserChange={setCurrentUserId} onCategoryChange={setActiveCategory} activeCategory={activeCategory} />
       <Routes>
-        <Route path="/" element={<HomePage />} />
+        <Route path="/" element={<HomePage categoryFilter={activeCategory} onCategoryChange={setActiveCategory} />} />
         <Route path="/my/:userId" element={<MyPage onUserChange={setCurrentUserId} />} />
         <Route path="/product/:name" element={<ProductPage currentUserId={currentUserId} />} />
         <Route path="/dashboard" element={<DashboardPage />} />

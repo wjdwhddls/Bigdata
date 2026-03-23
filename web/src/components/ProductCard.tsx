@@ -1,3 +1,4 @@
+import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { getProductVisual } from '../utils/productImages'
 
@@ -11,7 +12,8 @@ interface ProductCardProps {
 }
 
 export default function ProductCard({ name, subLabel, score, size = 'md', delay = 0, animated = false }: ProductCardProps) {
-  const { emoji, bgColor } = getProductVisual(name)
+  const { emoji, bgColor, image } = getProductVisual(name)
+  const [imgError, setImgError] = useState(false)
 
   const sizeClasses = {
     sm: { card: 'w-32', img: 'h-28 text-4xl', text: 'text-xs' },
@@ -31,9 +33,19 @@ export default function ProductCard({ name, subLabel, score, size = 'md', delay 
           className={`${s.img} flex items-center justify-center relative overflow-hidden`}
           style={{ backgroundColor: bgColor }}
         >
-          <span className="select-none transition-transform duration-500 group-hover:scale-125 group-hover:rotate-6">
-            {emoji}
-          </span>
+          {image && !imgError ? (
+            <img
+              src={image}
+              alt={name}
+              className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+              loading="lazy"
+              onError={() => setImgError(true)}
+            />
+          ) : (
+            <span className="select-none transition-transform duration-500 group-hover:scale-125 group-hover:rotate-6">
+              {emoji}
+            </span>
+          )}
           {/* Hover shimmer overlay */}
           <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500 animate-shimmer" />
           {score !== undefined && score > 0 && (

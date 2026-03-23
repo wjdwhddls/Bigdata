@@ -156,6 +156,13 @@ body {
   animation: gradientShift 8s ease infinite;
 }
 
+.hero-logo {
+  font-family: 'Georgia', 'Times New Roman', serif;
+  font-weight: 900;
+  line-height: 0.85;
+  letter-spacing: -0.04em;
+}
+
 /* ===== Dynamic Background ===== */
 
 .bg-organic {
@@ -168,6 +175,8 @@ body {
 .bg-section-alt {
   background: linear-gradient(180deg, rgba(236, 253, 245, 0.4) 0%, rgba(255, 255, 255, 1) 100%);
 }
+
+/* ===== Section Divider ===== */
 
 .section-divider {
   position: relative;

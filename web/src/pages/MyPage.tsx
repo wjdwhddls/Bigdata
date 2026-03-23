@@ -171,7 +171,7 @@ export default function MyPage({ onUserChange }: MyPageProps) {
           <h3 className="text-2xl font-extrabold mb-3">상품을 둘러보세요</h3>
           <p className="text-emerald-200 mb-6">상품을 클릭하면 함께 많이 구매한 상품을 확인할 수 있습니다</p>
           <Link
-            to="/"
+            to="/#products"
             className="inline-block bg-white text-emerald-700 px-8 py-3 rounded-full font-bold hover:shadow-xl hover:shadow-emerald-500/20 transition-all duration-300 hover:-translate-y-1"
           >
             전체 상품 보기 →
