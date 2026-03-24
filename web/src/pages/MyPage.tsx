@@ -32,12 +32,22 @@ function ScrollSection({ children, className = '' }: { children: React.ReactNode
   )
 }
 
+const gradeConfig = {
+  VIP:    { label: 'VIP',    gradient: 'from-red-500 via-rose-600 to-red-700',           tagBg: 'bg-red-400/20 text-red-200 border-red-400/30',          subtextColor: 'text-red-200' },
+  Gold:   { label: 'Gold',   gradient: 'from-amber-600 via-yellow-700 to-amber-700',    tagBg: 'bg-amber-400/20 text-amber-200 border-amber-400/30',    subtextColor: 'text-amber-200' },
+  Silver: { label: 'Silver', gradient: 'from-gray-400 via-slate-500 to-gray-600',        tagBg: 'bg-gray-300/20 text-gray-200 border-gray-300/30',       subtextColor: 'text-gray-300' },
+  Bronze: { label: 'Bronze', gradient: 'from-orange-700 via-amber-800 to-orange-800',    tagBg: 'bg-orange-400/20 text-orange-200 border-orange-400/30', subtextColor: 'text-orange-200' },
+} as const
+
 export default function MyPage({ onUserChange }: MyPageProps) {
   const { userId } = useParams<{ userId: string }>()
-  const { customers, recommendations, stats } = useData()
+  const { customers, recommendations, stats, rfmGrades } = useData()
 
   const customer = userId ? customers.get(userId) : null
   const rec = userId ? recommendations.get(userId) : null
+  const rfm = userId ? rfmGrades.get(userId) : null
+  const grade = rfm?.grade ?? 'Bronze'
+  const gc = gradeConfig[grade]
 
   useEffect(() => {
     if (userId) onUserChange(userId)
@@ -67,7 +77,7 @@ export default function MyPage({ onUserChange }: MyPageProps) {
   return (
     <div className="max-w-6xl mx-auto px-4 py-8 animate-fade-in">
       {/* Profile Header */}
-      <div className="hero-gradient rounded-3xl p-8 text-white mb-10 relative overflow-hidden">
+      <div className={`bg-gradient-to-r ${gc.gradient} rounded-3xl p-8 text-white mb-10 relative overflow-hidden`}>
         {/* Decorative circles */}
         <div className="absolute -top-10 -right-10 w-40 h-40 bg-white/5 rounded-full" />
         <div className="absolute -bottom-16 -left-8 w-56 h-56 bg-white/5 rounded-full" />
@@ -78,21 +88,24 @@ export default function MyPage({ onUserChange }: MyPageProps) {
           </div>
           <div className="flex-1">
             <h2 className="text-3xl font-extrabold tracking-tight">{customer.idUser}</h2>
-            <div className="flex items-center gap-3 mt-2 text-emerald-100">
+            <div className="flex items-center gap-3 mt-2">
               <span className="bg-white/15 backdrop-blur rounded-full px-3 py-1 text-sm">{customer.AgeGroup}</span>
               <span className="bg-white/15 backdrop-blur rounded-full px-3 py-1 text-sm">{customer.Gender}</span>
               <span className="bg-white/15 backdrop-blur rounded-full px-3 py-1 text-sm">가족 {customer.FamilyCount}명</span>
               {customer.MemberYN === 'Y' && (
-                <span className="bg-yellow-400/20 backdrop-blur rounded-full px-3 py-1 text-sm text-yellow-200 border border-yellow-400/30">
+                <span className="bg-white/20 backdrop-blur rounded-full px-3 py-1 text-sm border border-white/30">
                   멤버십
                 </span>
               )}
+              <span className={`backdrop-blur rounded-full px-3 py-1 text-sm font-bold border ${gc.tagBg}`}>
+                {gc.label}
+              </span>
             </div>
           </div>
           <div className="text-right">
-            <p className="text-emerald-200 text-sm mb-1">누적 결제</p>
+            <p className={`${gc.subtextColor} text-sm mb-1`}>누적 결제</p>
             <p className="text-3xl font-extrabold">{formatKRW(customer.total_spend)}</p>
-            <p className="text-emerald-200 text-sm mt-1">상위 {spendRank}% 고객</p>
+            <p className={`${gc.subtextColor} text-sm mt-1`}>상위 {spendRank}% 고객</p>
           </div>
         </div>
       </div>

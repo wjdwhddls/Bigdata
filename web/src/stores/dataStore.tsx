@@ -1,5 +1,5 @@
 import { createContext, useContext, useEffect, useState, type ReactNode } from 'react'
-import type { AppData, Customer, Recommendation, AssociationRule, Product, Stats } from '../types/data'
+import type { AppData, Customer, Recommendation, AssociationRule, Product, Stats, RfmGrade } from '../types/data'
 
 const DataContext = createContext<AppData | null>(null)
 
@@ -20,13 +20,15 @@ export function DataProvider({ children }: { children: ReactNode }) {
       fetch('/data/association_rules.json').then(r => r.json()).catch(() => []) as Promise<AssociationRule[]>,
       fetch('/data/products.json').then(r => r.json()) as Promise<Product[]>,
       fetch('/data/stats.json').then(r => r.json()) as Promise<Stats>,
-    ]).then(([customers, recs, rules, products, stats]) => {
+      fetch('/data/rfm_grades.json').then(r => r.json()).catch(() => []) as Promise<RfmGrade[]>,
+    ]).then(([customers, recs, rules, products, stats, rfmGrades]) => {
       setData({
         customers: new Map(customers.map(c => [c.idUser, c])),
         recommendations: new Map(recs.map(r => [r.idUser, r])),
         rules,
         products,
         stats,
+        rfmGrades: new Map(rfmGrades.map(g => [g.idUser, g])),
       })
       setLoading(false)
     })

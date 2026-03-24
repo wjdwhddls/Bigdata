@@ -1,4 +1,4 @@
-import { useMemo } from 'react'
+import { useMemo, useState } from 'react'
 import { useParams, Link } from 'react-router-dom'
 import { useData } from '../stores/dataStore'
 import { getProductVisual } from '../utils/productImages'
@@ -24,7 +24,8 @@ export default function ProductPage({ currentUserId }: ProductPageProps) {
   const { products, rules, customers } = useData()
 
   const product = products.find(p => p.name === productName)
-  const { emoji, bgColor } = getProductVisual(productName)
+  const { emoji, bgColor, image } = getProductVisual(productName)
+  const [imgError, setImgError] = useState(false)
 
   const userAgeGroup = currentUserId
     ? customers.get(currentUserId)?.AgeGroup
@@ -100,9 +101,18 @@ export default function ProductPage({ currentUserId }: ProductPageProps) {
           className="w-96 h-96 rounded-3xl flex items-center justify-center flex-shrink-0 animate-scale-in relative overflow-hidden group"
           style={{ backgroundColor: bgColor }}
         >
-          <span className="text-9xl select-none transition-all duration-700 group-hover:scale-110 group-hover:rotate-12">
-            {emoji}
-          </span>
+          {image && !imgError ? (
+            <img
+              src={image}
+              alt={productName}
+              className="w-full h-full object-cover transition-all duration-700 group-hover:scale-110"
+              onError={() => setImgError(true)}
+            />
+          ) : (
+            <span className="text-9xl select-none transition-all duration-700 group-hover:scale-110 group-hover:rotate-12">
+              {emoji}
+            </span>
+          )}
           <div className="absolute inset-0 bg-gradient-to-t from-black/5 to-transparent" />
         </div>
 

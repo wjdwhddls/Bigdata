@@ -63,10 +63,20 @@ export interface Stats {
   ageGroupStats: Record<string, AgeGroupStat>
 }
 
+export interface RfmGrade {
+  idUser: string
+  grade: 'VIP' | 'Gold' | 'Silver' | 'Bronze'
+  compositeScore: number
+  rScore: number
+  fScore: number
+  mScore: number
+}
+
 export interface AppData {
   customers: Map<string, Customer>
   recommendations: Map<string, Recommendation>
   rules: AssociationRule[]
   products: Product[]
   stats: Stats
+  rfmGrades: Map<string, RfmGrade>
 }
