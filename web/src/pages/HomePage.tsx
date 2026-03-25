@@ -16,6 +16,25 @@ interface HeroImage {
 
 const promoSlides = [
   {
+    title: '신선식품 100% 만족 보장',
+    subtitle: '첫 주문 고객 특별 약속',
+    description: '신선식품이 기대 이하라면 100% 환불 + 재배송해 드립니다',
+    bg: 'from-emerald-100 to-emerald-50',
+    accent: 'text-emerald-900',
+    custom: true as const,
+    cards: [],
+  },
+  {
+    title: '건강기능식품 출시!',
+    subtitle: '포컬리 신규 카테고리',
+    description: '건강기능식품 20% 할인',
+    bg: 'from-teal-100 to-blue-50',
+    accent: 'text-teal-900',
+    custom: true as const,
+    customType: 'health' as const,
+    cards: [],
+  },
+  {
     title: '오늘의 혜택은?',
     subtitle: '진행 중인 이벤트 모아보기',
     description: '이벤트 참여하고 혜택 받기',
@@ -25,18 +44,6 @@ const promoSlides = [
       { label: 'COUPON', color: 'bg-purple-300', icon: '🎫' },
       { label: 'BENEFIT', color: 'bg-purple-400', icon: '🎁' },
       { label: 'TODAY', color: 'bg-purple-800 text-white', icon: '📅' },
-    ],
-  },
-  {
-    title: '신선식품 특가',
-    subtitle: '산지 직송 프리미엄 식재료',
-    description: '매일 새벽 신선하게 배송',
-    bg: 'from-emerald-100 to-emerald-50',
-    accent: 'text-emerald-900',
-    cards: [
-      { label: '채소', color: 'bg-emerald-300', icon: '🥬' },
-      { label: '과일', color: 'bg-emerald-400', icon: '🍎' },
-      { label: '축산', color: 'bg-emerald-800 text-white', icon: '🥩' },
     ],
   },
   {
@@ -92,16 +99,44 @@ const heroImages: HeroImage[] = [
 interface HomePageProps {
   categoryFilter?: string | null
   onCategoryChange?: (category: string | null) => void
+  currentUserId?: string
+  newUserAgeGroup?: string
 }
 
-export default function HomePage({ categoryFilter = null, onCategoryChange }: HomePageProps) {
-  const { products } = useData()
+export default function HomePage({ categoryFilter = null, onCategoryChange, currentUserId, newUserAgeGroup }: HomePageProps) {
+  const { products, recommendations } = useData()
   const productSectionRef = useRef<HTMLDivElement>(null)
 
-  const [showProducts, setShowProducts] = useState(() => sessionStorage.getItem('showProducts') === 'true')
+  const rec = currentUserId ? recommendations.get(currentUserId) : null
+
+  const ageProducts = useMemo(() => {
+    if (!newUserAgeGroup) return []
+    const scoreMap: Record<string, { total: number; count: number }> = {}
+    recommendations.forEach(r => {
+      if (r.ageGroup === newUserAgeGroup) {
+        r.recommendations.forEach(item => {
+          if (!scoreMap[item.name]) scoreMap[item.name] = { total: 0, count: 0 }
+          scoreMap[item.name].total += item.score
+          scoreMap[item.name].count++
+        })
+      }
+    })
+    const sorted = Object.entries(scoreMap)
+      .map(([name, s]) => ({ name, score: s.total }))
+      .sort((a, b) => b.score - a.score)
+      .slice(0, 5)
+    const maxScore = sorted[0]?.score || 1
+    return sorted.map(item => ({ ...item, score: item.score / maxScore }))
+  }, [newUserAgeGroup, recommendations])
+
+  const [showProducts, setShowProducts] = useState(() => sessionStorage.getItem('showProducts') === 'true' || !!currentUserId)
   const [animPhase, setAnimPhase] = useState(0)
   const [currentSlide, setCurrentSlide] = useState(0)
-  const [paused, setPaused] = useState(false)
+
+  // Auto-show products when logged in
+  useEffect(() => {
+    if (currentUserId) setShowProducts(true)
+  }, [currentUserId])
 
   // Persist showProducts to sessionStorage
   useEffect(() => {
@@ -116,14 +151,6 @@ export default function HomePage({ categoryFilter = null, onCategoryChange }: Ho
     return () => { clearTimeout(t1); clearTimeout(t2); clearTimeout(t3) }
   }, [])
 
-  // Auto-play promo slider
-  useEffect(() => {
-    if (paused || !showProducts) return
-    const timer = setInterval(() => {
-      setCurrentSlide(prev => (prev + 1) % promoSlides.length)
-    }, 4000)
-    return () => clearInterval(timer)
-  }, [paused, showProducts])
 
   const goSlide = useCallback((dir: number) => {
     setCurrentSlide(prev => (prev + dir + promoSlides.length) % promoSlides.length)
@@ -139,7 +166,7 @@ export default function HomePage({ categoryFilter = null, onCategoryChange }: Ho
     return groups
   }, [products, categoryFilter])
 
-  const categoryOrder = ['신선식품', '가공식품', '음료', '생수']
+  const categoryOrder = ['신선식품', '가공식품', '음료', '생수', '건강기능식품']
 
   if (showProducts) {
     return (
@@ -156,25 +183,110 @@ export default function HomePage({ categoryFilter = null, onCategoryChange }: Ho
                 key={i}
                 className={`w-full h-full flex-shrink-0 bg-gradient-to-r ${slide.bg} flex items-center justify-center`}
               >
-                <div className="max-w-6xl mx-auto px-4 flex items-center justify-between w-full">
-                  <div className="space-y-3">
-                    <p className={`text-sm font-medium ${slide.accent} opacity-70`}>{slide.subtitle}</p>
-                    <h3 className={`text-3xl font-extrabold ${slide.accent} leading-tight`}>{slide.title}</h3>
-                    <p className="text-gray-500 text-sm">{slide.description}</p>
-                  </div>
-                  <div className="flex gap-4">
-                    {slide.cards.map((card, j) => (
-                      <div
-                        key={j}
-                        className={`w-28 h-36 rounded-2xl ${card.color} flex flex-col items-center justify-center shadow-lg`}
-                        style={{ transform: `rotate(${(j - 1) * 6}deg)` }}
-                      >
-                        <span className="text-3xl mb-2">{card.icon}</span>
-                        <span className="text-xs font-bold">{card.label}</span>
+                {'custom' in slide && slide.custom ? (
+                  'customType' in slide && slide.customType === 'health' ? (
+                  /* Custom: 건강기능식품 출시 슬라이드 */
+                  <div className="max-w-6xl mx-auto px-4 flex items-center justify-between w-full">
+                    <div className="space-y-4 max-w-md">
+                      <div className="flex items-center gap-2 mb-1">
+                        <div className="w-8 h-8 bg-teal-500 rounded-lg flex items-center justify-center">
+                          <span className="text-white text-sm font-black">P</span>
+                        </div>
+                        <span className="text-base font-bold text-teal-800">포컬리</span>
                       </div>
-                    ))}
+                      <p className="text-sm font-semibold text-teal-600 tracking-wide">포컬리 신규 카테고리</p>
+                      <h3 className="text-5xl font-black text-teal-900 leading-tight">
+                        건강기능식품 출시!
+                      </h3>
+                      <div className="flex gap-3 pt-2">
+                        <span className="text-xl font-extrabold text-teal-900">
+                          건강기능식품 20% 할인
+                        </span>
+                      </div>
+                    </div>
+                    {/* 제품 이미지들 */}
+                    <div className="flex items-end gap-3">
+                      {[
+                        { src: '/images/products/홍삼.jpg', name: '홍삼' },
+                        { src: '/images/products/비타민C.jpg', name: '비타민C' },
+                        { src: '/images/products/유산균.avif', name: '유산균' },
+                        { src: '/images/products/프로폴리스.jpg', name: '프로폴리스' },
+                      ].map((item, idx) => (
+                        <div key={idx} className="flex flex-col items-center" style={{ transform: `translateY(${idx % 2 === 0 ? -8 : 8}px)` }}>
+                          <div className="w-28 h-28 rounded-2xl overflow-hidden shadow-xl bg-white border border-gray-100">
+                            <img src={item.src} alt={item.name} className="w-full h-full object-cover" />
+                          </div>
+                          <span className="text-xs font-bold text-teal-700 mt-1.5">{item.name}</span>
+                        </div>
+                      ))}
+                    </div>
                   </div>
-                </div>
+                  ) : (
+                  /* Custom: 신선식품 100% 환불보장 슬라이드 */
+                  <div className="max-w-6xl mx-auto px-4 flex items-center justify-between w-full">
+                    <div className="space-y-4 max-w-md">
+                      <p className="text-sm font-semibold text-emerald-600 tracking-widest uppercase">First Order Guarantee</p>
+                      <h3 className="text-4xl font-extrabold text-emerald-900 leading-tight">
+                        포컬리의 약속
+                      </h3>
+                      <p className="text-lg text-emerald-800 leading-relaxed">
+                        신선식품이 기대 이하라면<br />
+                        <span className="font-extrabold text-emerald-950 text-xl">100% 환불</span> + <span className="font-extrabold text-emerald-950 text-xl">재배송</span>해 드립니다
+                      </p>
+                      <div className="flex gap-3 pt-2">
+                        <span className="bg-emerald-200/60 text-emerald-800 text-xs font-bold px-4 py-2 rounded-full border border-emerald-300/50">첫 주문 고객 대상</span>
+                        <span className="bg-emerald-200/60 text-emerald-800 text-xs font-bold px-4 py-2 rounded-full border border-emerald-300/50">신선식품 전품목</span>
+                      </div>
+                    </div>
+                    {/* 보증서 카드 */}
+                    <div className="relative">
+                      {/* 장식 원 */}
+                      <div className="absolute -top-4 -left-6 w-16 h-16 bg-emerald-300/30 rounded-full" />
+                      <div className="absolute -bottom-3 -right-4 w-12 h-12 bg-emerald-400/20 rounded-full" />
+                      <div className="absolute top-1/2 -right-8 w-8 h-8 bg-yellow-300/40 rounded-full" />
+                      {/* 카드 본체 */}
+                      <div className="relative bg-white rounded-3xl shadow-2xl shadow-emerald-900/10 px-10 py-8 text-center w-64 border border-emerald-100">
+                        <div className="flex items-center justify-center gap-2 mb-3">
+                          <div className="w-7 h-7 bg-emerald-500 rounded-lg flex items-center justify-center">
+                            <span className="text-white text-xs font-black">P</span>
+                          </div>
+                          <span className="text-sm font-bold text-gray-700">포컬리</span>
+                        </div>
+                        <p className="text-xs text-gray-400 mb-4">신선식품 만족 보장!</p>
+                        <div className="mb-2">
+                          <span className="text-6xl font-black bg-gradient-to-b from-emerald-500 to-emerald-700 bg-clip-text text-transparent leading-none">100</span>
+                          <span className="text-2xl font-black text-emerald-600">%</span>
+                        </div>
+                        <p className="text-lg font-extrabold text-gray-800 tracking-wider">환불보장제</p>
+                        <div className="mt-4 pt-3 border-t border-gray-100">
+                          <p className="text-[10px] text-gray-300">환불 | 재배송 | 신선보장</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  )
+                ) : (
+                  /* Default slide template */
+                  <div className="max-w-6xl mx-auto px-4 flex items-center justify-between w-full">
+                    <div className="space-y-3">
+                      <p className={`text-sm font-medium ${slide.accent} opacity-70`}>{slide.subtitle}</p>
+                      <h3 className={`text-3xl font-extrabold ${slide.accent} leading-tight`}>{slide.title}</h3>
+                      <p className="text-gray-500 text-sm">{slide.description}</p>
+                    </div>
+                    <div className="flex gap-4">
+                      {slide.cards.map((card, j) => (
+                        <div
+                          key={j}
+                          className={`w-28 h-36 rounded-2xl ${card.color} flex flex-col items-center justify-center shadow-lg`}
+                          style={{ transform: `rotate(${(j - 1) * 6}deg)` }}
+                        >
+                          <span className="text-3xl mb-2">{card.icon}</span>
+                          <span className="text-xs font-bold">{card.label}</span>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                )}
               </div>
             ))}
           </div>
@@ -195,12 +307,6 @@ export default function HomePage({ categoryFilter = null, onCategoryChange }: Ho
 
           {/* Bottom controls */}
           <div className="absolute bottom-4 right-6 flex items-center gap-2">
-            <button
-              onClick={() => setPaused(p => !p)}
-              className="w-8 h-8 rounded-full bg-black/50 text-white text-xs flex items-center justify-center hover:bg-black/70 transition-colors"
-            >
-              {paused ? '▶' : '❚❚'}
-            </button>
             <div className="bg-black/50 text-white text-xs rounded-full px-3 py-1.5 flex items-center gap-1">
               <span className="font-bold">{String(currentSlide + 1).padStart(2, '0')}</span>
               <span className="opacity-50">/ {String(promoSlides.length).padStart(2, '0')}</span>
@@ -216,11 +322,15 @@ export default function HomePage({ categoryFilter = null, onCategoryChange }: Ho
               { emoji: '🍜', label: '가공식품', cat: '가공식품' },
               { emoji: '🥤', label: '음료', cat: '음료' },
               { emoji: '💧', label: '생수', cat: '생수' },
+              { emoji: '💊', label: '건강기능식품', cat: '건강기능식품' },
             ].map(item => (
               <button
                 key={item.cat}
                 onClick={() => {
                   onCategoryChange?.(categoryFilter === item.cat ? null : item.cat)
+                  setTimeout(() => {
+                    document.getElementById('products')?.scrollIntoView({ behavior: 'smooth', block: 'start' })
+                  }, 50)
                 }}
                 className={`text-center group ${categoryFilter === item.cat ? 'scale-105' : ''} transition-transform`}
               >
@@ -236,6 +346,96 @@ export default function HomePage({ categoryFilter = null, onCategoryChange }: Ho
             ))}
           </div>
         </div>
+
+        {/* User Recommendations (existing customer) */}
+        {currentUserId && rec?.recommendations.length ? (
+          <div className="max-w-6xl mx-auto px-4 pb-10">
+            <div className="bg-gradient-to-r from-emerald-50 via-teal-50 to-emerald-50 rounded-2xl px-6 py-5 mb-6 border border-emerald-100/60">
+              <div className="flex items-center gap-3">
+                <div className="w-10 h-10 bg-gradient-to-br from-emerald-400 to-teal-500 rounded-xl flex items-center justify-center shadow-lg shadow-emerald-200/50">
+                  <span className="text-white text-lg">✦</span>
+                </div>
+                <div>
+                  <h3 className="text-2xl font-extrabold tracking-tight">
+                    <span className="bg-gradient-to-r from-emerald-700 via-teal-600 to-emerald-600 bg-clip-text text-transparent">{currentUserId}</span>
+                    <span className="text-gray-800">님을 위한 추천 상품</span>
+                  </h3>
+                  <p className="text-sm text-emerald-600/70 mt-0.5 font-medium">
+                    구매 이력을 바탕으로 선별한 맞춤 상품입니다
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="grid grid-cols-5 gap-5">
+              {rec.recommendations.map((item, i) => (
+                <div key={i} className="relative">
+                  {i === 0 && (
+                    <span className="absolute -top-3 left-3 z-10 bg-gradient-to-r from-yellow-400 to-orange-400 text-white text-[10px] px-3 py-1 rounded-full font-bold shadow-lg animate-pulse">
+                      BEST
+                    </span>
+                  )}
+                  <ProductCard
+                    name={item.name}
+                    subLabel={`추천도 ${(item.score * 100).toFixed(0)}%`}
+                    score={item.score}
+                    size="md"
+                    animated
+                    delay={i * 100}
+                  />
+                </div>
+              ))}
+            </div>
+          </div>
+        ) : null}
+
+        {/* New user: age-group recommendations */}
+        {currentUserId && !rec && newUserAgeGroup && ageProducts.length > 0 && (
+          <div className="max-w-6xl mx-auto px-4 pb-10">
+            {/* Notice banner */}
+            <div className="bg-gradient-to-r from-emerald-50 to-teal-50 border border-emerald-200/50 rounded-2xl p-5 mb-8 flex items-center gap-4">
+              <span className="text-3xl">🎉</span>
+              <div>
+                <p className="text-sm font-bold text-emerald-800">
+                  {currentUserId}님, 환영합니다!
+                </p>
+                <p className="text-sm text-emerald-600 mt-0.5">
+                  첫 주문을 완료하면 구매 이력 기반 <span className="font-bold">맞춤 추천상품</span>이 제공됩니다.
+                </p>
+              </div>
+            </div>
+
+            {/* Age group products */}
+            <div className="flex items-end justify-between mb-6">
+              <div>
+                <h3 className="text-2xl font-extrabold text-gray-800 tracking-tight">
+                  {newUserAgeGroup} 고객이 많이 구매한 상품
+                </h3>
+                <p className="text-sm text-gray-400 mt-1">
+                  같은 연령대 고객들에게 인기 있는 상품입니다
+                </p>
+              </div>
+            </div>
+            <div className="grid grid-cols-5 gap-5">
+              {ageProducts.map((item, i) => (
+                <div key={i} className="relative">
+                  {i === 0 && (
+                    <span className="absolute -top-3 left-3 z-10 bg-gradient-to-r from-emerald-400 to-teal-400 text-white text-[10px] px-3 py-1 rounded-full font-bold shadow-lg">
+                      TOP
+                    </span>
+                  )}
+                  <ProductCard
+                    name={item.name}
+                    subLabel={`인기도 ${(item.score * 100).toFixed(0)}%`}
+                    score={item.score}
+                    size="md"
+                    animated
+                    delay={i * 100}
+                  />
+                </div>
+              ))}
+            </div>
+          </div>
+        )}
 
         {/* Divider */}
         <div className="max-w-6xl mx-auto px-4">

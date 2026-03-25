@@ -76,6 +76,18 @@ const productMap: Record<string, ProductVisual> = {
 
   // 생수
   생수: { emoji: '💧', bgColor: '#e0f2fe', image: '/images/products/생수.jpg' },
+
+  // 건강기능식품
+  종합비타민: { emoji: '💊', bgColor: '#fef3c7', image: '/images/products/종합비타민.jpg' },
+  비타민C: { emoji: '🍊', bgColor: '#fed7aa', image: '/images/products/비타민C.jpg' },
+  오메가3: { emoji: '🐟', bgColor: '#dbeafe', image: '/images/products/오메가3.avif' },
+  유산균: { emoji: '🦠', bgColor: '#d1fae5', image: '/images/products/유산균.avif' },
+  루테인: { emoji: '👁️', bgColor: '#e9d5ff', image: '/images/products/루테인.jpg' },
+  홍삼: { emoji: '🫚', bgColor: '#fecaca', image: '/images/products/홍삼.jpg' },
+  콜라겐: { emoji: '✨', bgColor: '#fecdd3', image: '/images/products/콜라겐.png' },
+  '칼슘 마그네슘': { emoji: '🦴', bgColor: '#e0f2fe', image: '/images/products/칼슘 마그네슘.jpg' },
+  밀크씨슬: { emoji: '🌿', bgColor: '#bbf7d0', image: '/images/products/밀크씨슬.jpg' },
+  프로폴리스: { emoji: '🐝', bgColor: '#fef9c3', image: '/images/products/프로폴리스.jpg' },
 }
 
 const fallback: ProductVisual = { emoji: '🛒', bgColor: '#f3f4f6' }
