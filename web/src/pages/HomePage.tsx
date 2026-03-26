@@ -143,12 +143,7 @@ export default function HomePage({ categoryFilter = null, onCategoryChange, curr
     if (!currentUserId) return false
     return sessionStorage.getItem(`hasVoted_${currentUserId}`) !== 'true'
   })
-  const [hasVoted, setHasVoted] = useState(() => {
-    if (!currentUserId) return false
-    return sessionStorage.getItem(`hasVoted_${currentUserId}`) === 'true'
-  })
-
-  // Auto-show products when logged in + reset hasVoted per user + auto-show vote modal
+  // Auto-show products when logged in + auto-show vote modal per user
   useEffect(() => {
     // Clean up old global key
     sessionStorage.removeItem('hasVoted')
@@ -156,7 +151,6 @@ export default function HomePage({ categoryFilter = null, onCategoryChange, curr
     if (currentUserId) {
       setShowProducts(true)
       const voted = sessionStorage.getItem(`hasVoted_${currentUserId}`) === 'true'
-      setHasVoted(voted)
       setShowVoteModal(!voted)
     } else {
       setShowVoteModal(false)
@@ -527,7 +521,6 @@ export default function HomePage({ categoryFilter = null, onCategoryChange, curr
           <VoteModal
             onClose={() => setShowVoteModal(false)}
             onVoteComplete={() => {
-              setHasVoted(true)
               if (currentUserId) sessionStorage.setItem(`hasVoted_${currentUserId}`, 'true')
             }}
           />
