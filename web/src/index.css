@@ -304,7 +304,6 @@ body {
   width: 50%;
   height: 100%;
   position: relative;
-  overflow: hidden;
   transform-style: preserve-3d;
   backface-visibility: hidden;
 }
