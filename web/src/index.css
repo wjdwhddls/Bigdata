@@ -279,103 +279,50 @@ body {
   animation: voteCheckmark 0.4s ease-out 0.3s forwards;
 }
 
-/* ===== Mart Door Animation ===== */
+/* ===== Page Split Reveal Animation ===== */
 
-@keyframes doorPullLeft {
-  from { transform: rotateY(0deg); }
-  to { transform: rotateY(-105deg); }
-}
-
-@keyframes doorPullRight {
-  from { transform: rotateY(0deg); }
-  to { transform: rotateY(105deg); }
-}
-
-.door-overlay {
+.page-split-container {
   position: fixed;
   inset: 0;
   z-index: 9999;
-  display: flex;
-  perspective: 1200px;
   pointer-events: none;
 }
 
-.door-panel {
+.page-split-left,
+.page-split-right {
+  position: absolute;
+  top: 0;
+  height: 100%;
   width: 50%;
+  overflow: hidden;
+  transition: transform 1s cubic-bezier(0.76, 0, 0.24, 1);
+  pointer-events: auto;
+}
+
+.page-split-left {
+  left: 0;
+}
+
+.page-split-right {
+  right: 0;
+}
+
+.page-split-inner {
+  width: 200%;
   height: 100%;
   position: relative;
-  transform-style: preserve-3d;
-  backface-visibility: hidden;
 }
 
-.door-panel-left {
-  background: linear-gradient(135deg, #e8f5f0 0%, #d1ede4 50%, #c8e6dc 100%);
-  border-right: 2px solid #b0c4bc;
-  transform-origin: left center;
+.page-split-right .page-split-inner {
+  margin-left: -100%;
 }
 
-.door-panel-right {
-  background: linear-gradient(225deg, #e8f5f0 0%, #d1ede4 50%, #c8e6dc 100%);
-  border-left: 2px solid #b0c4bc;
-  transform-origin: right center;
+.page-split-left.splitting {
+  transform: translateX(-100%);
 }
 
-/* 유리 반사 효과 */
-.door-panel::before {
-  content: '';
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(
-    120deg,
-    transparent 30%,
-    rgba(255, 255, 255, 0.4) 45%,
-    rgba(255, 255, 255, 0.1) 55%,
-    transparent 70%
-  );
-  pointer-events: none;
-}
-
-/* 문 손잡이 */
-.door-handle {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 8px;
-  height: 80px;
-  background: linear-gradient(180deg, #d4d4d8, #a1a1aa, #d4d4d8);
-  border-radius: 4px;
-  box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.15);
-}
-
-.door-panel-left .door-handle {
-  right: 24px;
-}
-
-.door-panel-right .door-handle {
-  left: 24px;
-}
-
-/* 문 프레임 (상/하단 메탈 바) */
-.door-frame-top,
-.door-frame-bottom {
-  position: absolute;
-  left: 0;
-  right: 0;
-  height: 12px;
-  background: linear-gradient(180deg, #d4d4d8, #9ca3af, #d4d4d8);
-  z-index: 2;
-}
-
-.door-frame-top { top: 0; }
-.door-frame-bottom { bottom: 0; }
-
-/* 당겨서 열리는 3D 애니메이션 */
-.door-panel-left.door-open {
-  animation: doorPullLeft 1.2s cubic-bezier(0.4, 0, 0.2, 1) forwards;
-}
-
-.door-panel-right.door-open {
-  animation: doorPullRight 1.2s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+.page-split-right.splitting {
+  transform: translateX(100%);
 }
 
 /* ===== Smooth scrollbar ===== */

@@ -139,7 +139,7 @@ export default function HomePage({ categoryFilter = null, onCategoryChange, curr
   const [animPhase, setAnimPhase] = useState(0)
   const [currentSlide, setCurrentSlide] = useState(0)
   const [isPaused, setIsPaused] = useState(false)
-  const [doorPhase, setDoorPhase] = useState<'idle' | 'closed' | 'opening' | 'done'>('idle')
+  const [pageReveal, setPageReveal] = useState<'idle' | 'splitting' | 'done'>('idle')
   const [showVoteModal, setShowVoteModal] = useState(() => {
     if (!currentUserId || newUserAgeGroup) return false
     return sessionStorage.getItem(`hasVoted_${currentUserId}`) !== 'true'
@@ -200,21 +200,6 @@ export default function HomePage({ categoryFilter = null, onCategoryChange, curr
   if (showProducts) {
     return (
       <>
-      {/* 마트 자동문 오버레이 */}
-      {doorPhase !== 'idle' && doorPhase !== 'done' && (
-        <div className="door-overlay">
-          <div className={`door-panel door-panel-left ${doorPhase === 'opening' ? 'door-open' : ''}`}>
-            <div className="door-frame-top" />
-            <div className="door-frame-bottom" />
-            <div className="door-handle" />
-          </div>
-          <div className={`door-panel door-panel-right ${doorPhase === 'opening' ? 'door-open' : ''}`}>
-            <div className="door-frame-top" />
-            <div className="door-frame-bottom" />
-            <div className="door-handle" />
-          </div>
-        </div>
-      )}
       <div className="min-h-screen bg-white animate-fade-in">
         {/* Promotion Slider */}
         <div className="relative w-full overflow-hidden" style={{ height: 300 }}>
@@ -697,94 +682,96 @@ export default function HomePage({ categoryFilter = null, onCategoryChange, curr
     )
   }
 
+  const heroContent = (
+    <section className="relative h-screen w-full overflow-hidden flex items-center justify-center bg-white">
+      {/* Auto-animated images */}
+      {heroImages.map((img, i) => {
+        const visible = animPhase >= img.phase
+        const imgStyle: React.CSSProperties = {
+          position: 'absolute',
+          width: img.size,
+          height: img.size,
+          transform: visible ? `scale(1) rotate(${img.rotate}deg)` : 'scale(0) rotate(0deg)',
+          opacity: visible ? 1 : 0,
+          transition: 'transform 0.8s cubic-bezier(0.34, 1.56, 0.64, 1), opacity 0.6s ease-out',
+          transitionDelay: `${i * 80}ms`,
+          zIndex: 1,
+          ...(img.top != null && { top: img.top }),
+          ...(img.bottom != null && { bottom: img.bottom }),
+          ...(img.left != null && { left: img.left }),
+          ...(img.right != null && { right: img.right }),
+        }
+        return (
+          <div key={i} style={imgStyle}>
+            <img
+              src={img.image}
+              alt=""
+              className="w-full h-full object-cover rounded-3xl shadow-lg"
+              loading="eager"
+            />
+          </div>
+        )
+      })}
+
+      {/* Center logo text + button */}
+      <div className="relative z-10 text-center select-none px-4 flex flex-col items-center">
+        <h2
+          className="hero-logo text-gray-900 tracking-tighter pointer-events-none"
+          style={{ fontSize: 'clamp(4rem, 15vw, 12rem)' }}
+        >
+          PORKULY
+        </h2>
+        <p
+          className="text-gray-400 text-lg md:text-xl tracking-wide mt-2 pointer-events-none"
+          style={{ fontFamily: "'Pretendard', sans-serif" }}
+        >
+          신선한 새벽, 당신의 식탁으로
+        </p>
+
+        {/* 쇼핑 시작하기 버튼 */}
+        <div
+          className="mt-8"
+          style={{
+            opacity: animPhase >= 3 ? 1 : 0,
+            transform: `translateY(${animPhase >= 3 ? 0 : 20}px)`,
+            transition: 'opacity 0.6s ease-out, transform 0.6s ease-out',
+            pointerEvents: animPhase >= 3 ? 'auto' : 'none',
+          }}
+        >
+          <button
+            onClick={() => {
+              setPageReveal('splitting')
+              setTimeout(() => {
+                setShowProducts(true)
+                setPageReveal('done')
+              }, 1000)
+            }}
+            className="px-10 py-4 bg-gray-900 text-white rounded-full text-lg font-semibold hover:bg-gray-800 transition-all duration-300 hover:scale-105 active:scale-95 shadow-xl"
+          >
+            쇼핑 시작하기
+          </button>
+        </div>
+      </div>
+    </section>
+  )
+
   return (
     <div className="min-h-screen bg-white">
-      {/* 마트 자동문 오버레이 */}
-      {doorPhase !== 'idle' && doorPhase !== 'done' && (
-        <div className="door-overlay">
-          <div className={`door-panel door-panel-left ${doorPhase === 'opening' ? 'door-open' : ''}`}>
-            <div className="door-frame-top" />
-            <div className="door-frame-bottom" />
-            <div className="door-handle" />
+      {/* 페이지 펼침 오버레이 */}
+      {pageReveal !== 'done' && (
+        <div className="page-split-container">
+          <div className={`page-split-left ${pageReveal === 'splitting' ? 'splitting' : ''}`}>
+            <div className="page-split-inner">
+              {heroContent}
+            </div>
           </div>
-          <div className={`door-panel door-panel-right ${doorPhase === 'opening' ? 'door-open' : ''}`}>
-            <div className="door-frame-top" />
-            <div className="door-frame-bottom" />
-            <div className="door-handle" />
+          <div className={`page-split-right ${pageReveal === 'splitting' ? 'splitting' : ''}`}>
+            <div className="page-split-inner">
+              {heroContent}
+            </div>
           </div>
         </div>
       )}
-
-      {/* Hero Section — full screen, auto-animated */}
-      <section className="relative h-screen w-full overflow-hidden flex items-center justify-center">
-        {/* Auto-animated images */}
-        {heroImages.map((img, i) => {
-          const visible = animPhase >= img.phase
-          const imgStyle: React.CSSProperties = {
-            position: 'absolute',
-            width: img.size,
-            height: img.size,
-            transform: visible ? `scale(1) rotate(${img.rotate}deg)` : 'scale(0) rotate(0deg)',
-            opacity: visible ? 1 : 0,
-            transition: 'transform 0.8s cubic-bezier(0.34, 1.56, 0.64, 1), opacity 0.6s ease-out',
-            transitionDelay: `${i * 80}ms`,
-            zIndex: 1,
-            ...(img.top != null && { top: img.top }),
-            ...(img.bottom != null && { bottom: img.bottom }),
-            ...(img.left != null && { left: img.left }),
-            ...(img.right != null && { right: img.right }),
-          }
-          return (
-            <div key={i} style={imgStyle}>
-              <img
-                src={img.image}
-                alt=""
-                className="w-full h-full object-cover rounded-3xl shadow-lg"
-                loading="eager"
-              />
-            </div>
-          )
-        })}
-
-        {/* Center logo text + button */}
-        <div className="relative z-10 text-center select-none px-4 flex flex-col items-center">
-          <h2
-            className="hero-logo text-gray-900 tracking-tighter pointer-events-none"
-            style={{ fontSize: 'clamp(4rem, 15vw, 12rem)' }}
-          >
-            PORKULY
-          </h2>
-          <p
-            className="text-gray-400 text-lg md:text-xl tracking-wide mt-2 pointer-events-none"
-            style={{ fontFamily: "'Pretendard', sans-serif" }}
-          >
-            신선한 새벽, 당신의 식탁으로
-          </p>
-
-          {/* 쇼핑 시작하기 버튼 */}
-          <div
-            className="mt-8"
-            style={{
-              opacity: animPhase >= 3 ? 1 : 0,
-              transform: `translateY(${animPhase >= 3 ? 0 : 20}px)`,
-              transition: 'opacity 0.6s ease-out, transform 0.6s ease-out',
-              pointerEvents: animPhase >= 3 ? 'auto' : 'none',
-            }}
-          >
-            <button
-              onClick={() => {
-                setDoorPhase('closed')
-                setTimeout(() => setShowProducts(true), 300)
-                setTimeout(() => setDoorPhase('opening'), 400)
-                setTimeout(() => setDoorPhase('done'), 1800)
-              }}
-              className="px-10 py-4 bg-gray-900 text-white rounded-full text-lg font-semibold hover:bg-gray-800 transition-all duration-300 hover:scale-105 active:scale-95 shadow-xl"
-            >
-              쇼핑 시작하기
-            </button>
-          </div>
-        </div>
-      </section>
     </div>
   )
 }
