@@ -16,11 +16,19 @@ function ScrollToTop() {
   return null
 }
 
+export interface CartItem {
+  name: string
+  code: string
+  category: string
+  subCategory: string
+}
+
 function AppContent() {
   const [currentUserId, setCurrentUserId] = useState<string>()
   const [activeCategory, setActiveCategory] = useState<string | null>(null)
   const [newUserAgeGroup, setNewUserAgeGroup] = useState<string>()
   const [showCouponModal, setShowCouponModal] = useState(false)
+  const [cartItems, setCartItems] = useState<CartItem[]>([])
 
   const handleSignup = (id: string, ageGroup: string) => {
     setCurrentUserId(id)
@@ -31,17 +39,29 @@ function AppContent() {
   const handleUserChange = (id: string | undefined) => {
     setCurrentUserId(id)
     setNewUserAgeGroup(undefined)
+    if (!id) setCartItems([])
+  }
+
+  const addToCart = (item: CartItem) => {
+    setCartItems(prev => {
+      if (prev.some(i => i.code === item.code)) return prev
+      return [...prev, item]
+    })
+  }
+
+  const removeFromCart = (code: string) => {
+    setCartItems(prev => prev.filter(i => i.code !== code))
   }
 
   return (
     <div className="min-h-screen bg-organic">
       <ScrollToTop />
-      <Header currentUserId={currentUserId} onUserChange={handleUserChange} onSignup={handleSignup} onCategoryChange={setActiveCategory} activeCategory={activeCategory} />
+      <Header currentUserId={currentUserId} onUserChange={handleUserChange} onSignup={handleSignup} onCategoryChange={setActiveCategory} activeCategory={activeCategory} cartItems={cartItems} onRemoveFromCart={removeFromCart} onClearCart={() => setCartItems([])} />
       {showCouponModal && <CouponModal onClose={() => setShowCouponModal(false)} />}
       <Routes>
         <Route path="/" element={<HomePage categoryFilter={activeCategory} onCategoryChange={setActiveCategory} currentUserId={currentUserId} newUserAgeGroup={newUserAgeGroup} />} />
         <Route path="/my/:userId" element={<MyPage onUserChange={setCurrentUserId} />} />
-        <Route path="/product/:name" element={<ProductPage currentUserId={currentUserId} />} />
+        <Route path="/product/:name" element={<ProductPage currentUserId={currentUserId} cartItems={cartItems} onAddToCart={addToCart} />} />
         <Route path="/dashboard" element={<DashboardPage />} />
         <Route path="/segmentation" element={<SegmentationPage />} />
       </Routes>

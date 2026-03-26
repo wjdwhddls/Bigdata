@@ -4,9 +4,12 @@ import { useData } from '../stores/dataStore'
 import { getProductVisual } from '../utils/productImages'
 import { useScrollAnimation } from '../hooks/useScrollAnimation'
 import ProductCard from '../components/ProductCard'
+import type { CartItem } from '../App'
 
 interface ProductPageProps {
   currentUserId?: string
+  cartItems?: CartItem[]
+  onAddToCart?: (item: CartItem) => void
 }
 
 function ScrollSection({ children, className = '' }: { children: React.ReactNode; className?: string }) {
@@ -18,7 +21,7 @@ function ScrollSection({ children, className = '' }: { children: React.ReactNode
   )
 }
 
-export default function ProductPage({ currentUserId }: ProductPageProps) {
+export default function ProductPage({ currentUserId, cartItems = [], onAddToCart }: ProductPageProps) {
   const { name } = useParams<{ name: string }>()
   const productName = decodeURIComponent(name || '')
   const { products, rules, customers } = useData()
@@ -26,6 +29,9 @@ export default function ProductPage({ currentUserId }: ProductPageProps) {
   const product = products.find(p => p.name === productName)
   const { emoji, bgColor, image } = getProductVisual(productName)
   const [imgError, setImgError] = useState(false)
+  const [addedToCart, setAddedToCart] = useState(false)
+
+  const isInCart = product ? cartItems.some(i => i.code === product.code) : false
 
   const userAgeGroup = currentUserId
     ? customers.get(currentUserId)?.AgeGroup
@@ -138,15 +144,40 @@ export default function ProductPage({ currentUserId }: ProductPageProps) {
           </div>
 
           {currentUserId ? (
-            <div className="bg-gradient-to-r from-emerald-50 to-teal-50 rounded-2xl p-5 border border-emerald-100">
-              <p className="text-sm text-emerald-700">
-                <span className="font-bold">{currentUserId}</span>님, 이 상품과 함께 많이 구매하는 상품을 추천해드립니다
-              </p>
+            <div className="flex gap-3">
+              <button
+                onClick={() => {
+                  if (product && !isInCart) {
+                    onAddToCart?.({ name: product.name, code: product.code, category: product.category, subCategory: product.subCategory })
+                    setAddedToCart(true)
+                    setTimeout(() => setAddedToCart(false), 2000)
+                  }
+                }}
+                disabled={isInCart}
+                className={`flex-1 py-3 rounded-2xl font-bold text-sm transition-all duration-300 flex items-center justify-center gap-2 ${
+                  isInCart
+                    ? 'bg-gray-100 text-gray-400 cursor-default'
+                    : addedToCart
+                    ? 'bg-emerald-100 text-emerald-700 border border-emerald-200'
+                    : 'bg-gradient-to-r from-emerald-50 to-teal-50 text-emerald-700 border border-emerald-200 hover:from-emerald-100 hover:to-teal-100 active:scale-[0.98]'
+                }`}
+              >
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 100 4 2 2 0 000-4z" />
+                </svg>
+                {isInCart ? '장바구니에 담긴 상품' : addedToCart ? '담기 완료!' : '장바구니에 담기'}
+              </button>
+              <button
+                onClick={() => alert('바로 구매 기능은 준비 중입니다.')}
+                className="flex-1 py-3 rounded-2xl font-bold text-sm bg-gradient-to-r from-emerald-600 to-teal-500 text-white hover:from-teal-500 hover:to-emerald-600 transition-all duration-300 active:scale-[0.98] shadow-lg shadow-emerald-500/20"
+              >
+                바로 구매
+              </button>
             </div>
           ) : (
             <div className="bg-gray-50 rounded-2xl p-5 border border-gray-100">
               <p className="text-sm text-gray-500">
-                로그인하시면 맞춤 연관 상품을 확인할 수 있습니다
+                로그인 후 장바구니 및 구매 기능을 이용할 수 있습니다
               </p>
             </div>
           )}
