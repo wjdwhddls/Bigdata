@@ -105,13 +105,34 @@ export default function MyPage({ onUserChange }: MyPageProps) {
         </div>
       </div>
 
-      {/* Grade Discount Banner + VIP Progress */}
+      {/* Grade Discount Banner + RFM Progress */}
       {(() => {
-        const vipThreshold = 5000000
-        const progress = Math.min((customer.total_spend / vipThreshold) * 100, 100)
-        const remaining = Math.max(vipThreshold - customer.total_spend, 0)
         const isVIP = grade === 'VIP'
         const isGold = grade === 'Gold'
+        const compositeScore = rfm?.compositeScore ?? 0
+
+        // Grade thresholds based on compositeScore
+        const gradeThresholds = {
+          Bronze: { min: 0, max: 40, next: 'Silver' as const },
+          Silver: { min: 40, max: 60, next: 'Gold' as const },
+          Gold:   { min: 60, max: 80, next: 'VIP' as const },
+          VIP:    { min: 80, max: 100, next: null },
+        }
+        const tier = gradeThresholds[grade]
+        const progress = isVIP
+          ? 100
+          : Math.min(((compositeScore - tier.min) / (tier.max - tier.min)) * 100, 100)
+
+        // Dynamic message based on progress
+        const getProgressMessage = () => {
+          if (isVIP) return 'VIP 달성 완료!'
+          const nextGrade = tier.next
+          if (progress >= 80) return `${nextGrade}까지 얼마 안 남았습니다!`
+          if (progress >= 50) return `${nextGrade}까지 절반을 넘었습니다!`
+          if (progress >= 20) return `${nextGrade}을(를) 향해 나아가고 있습니다`
+          return `${nextGrade}까지 아직 갈 길이 멉니다`
+        }
+
         return (
           <div className={`mb-6 rounded-2xl p-5 border ${
             isVIP
@@ -135,14 +156,11 @@ export default function MyPage({ onUserChange }: MyPageProps) {
               </div>
             )}
 
-            {/* VIP Progress */}
+            {/* RFM Score Progress */}
             <div>
               <div className="flex items-center justify-between mb-2">
                 <span className={`text-sm font-bold ${isVIP ? 'text-red-600' : 'text-gray-600'}`}>
-                  {isVIP ? 'VIP 달성 완료!' : `VIP까지 ${formatKRW(remaining)} 남았습니다`}
-                </span>
-                <span className="text-xs text-gray-400">
-                  {formatKRW(customer.total_spend)} / {formatKRW(vipThreshold)}
+                  {getProgressMessage()}
                 </span>
               </div>
               <div className="w-full h-6 bg-gray-200 rounded-full overflow-hidden">
