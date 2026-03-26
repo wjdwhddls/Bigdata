@@ -139,6 +139,7 @@ export default function HomePage({ categoryFilter = null, onCategoryChange, curr
   const [animPhase, setAnimPhase] = useState(0)
   const [currentSlide, setCurrentSlide] = useState(0)
   const [isPaused, setIsPaused] = useState(false)
+  const [doorPhase, setDoorPhase] = useState<'idle' | 'closed' | 'opening' | 'done'>('idle')
   const [showVoteModal, setShowVoteModal] = useState(() => {
     if (!currentUserId || newUserAgeGroup) return false
     return sessionStorage.getItem(`hasVoted_${currentUserId}`) !== 'true'
@@ -199,6 +200,38 @@ export default function HomePage({ categoryFilter = null, onCategoryChange, curr
   if (showProducts) {
     return (
       <div className="min-h-screen bg-white animate-fade-in">
+        {/* 마트 자동문 오버레이 */}
+        {doorPhase !== 'idle' && doorPhase !== 'done' && (
+          <div className="door-overlay">
+            {/* 간판 */}
+            <div className="door-sign">
+              <span
+                style={{
+                  fontFamily: "'Georgia', 'Times New Roman', serif",
+                  fontSize: 'clamp(2rem, 5vw, 4rem)',
+                  fontWeight: 900,
+                  color: '#1f2937',
+                  letterSpacing: '-0.02em',
+                  textShadow: '0 2px 8px rgba(0,0,0,0.08)',
+                }}
+              >
+                PORKULY MART
+              </span>
+            </div>
+            {/* 왼쪽 문 */}
+            <div className={`door-panel door-panel-left ${doorPhase === 'opening' ? 'door-open' : ''}`}>
+              <div className="door-frame-top" />
+              <div className="door-frame-bottom" />
+              <div className="door-handle" />
+            </div>
+            {/* 오른쪽 문 */}
+            <div className={`door-panel door-panel-right ${doorPhase === 'opening' ? 'door-open' : ''}`}>
+              <div className="door-frame-top" />
+              <div className="door-frame-bottom" />
+              <div className="door-handle" />
+            </div>
+          </div>
+        )}
         {/* Promotion Slider */}
         <div className="relative w-full overflow-hidden" style={{ height: 300 }}>
           {/* Slides */}
@@ -738,7 +771,14 @@ export default function HomePage({ categoryFilter = null, onCategoryChange, curr
             }}
           >
             <button
-              onClick={() => setShowProducts(true)}
+              onClick={() => {
+                setDoorPhase('closed')
+                setTimeout(() => {
+                  setDoorPhase('opening')
+                  setShowProducts(true)
+                }, 100)
+                setTimeout(() => setDoorPhase('done'), 1500)
+              }}
               className="px-10 py-4 bg-gray-900 text-white rounded-full text-lg font-semibold hover:bg-gray-800 transition-all duration-300 hover:scale-105 active:scale-95 shadow-xl"
             >
               쇼핑 시작하기

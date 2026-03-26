@@ -279,6 +279,104 @@ body {
   animation: voteCheckmark 0.4s ease-out 0.3s forwards;
 }
 
+/* ===== Mart Door Animation ===== */
+
+.door-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 50;
+  display: flex;
+  pointer-events: none;
+}
+
+.door-panel {
+  width: 50%;
+  height: 100%;
+  position: relative;
+  transition: transform 1.2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  overflow: hidden;
+}
+
+.door-panel-left {
+  background: linear-gradient(135deg, #e8f5f0 0%, #d1ede4 50%, #c8e6dc 100%);
+  border-right: 2px solid #b0c4bc;
+}
+
+.door-panel-right {
+  background: linear-gradient(225deg, #e8f5f0 0%, #d1ede4 50%, #c8e6dc 100%);
+  border-left: 2px solid #b0c4bc;
+}
+
+/* 유리 반사 효과 */
+.door-panel::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    120deg,
+    transparent 30%,
+    rgba(255, 255, 255, 0.4) 45%,
+    rgba(255, 255, 255, 0.1) 55%,
+    transparent 70%
+  );
+  pointer-events: none;
+}
+
+/* 문 손잡이 */
+.door-handle {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 8px;
+  height: 80px;
+  background: linear-gradient(180deg, #d4d4d8, #a1a1aa, #d4d4d8);
+  border-radius: 4px;
+  box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+.door-panel-left .door-handle {
+  right: 24px;
+}
+
+.door-panel-right .door-handle {
+  left: 24px;
+}
+
+/* 문 프레임 (상/하단 메탈 바) */
+.door-frame-top,
+.door-frame-bottom {
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 12px;
+  background: linear-gradient(180deg, #d4d4d8, #9ca3af, #d4d4d8);
+  z-index: 2;
+}
+
+.door-frame-top { top: 0; }
+.door-frame-bottom { bottom: 0; }
+
+/* 열림 상태 */
+.door-panel-left.door-open {
+  transform: translateX(-100%);
+}
+
+.door-panel-right.door-open {
+  transform: translateX(100%);
+}
+
+/* 간판 */
+.door-sign {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 3;
+  display: flex;
+  justify-content: center;
+  padding-top: 32vh;
+}
+
 /* ===== Smooth scrollbar ===== */
 
 ::-webkit-scrollbar {
