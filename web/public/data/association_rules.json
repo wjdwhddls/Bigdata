@@ -1,0 +1,12500 @@
+[
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "갈치",
+      "파스타"
+    ],
+    "support": 0.1327,
+    "confidence": 0.5237,
+    "lift": 1.1751,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "파스타",
+      "콩나물"
+    ],
+    "consequents": [
+      "갈치"
+    ],
+    "support": 0.1327,
+    "confidence": 0.6734,
+    "lift": 1.1538,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "갈치",
+      "탄산음료"
+    ],
+    "support": 0.1193,
+    "confidence": 0.4711,
+    "lift": 1.148,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물",
+      "탄산음료"
+    ],
+    "consequents": [
+      "갈치"
+    ],
+    "support": 0.1193,
+    "confidence": 0.6679,
+    "lift": 1.1443,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "갈치",
+      "깻잎"
+    ],
+    "support": 0.104,
+    "confidence": 0.4105,
+    "lift": 1.1425,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "갈치",
+      "아몬드"
+    ],
+    "support": 0.1443,
+    "confidence": 0.5697,
+    "lift": 1.1327,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "갈치",
+      "조기"
+    ],
+    "support": 0.114,
+    "confidence": 0.45,
+    "lift": 1.1326,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "갈치",
+      "멸치"
+    ],
+    "support": 0.1583,
+    "confidence": 0.625,
+    "lift": 1.1302,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "갈치",
+      "맛김"
+    ],
+    "support": 0.1513,
+    "confidence": 0.5974,
+    "lift": 1.125,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "갈치",
+      "생수"
+    ],
+    "support": 0.1247,
+    "confidence": 0.4921,
+    "lift": 1.1218,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "깻잎",
+      "콩나물"
+    ],
+    "consequents": [
+      "갈치"
+    ],
+    "support": 0.104,
+    "confidence": 0.6541,
+    "lift": 1.1207,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "멸치",
+      "참외"
+    ],
+    "support": 0.1203,
+    "confidence": 0.475,
+    "lift": 1.1168,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "갈치",
+      "국수"
+    ],
+    "support": 0.1483,
+    "confidence": 0.5855,
+    "lift": 1.1167,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "갈치",
+      "북어"
+    ],
+    "support": 0.1333,
+    "confidence": 0.5263,
+    "lift": 1.1167,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "조기",
+      "콩나물"
+    ],
+    "consequents": [
+      "갈치"
+    ],
+    "support": 0.114,
+    "confidence": 0.6514,
+    "lift": 1.1161,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "갈치",
+      "배"
+    ],
+    "support": 0.1583,
+    "confidence": 0.625,
+    "lift": 1.1161,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "갈치",
+      "나물"
+    ],
+    "support": 0.142,
+    "confidence": 0.5605,
+    "lift": 1.1151,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물",
+      "돼지고기"
+    ],
+    "consequents": [
+      "갈치"
+    ],
+    "support": 0.1503,
+    "confidence": 0.6508,
+    "lift": 1.115,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "갈치",
+      "도라지"
+    ],
+    "support": 0.1597,
+    "confidence": 0.6303,
+    "lift": 1.1149,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "나물",
+      "콩나물"
+    ],
+    "consequents": [
+      "갈치"
+    ],
+    "support": 0.142,
+    "confidence": 0.6504,
+    "lift": 1.1143,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "갈치",
+      "풋고추"
+    ],
+    "support": 0.1597,
+    "confidence": 0.6303,
+    "lift": 1.1142,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물",
+      "아몬드"
+    ],
+    "consequents": [
+      "갈치"
+    ],
+    "support": 0.1443,
+    "confidence": 0.6502,
+    "lift": 1.1139,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "갈치",
+      "땅콩"
+    ],
+    "support": 0.1293,
+    "confidence": 0.5105,
+    "lift": 1.1131,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "갈치",
+      "치즈"
+    ],
+    "support": 0.162,
+    "confidence": 0.6395,
+    "lift": 1.1121,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "갈치",
+      "조미료"
+    ],
+    "support": 0.1263,
+    "confidence": 0.4987,
+    "lift": 1.1115,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "북어",
+      "콩나물"
+    ],
+    "consequents": [
+      "갈치"
+    ],
+    "support": 0.1333,
+    "confidence": 0.6483,
+    "lift": 1.1107,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물",
+      "도라지"
+    ],
+    "consequents": [
+      "갈치"
+    ],
+    "support": 0.1597,
+    "confidence": 0.6482,
+    "lift": 1.1105,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "갈치",
+      "당면"
+    ],
+    "support": 0.1153,
+    "confidence": 0.4553,
+    "lift": 1.1104,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "갈치",
+      "전복"
+    ],
+    "support": 0.1577,
+    "confidence": 0.6224,
+    "lift": 1.1101,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "갈치",
+      "쇠고기"
+    ],
+    "support": 0.1463,
+    "confidence": 0.5776,
+    "lift": 1.1094,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "갈치",
+      "소시지"
+    ],
+    "support": 0.1577,
+    "confidence": 0.6224,
+    "lift": 1.1094,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "갈치",
+      "빵"
+    ],
+    "support": 0.1603,
+    "confidence": 0.6329,
+    "lift": 1.109,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "드레싱",
+      "콩나물"
+    ],
+    "consequents": [
+      "갈치"
+    ],
+    "support": 0.148,
+    "confidence": 0.6472,
+    "lift": 1.1089,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "갈치",
+      "마른안주"
+    ],
+    "support": 0.132,
+    "confidence": 0.5211,
+    "lift": 1.1086,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물",
+      "마른안주"
+    ],
+    "consequents": [
+      "갈치"
+    ],
+    "support": 0.132,
+    "confidence": 0.6471,
+    "lift": 1.1086,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "갈치",
+      "돼지고기"
+    ],
+    "support": 0.1503,
+    "confidence": 0.5934,
+    "lift": 1.1085,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "카레",
+      "콩나물"
+    ],
+    "consequents": [
+      "갈치"
+    ],
+    "support": 0.1527,
+    "confidence": 0.6469,
+    "lift": 1.1083,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물",
+      "땅콩"
+    ],
+    "consequents": [
+      "갈치"
+    ],
+    "support": 0.1293,
+    "confidence": 0.6467,
+    "lift": 1.1079,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물",
+      "오징어"
+    ],
+    "consequents": [
+      "갈치"
+    ],
+    "support": 0.1507,
+    "confidence": 0.6466,
+    "lift": 1.1079,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "파스타",
+      "콩나물"
+    ],
+    "consequents": [
+      "참외"
+    ],
+    "support": 0.0987,
+    "confidence": 0.5008,
+    "lift": 1.1072,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "갈치",
+      "딸기"
+    ],
+    "support": 0.1623,
+    "confidence": 0.6408,
+    "lift": 1.1067,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "갈치",
+      "카레"
+    ],
+    "support": 0.1527,
+    "confidence": 0.6026,
+    "lift": 1.1064,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "갈치",
+      "파프리카"
+    ],
+    "support": 0.162,
+    "confidence": 0.6395,
+    "lift": 1.1064,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "멸치",
+      "콩나물"
+    ],
+    "consequents": [
+      "갈치"
+    ],
+    "support": 0.1583,
+    "confidence": 0.6454,
+    "lift": 1.1057,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "갈치",
+      "계란"
+    ],
+    "support": 0.1367,
+    "confidence": 0.5395,
+    "lift": 1.1055,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물",
+      "미역"
+    ],
+    "consequents": [
+      "갈치"
+    ],
+    "support": 0.1617,
+    "confidence": 0.6449,
+    "lift": 1.105,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "빵",
+      "콩나물"
+    ],
+    "consequents": [
+      "갈치"
+    ],
+    "support": 0.1603,
+    "confidence": 0.6448,
+    "lift": 1.1047,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물",
+      "치즈"
+    ],
+    "consequents": [
+      "갈치"
+    ],
+    "support": 0.162,
+    "confidence": 0.6446,
+    "lift": 1.1043,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "갈치",
+      "드레싱"
+    ],
+    "support": 0.148,
+    "confidence": 0.5842,
+    "lift": 1.1037,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "맛김",
+      "콩나물"
+    ],
+    "consequents": [
+      "갈치"
+    ],
+    "support": 0.1513,
+    "confidence": 0.644,
+    "lift": 1.1033,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물",
+      "풋고추"
+    ],
+    "consequents": [
+      "갈치"
+    ],
+    "support": 0.1597,
+    "confidence": 0.6438,
+    "lift": 1.1031,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "갈치",
+      "블루베리"
+    ],
+    "support": 0.1607,
+    "confidence": 0.6342,
+    "lift": 1.103,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물",
+      "파프리카"
+    ],
+    "consequents": [
+      "갈치"
+    ],
+    "support": 0.162,
+    "confidence": 0.6437,
+    "lift": 1.1029,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "쇠고기",
+      "콩나물"
+    ],
+    "consequents": [
+      "갈치"
+    ],
+    "support": 0.1463,
+    "confidence": 0.6437,
+    "lift": 1.1028,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "배",
+      "콩나물"
+    ],
+    "consequents": [
+      "갈치"
+    ],
+    "support": 0.1583,
+    "confidence": 0.6436,
+    "lift": 1.1027,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물",
+      "소시지"
+    ],
+    "consequents": [
+      "갈치"
+    ],
+    "support": 0.1577,
+    "confidence": 0.6435,
+    "lift": 1.1026,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물",
+      "생수"
+    ],
+    "consequents": [
+      "깻잎"
+    ],
+    "support": 0.13,
+    "confidence": 0.6667,
+    "lift": 1.1025,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물",
+      "딸기"
+    ],
+    "consequents": [
+      "갈치"
+    ],
+    "support": 0.1623,
+    "confidence": 0.6433,
+    "lift": 1.1022,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "국수",
+      "참외"
+    ],
+    "support": 0.114,
+    "confidence": 0.45,
+    "lift": 1.102,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물",
+      "수박"
+    ],
+    "consequents": [
+      "갈치"
+    ],
+    "support": 0.1603,
+    "confidence": 0.643,
+    "lift": 1.1017,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "키위",
+      "콩나물"
+    ],
+    "consequents": [
+      "갈치"
+    ],
+    "support": 0.1627,
+    "confidence": 0.643,
+    "lift": 1.1016,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "갈치",
+      "스낵"
+    ],
+    "support": 0.1617,
+    "confidence": 0.6382,
+    "lift": 1.1015,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "갈치",
+      "미역"
+    ],
+    "support": 0.1617,
+    "confidence": 0.6382,
+    "lift": 1.1015,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "갈치",
+      "김"
+    ],
+    "support": 0.1627,
+    "confidence": 0.6421,
+    "lift": 1.1014,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "갈치",
+      "호박"
+    ],
+    "support": 0.1627,
+    "confidence": 0.6421,
+    "lift": 1.1014,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "갈치",
+      "오징어"
+    ],
+    "support": 0.1507,
+    "confidence": 0.5947,
+    "lift": 1.1014,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "과일",
+      "콩나물"
+    ],
+    "consequents": [
+      "갈치"
+    ],
+    "support": 0.1613,
+    "confidence": 0.6428,
+    "lift": 1.1012,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "갈치",
+      "파"
+    ],
+    "support": 0.1623,
+    "confidence": 0.6408,
+    "lift": 1.101,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물",
+      "생선"
+    ],
+    "consequents": [
+      "갈치"
+    ],
+    "support": 0.1623,
+    "confidence": 0.6425,
+    "lift": 1.1008,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "갈치",
+      "키위"
+    ],
+    "support": 0.1627,
+    "confidence": 0.6421,
+    "lift": 1.1008,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "갈치",
+      "고등어"
+    ],
+    "support": 0.1627,
+    "confidence": 0.6421,
+    "lift": 1.1008,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "갈치",
+      "잼"
+    ],
+    "support": 0.1603,
+    "confidence": 0.6329,
+    "lift": 1.1007,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "갈치",
+      "낙지"
+    ],
+    "support": 0.162,
+    "confidence": 0.6395,
+    "lift": 1.1006,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "스낵",
+      "콩나물"
+    ],
+    "consequents": [
+      "갈치"
+    ],
+    "support": 0.1617,
+    "confidence": 0.6424,
+    "lift": 1.1006,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "갈치",
+      "밤"
+    ],
+    "support": 0.159,
+    "confidence": 0.6276,
+    "lift": 1.1005,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "당면",
+      "참외"
+    ],
+    "consequents": [
+      "깻잎"
+    ],
+    "support": 0.2127,
+    "confidence": 0.6653,
+    "lift": 1.1002,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "국수",
+      "콩나물"
+    ],
+    "consequents": [
+      "갈치"
+    ],
+    "support": 0.1483,
+    "confidence": 0.6421,
+    "lift": 1.1002,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물",
+      "고등어"
+    ],
+    "consequents": [
+      "갈치"
+    ],
+    "support": 0.1627,
+    "confidence": 0.6421,
+    "lift": 1.1001,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "갈치",
+      "토마토"
+    ],
+    "support": 0.1627,
+    "confidence": 0.6421,
+    "lift": 1.1001,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물",
+      "냉동"
+    ],
+    "consequents": [
+      "갈치"
+    ],
+    "support": 0.1627,
+    "confidence": 0.6421,
+    "lift": 1.1001,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "토마토",
+      "콩나물"
+    ],
+    "consequents": [
+      "갈치"
+    ],
+    "support": 0.1627,
+    "confidence": 0.6421,
+    "lift": 1.1001,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "갈치",
+      "즉석"
+    ],
+    "support": 0.1627,
+    "confidence": 0.6421,
+    "lift": 1.1001,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "호박",
+      "콩나물"
+    ],
+    "consequents": [
+      "갈치"
+    ],
+    "support": 0.1627,
+    "confidence": 0.6421,
+    "lift": 1.1001,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "갈치"
+    ],
+    "support": 0.1627,
+    "confidence": 0.6421,
+    "lift": 1.1001,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "김",
+      "콩나물"
+    ],
+    "consequents": [
+      "갈치"
+    ],
+    "support": 0.1627,
+    "confidence": 0.6421,
+    "lift": 1.1001,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "사과",
+      "콩나물"
+    ],
+    "consequents": [
+      "갈치"
+    ],
+    "support": 0.1627,
+    "confidence": 0.6421,
+    "lift": 1.1001,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "갈치",
+      "김치"
+    ],
+    "support": 0.1627,
+    "confidence": 0.6421,
+    "lift": 1.1001,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "김치",
+      "콩나물"
+    ],
+    "consequents": [
+      "갈치"
+    ],
+    "support": 0.1627,
+    "confidence": 0.6421,
+    "lift": 1.1001,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "갈치",
+      "사과"
+    ],
+    "support": 0.1627,
+    "confidence": 0.6421,
+    "lift": 1.1001,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "즉석",
+      "콩나물"
+    ],
+    "consequents": [
+      "갈치"
+    ],
+    "support": 0.1627,
+    "confidence": 0.6421,
+    "lift": 1.1001,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "갈치",
+      "냉동"
+    ],
+    "support": 0.1627,
+    "confidence": 0.6421,
+    "lift": 1.1001,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "갈치",
+      "고구마"
+    ],
+    "support": 0.1627,
+    "confidence": 0.6421,
+    "lift": 1.1001,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물",
+      "고구마"
+    ],
+    "consequents": [
+      "갈치"
+    ],
+    "support": 0.1627,
+    "confidence": 0.6421,
+    "lift": 1.1001,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "갈치",
+      "수박"
+    ],
+    "support": 0.1603,
+    "confidence": 0.6329,
+    "lift": 1.1,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "낙지",
+      "콩나물"
+    ],
+    "consequents": [
+      "갈치"
+    ],
+    "support": 0.162,
+    "confidence": 0.642,
+    "lift": 1.1,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "갈치",
+      "생선"
+    ],
+    "support": 0.1623,
+    "confidence": 0.6408,
+    "lift": 1.0998,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "갈치",
+      "상추"
+    ],
+    "support": 0.1623,
+    "confidence": 0.6408,
+    "lift": 1.0998,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "갈치",
+      "라면"
+    ],
+    "support": 0.1617,
+    "confidence": 0.6382,
+    "lift": 1.0996,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "깻잎",
+      "생수"
+    ],
+    "support": 0.13,
+    "confidence": 0.5132,
+    "lift": 1.0996,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "블루베리",
+      "콩나물"
+    ],
+    "consequents": [
+      "갈치"
+    ],
+    "support": 0.1607,
+    "confidence": 0.6418,
+    "lift": 1.0996,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "깻잎",
+      "콩나물"
+    ],
+    "consequents": [
+      "생수"
+    ],
+    "support": 0.13,
+    "confidence": 0.8176,
+    "lift": 1.0994,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "파",
+      "콩나물"
+    ],
+    "consequents": [
+      "갈치"
+    ],
+    "support": 0.1623,
+    "confidence": 0.6416,
+    "lift": 1.0993,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물",
+      "상추"
+    ],
+    "consequents": [
+      "갈치"
+    ],
+    "support": 0.1623,
+    "confidence": 0.6416,
+    "lift": 1.0993,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물",
+      "커피"
+    ],
+    "consequents": [
+      "갈치"
+    ],
+    "support": 0.1623,
+    "confidence": 0.6416,
+    "lift": 1.0993,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "라면",
+      "콩나물"
+    ],
+    "consequents": [
+      "갈치"
+    ],
+    "support": 0.1617,
+    "confidence": 0.6415,
+    "lift": 1.0991,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "갈치",
+      "커피"
+    ],
+    "support": 0.1623,
+    "confidence": 0.6408,
+    "lift": 1.0991,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "갈치",
+      "과일"
+    ],
+    "support": 0.1613,
+    "confidence": 0.6368,
+    "lift": 1.0986,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "밤",
+      "콩나물"
+    ],
+    "consequents": [
+      "갈치"
+    ],
+    "support": 0.159,
+    "confidence": 0.6411,
+    "lift": 1.0985,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "깻잎",
+      "콩나물"
+    ],
+    "consequents": [
+      "참외"
+    ],
+    "support": 0.079,
+    "confidence": 0.4969,
+    "lift": 1.0984,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "전복",
+      "콩나물"
+    ],
+    "consequents": [
+      "갈치"
+    ],
+    "support": 0.1577,
+    "confidence": 0.6409,
+    "lift": 1.0981,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "북어",
+      "참외"
+    ],
+    "support": 0.102,
+    "confidence": 0.4026,
+    "lift": 1.0981,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물",
+      "잼"
+    ],
+    "consequents": [
+      "갈치"
+    ],
+    "support": 0.1603,
+    "confidence": 0.6405,
+    "lift": 1.0973,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물",
+      "참외"
+    ],
+    "consequents": [
+      "갈치"
+    ],
+    "support": 0.0783,
+    "confidence": 0.6403,
+    "lift": 1.0971,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "조미료",
+      "콩나물"
+    ],
+    "consequents": [
+      "갈치"
+    ],
+    "support": 0.1263,
+    "confidence": 0.6402,
+    "lift": 1.0969,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "북어",
+      "콩나물"
+    ],
+    "consequents": [
+      "참외"
+    ],
+    "support": 0.102,
+    "confidence": 0.4959,
+    "lift": 1.0964,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "갈치",
+      "닭고기"
+    ],
+    "support": 0.1287,
+    "confidence": 0.5079,
+    "lift": 1.0962,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "계란",
+      "콩나물"
+    ],
+    "consequents": [
+      "갈치"
+    ],
+    "support": 0.1367,
+    "confidence": 0.6396,
+    "lift": 1.0959,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "갈치",
+      "콩나물"
+    ],
+    "consequents": [
+      "파스타"
+    ],
+    "support": 0.1327,
+    "confidence": 0.8156,
+    "lift": 1.0957,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물",
+      "생수"
+    ],
+    "consequents": [
+      "갈치"
+    ],
+    "support": 0.1247,
+    "confidence": 0.6393,
+    "lift": 1.0953,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "참외",
+      "소시지"
+    ],
+    "support": 0.12,
+    "confidence": 0.4737,
+    "lift": 1.0914,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "참외",
+      "아몬드"
+    ],
+    "support": 0.107,
+    "confidence": 0.4224,
+    "lift": 1.0914,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "당면",
+      "콩나물"
+    ],
+    "consequents": [
+      "참외"
+    ],
+    "support": 0.0897,
+    "confidence": 0.4936,
+    "lift": 1.0912,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "국수",
+      "콩나물"
+    ],
+    "consequents": [
+      "참외"
+    ],
+    "support": 0.114,
+    "confidence": 0.4935,
+    "lift": 1.091,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물",
+      "혼합및이온음료"
+    ],
+    "consequents": [
+      "갈치"
+    ],
+    "support": 0.153,
+    "confidence": 0.6366,
+    "lift": 1.0907,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "나물",
+      "참외"
+    ],
+    "support": 0.106,
+    "confidence": 0.4184,
+    "lift": 1.0896,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "당면",
+      "콩나물"
+    ],
+    "consequents": [
+      "파스타"
+    ],
+    "support": 0.1473,
+    "confidence": 0.811,
+    "lift": 1.0896,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "참외",
+      "탄산음료"
+    ],
+    "consequents": [
+      "깻잎"
+    ],
+    "support": 0.2053,
+    "confidence": 0.6581,
+    "lift": 1.0884,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "조기",
+      "탄산음료"
+    ],
+    "support": 0.1287,
+    "confidence": 0.5079,
+    "lift": 1.0883,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "쇠고기",
+      "참외"
+    ],
+    "support": 0.1087,
+    "confidence": 0.4289,
+    "lift": 1.0878,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "당면",
+      "콩나물"
+    ],
+    "consequents": [
+      "갈치"
+    ],
+    "support": 0.1153,
+    "confidence": 0.6349,
+    "lift": 1.0877,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "조기",
+      "북어"
+    ],
+    "support": 0.1457,
+    "confidence": 0.575,
+    "lift": 1.0876,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "북어",
+      "파스타"
+    ],
+    "support": 0.164,
+    "confidence": 0.6474,
+    "lift": 1.0874,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "계란",
+      "참외"
+    ],
+    "support": 0.1037,
+    "confidence": 0.4092,
+    "lift": 1.0874,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물",
+      "탄산음료"
+    ],
+    "consequents": [
+      "조기"
+    ],
+    "support": 0.1287,
+    "confidence": 0.7201,
+    "lift": 1.0873,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "조기",
+      "파스타"
+    ],
+    "support": 0.1393,
+    "confidence": 0.55,
+    "lift": 1.087,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "갈치",
+      "혼합및이온음료"
+    ],
+    "support": 0.153,
+    "confidence": 0.6039,
+    "lift": 1.0869,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "조미료",
+      "콩나물"
+    ],
+    "consequents": [
+      "참외"
+    ],
+    "support": 0.097,
+    "confidence": 0.4916,
+    "lift": 1.0867,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "드레싱",
+      "콩나물"
+    ],
+    "consequents": [
+      "참외"
+    ],
+    "support": 0.1123,
+    "confidence": 0.4913,
+    "lift": 1.086,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "파스타",
+      "생수"
+    ],
+    "support": 0.1547,
+    "confidence": 0.6105,
+    "lift": 1.0857,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물",
+      "혼합및이온음료"
+    ],
+    "consequents": [
+      "참외"
+    ],
+    "support": 0.118,
+    "confidence": 0.491,
+    "lift": 1.0854,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "참외"
+    ],
+    "consequents": [
+      "조기",
+      "깻잎"
+    ],
+    "support": 0.201,
+    "confidence": 0.4444,
+    "lift": 1.0847,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "멸치",
+      "콩나물"
+    ],
+    "consequents": [
+      "참외"
+    ],
+    "support": 0.1203,
+    "confidence": 0.4905,
+    "lift": 1.0844,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물",
+      "닭고기"
+    ],
+    "consequents": [
+      "갈치"
+    ],
+    "support": 0.1287,
+    "confidence": 0.6328,
+    "lift": 1.0842,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물",
+      "참외"
+    ],
+    "consequents": [
+      "파스타"
+    ],
+    "support": 0.0987,
+    "confidence": 0.8065,
+    "lift": 1.0836,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "멸치",
+      "조기"
+    ],
+    "support": 0.17,
+    "confidence": 0.6711,
+    "lift": 1.0835,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "맛김",
+      "참외"
+    ],
+    "support": 0.1133,
+    "confidence": 0.4474,
+    "lift": 1.0832,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물",
+      "소시지"
+    ],
+    "consequents": [
+      "참외"
+    ],
+    "support": 0.12,
+    "confidence": 0.4898,
+    "lift": 1.0828,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "파스타",
+      "생수"
+    ],
+    "consequents": [
+      "깻잎"
+    ],
+    "support": 0.368,
+    "confidence": 0.6544,
+    "lift": 1.0823,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "파스타",
+      "조미료"
+    ],
+    "support": 0.157,
+    "confidence": 0.6197,
+    "lift": 1.0822,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "파스타",
+      "참외"
+    ],
+    "consequents": [
+      "깻잎"
+    ],
+    "support": 0.2263,
+    "confidence": 0.6541,
+    "lift": 1.0818,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "드레싱",
+      "참외"
+    ],
+    "support": 0.1123,
+    "confidence": 0.4434,
+    "lift": 1.0815,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "참외",
+      "마른안주"
+    ],
+    "consequents": [
+      "깻잎"
+    ],
+    "support": 0.2337,
+    "confidence": 0.6539,
+    "lift": 1.0815,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "풋고추",
+      "참외"
+    ],
+    "support": 0.121,
+    "confidence": 0.4776,
+    "lift": 1.0814,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "참외"
+    ],
+    "consequents": [
+      "북어",
+      "깻잎"
+    ],
+    "support": 0.237,
+    "confidence": 0.5239,
+    "lift": 1.0811,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "참외",
+      "혼합및이온음료"
+    ],
+    "support": 0.118,
+    "confidence": 0.4658,
+    "lift": 1.0807,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "조기",
+      "생수"
+    ],
+    "support": 0.1357,
+    "confidence": 0.5355,
+    "lift": 1.0804,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "생수",
+      "참외"
+    ],
+    "consequents": [
+      "깻잎"
+    ],
+    "support": 0.224,
+    "confidence": 0.6531,
+    "lift": 1.08,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "조기",
+      "참외"
+    ],
+    "consequents": [
+      "깻잎"
+    ],
+    "support": 0.201,
+    "confidence": 0.6526,
+    "lift": 1.0793,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "파스타",
+      "당면"
+    ],
+    "support": 0.1473,
+    "confidence": 0.5816,
+    "lift": 1.079,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물",
+      "풋고추"
+    ],
+    "consequents": [
+      "참외"
+    ],
+    "support": 0.121,
+    "confidence": 0.4879,
+    "lift": 1.0786,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "깻잎"
+    ],
+    "consequents": [
+      "파스타",
+      "탄산음료"
+    ],
+    "support": 0.34,
+    "confidence": 0.5623,
+    "lift": 1.0786,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "조기",
+      "콩나물"
+    ],
+    "consequents": [
+      "참외"
+    ],
+    "support": 0.0853,
+    "confidence": 0.4876,
+    "lift": 1.078,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "빵",
+      "참외"
+    ],
+    "support": 0.1207,
+    "confidence": 0.4763,
+    "lift": 1.0768,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "북어",
+      "생수"
+    ],
+    "support": 0.1617,
+    "confidence": 0.6382,
+    "lift": 1.0768,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "멸치",
+      "파스타"
+    ],
+    "support": 0.192,
+    "confidence": 0.7579,
+    "lift": 1.0766,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "카레",
+      "참외"
+    ],
+    "support": 0.1143,
+    "confidence": 0.4513,
+    "lift": 1.0763,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "배",
+      "참외"
+    ],
+    "support": 0.1187,
+    "confidence": 0.4684,
+    "lift": 1.076,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "참외",
+      "오징어"
+    ],
+    "support": 0.1127,
+    "confidence": 0.4447,
+    "lift": 1.076,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "파스타",
+      "아몬드"
+    ],
+    "support": 0.174,
+    "confidence": 0.6868,
+    "lift": 1.0749,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "과일",
+      "콩나물"
+    ],
+    "consequents": [
+      "참외"
+    ],
+    "support": 0.122,
+    "confidence": 0.4861,
+    "lift": 1.0746,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물",
+      "잼"
+    ],
+    "consequents": [
+      "참외"
+    ],
+    "support": 0.1217,
+    "confidence": 0.486,
+    "lift": 1.0745,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "파스타",
+      "땅콩"
+    ],
+    "support": 0.159,
+    "confidence": 0.6276,
+    "lift": 1.0741,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "조미료",
+      "생수"
+    ],
+    "support": 0.1543,
+    "confidence": 0.6092,
+    "lift": 1.0738,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "참외",
+      "잼"
+    ],
+    "support": 0.1217,
+    "confidence": 0.4803,
+    "lift": 1.0736,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "깻잎",
+      "당면"
+    ],
+    "consequents": [
+      "참외"
+    ],
+    "support": 0.2127,
+    "confidence": 0.4855,
+    "lift": 1.0734,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "나물",
+      "콩나물"
+    ],
+    "consequents": [
+      "참외"
+    ],
+    "support": 0.106,
+    "confidence": 0.4855,
+    "lift": 1.0733,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "낙지",
+      "참외"
+    ],
+    "support": 0.1223,
+    "confidence": 0.4829,
+    "lift": 1.0731,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "참외",
+      "치즈"
+    ],
+    "support": 0.1217,
+    "confidence": 0.4803,
+    "lift": 1.0728,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "빵",
+      "콩나물"
+    ],
+    "consequents": [
+      "참외"
+    ],
+    "support": 0.1207,
+    "confidence": 0.4853,
+    "lift": 1.0728,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "깻잎"
+    ],
+    "consequents": [
+      "참외",
+      "아몬드"
+    ],
+    "support": 0.251,
+    "confidence": 0.4151,
+    "lift": 1.0726,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "계란",
+      "콩나물"
+    ],
+    "consequents": [
+      "참외"
+    ],
+    "support": 0.1037,
+    "confidence": 0.4852,
+    "lift": 1.0726,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "조미료",
+      "참외"
+    ],
+    "consequents": [
+      "깻잎"
+    ],
+    "support": 0.227,
+    "confidence": 0.6486,
+    "lift": 1.0726,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "당면",
+      "생수"
+    ],
+    "consequents": [
+      "깻잎"
+    ],
+    "support": 0.3407,
+    "confidence": 0.6485,
+    "lift": 1.0725,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "나물",
+      "조기"
+    ],
+    "support": 0.1547,
+    "confidence": 0.6105,
+    "lift": 1.0724,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "깻잎",
+      "조미료"
+    ],
+    "consequents": [
+      "참외"
+    ],
+    "support": 0.227,
+    "confidence": 0.485,
+    "lift": 1.0723,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "참외",
+      "생선"
+    ],
+    "support": 0.1223,
+    "confidence": 0.4829,
+    "lift": 1.0723,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "블루베리",
+      "참외"
+    ],
+    "support": 0.1213,
+    "confidence": 0.4789,
+    "lift": 1.0723,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "참외"
+    ],
+    "consequents": [
+      "파스타",
+      "깻잎"
+    ],
+    "support": 0.2263,
+    "confidence": 0.5004,
+    "lift": 1.0722,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "조기",
+      "땅콩"
+    ],
+    "support": 0.1407,
+    "confidence": 0.5553,
+    "lift": 1.0719,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "낙지",
+      "콩나물"
+    ],
+    "consequents": [
+      "참외"
+    ],
+    "support": 0.1223,
+    "confidence": 0.4848,
+    "lift": 1.0718,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "참외",
+      "파프리카"
+    ],
+    "support": 0.122,
+    "confidence": 0.4816,
+    "lift": 1.0718,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "과일",
+      "참외"
+    ],
+    "support": 0.122,
+    "confidence": 0.4816,
+    "lift": 1.0718,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물",
+      "파프리카"
+    ],
+    "consequents": [
+      "참외"
+    ],
+    "support": 0.122,
+    "confidence": 0.4848,
+    "lift": 1.0717,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "참외",
+      "도라지"
+    ],
+    "support": 0.119,
+    "confidence": 0.4697,
+    "lift": 1.0716,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "블루베리",
+      "콩나물"
+    ],
+    "consequents": [
+      "참외"
+    ],
+    "support": 0.1213,
+    "confidence": 0.4847,
+    "lift": 1.0715,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "조미료",
+      "아몬드"
+    ],
+    "support": 0.1763,
+    "confidence": 0.6961,
+    "lift": 1.0714,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "북어",
+      "콩나물"
+    ],
+    "consequents": [
+      "파스타"
+    ],
+    "support": 0.164,
+    "confidence": 0.7974,
+    "lift": 1.0713,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "카레",
+      "콩나물"
+    ],
+    "consequents": [
+      "참외"
+    ],
+    "support": 0.1143,
+    "confidence": 0.4845,
+    "lift": 1.071,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "참외"
+    ],
+    "consequents": [
+      "북어",
+      "파스타"
+    ],
+    "support": 0.2883,
+    "confidence": 0.6374,
+    "lift": 1.0707,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물",
+      "생선"
+    ],
+    "consequents": [
+      "참외"
+    ],
+    "support": 0.1223,
+    "confidence": 0.4842,
+    "lift": 1.0704,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물",
+      "치즈"
+    ],
+    "consequents": [
+      "참외"
+    ],
+    "support": 0.1217,
+    "confidence": 0.4841,
+    "lift": 1.0702,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "생수",
+      "땅콩"
+    ],
+    "support": 0.1563,
+    "confidence": 0.6171,
+    "lift": 1.0701,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물",
+      "미역"
+    ],
+    "consequents": [
+      "참외"
+    ],
+    "support": 0.1213,
+    "confidence": 0.484,
+    "lift": 1.0701,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "파스타",
+      "콩나물"
+    ],
+    "consequents": [
+      "당면"
+    ],
+    "support": 0.1473,
+    "confidence": 0.7479,
+    "lift": 1.0699,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "키위",
+      "참외"
+    ],
+    "support": 0.1223,
+    "confidence": 0.4829,
+    "lift": 1.0699,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물",
+      "수박"
+    ],
+    "consequents": [
+      "참외"
+    ],
+    "support": 0.1207,
+    "confidence": 0.484,
+    "lift": 1.0699,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "맛김",
+      "조기"
+    ],
+    "support": 0.1643,
+    "confidence": 0.6487,
+    "lift": 1.0698,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "조기",
+      "콩나물"
+    ],
+    "consequents": [
+      "파스타"
+    ],
+    "support": 0.1393,
+    "confidence": 0.7962,
+    "lift": 1.0697,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "나물",
+      "콩나물"
+    ],
+    "consequents": [
+      "조기"
+    ],
+    "support": 0.1547,
+    "confidence": 0.7084,
+    "lift": 1.0695,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물",
+      "생수"
+    ],
+    "consequents": [
+      "참외"
+    ],
+    "support": 0.0943,
+    "confidence": 0.4838,
+    "lift": 1.0695,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "멸치",
+      "북어"
+    ],
+    "support": 0.2007,
+    "confidence": 0.7921,
+    "lift": 1.0694,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "북어",
+      "콩나물"
+    ],
+    "consequents": [
+      "조기"
+    ],
+    "support": 0.1457,
+    "confidence": 0.7083,
+    "lift": 1.0693,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "참외",
+      "상추"
+    ],
+    "support": 0.1223,
+    "confidence": 0.4829,
+    "lift": 1.0691,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "김",
+      "참외"
+    ],
+    "support": 0.1223,
+    "confidence": 0.4829,
+    "lift": 1.0691,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "파",
+      "참외"
+    ],
+    "support": 0.1223,
+    "confidence": 0.4829,
+    "lift": 1.0691,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물",
+      "오징어"
+    ],
+    "consequents": [
+      "참외"
+    ],
+    "support": 0.1127,
+    "confidence": 0.4835,
+    "lift": 1.069,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "파",
+      "콩나물"
+    ],
+    "consequents": [
+      "참외"
+    ],
+    "support": 0.1223,
+    "confidence": 0.4835,
+    "lift": 1.069,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물",
+      "상추"
+    ],
+    "consequents": [
+      "참외"
+    ],
+    "support": 0.1223,
+    "confidence": 0.4835,
+    "lift": 1.069,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "키위",
+      "콩나물"
+    ],
+    "consequents": [
+      "참외"
+    ],
+    "support": 0.1223,
+    "confidence": 0.4835,
+    "lift": 1.069,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "북어",
+      "참외"
+    ],
+    "consequents": [
+      "깻잎"
+    ],
+    "support": 0.237,
+    "confidence": 0.6464,
+    "lift": 1.069,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "파스타"
+    ],
+    "consequents": [
+      "깻잎",
+      "탄산음료"
+    ],
+    "support": 0.34,
+    "confidence": 0.4568,
+    "lift": 1.0689,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "조미료",
+      "콩나물"
+    ],
+    "consequents": [
+      "파스타"
+    ],
+    "support": 0.157,
+    "confidence": 0.7956,
+    "lift": 1.0689,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "멸치",
+      "아몬드"
+    ],
+    "support": 0.2163,
+    "confidence": 0.8539,
+    "lift": 1.0688,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "조기",
+      "콩나물"
+    ],
+    "consequents": [
+      "탄산음료"
+    ],
+    "support": 0.1287,
+    "confidence": 0.7352,
+    "lift": 1.0687,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "멸치",
+      "조미료"
+    ],
+    "support": 0.1917,
+    "confidence": 0.7566,
+    "lift": 1.0686,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "호박",
+      "참외"
+    ],
+    "support": 0.1223,
+    "confidence": 0.4829,
+    "lift": 1.0684,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "김치",
+      "참외"
+    ],
+    "support": 0.1223,
+    "confidence": 0.4829,
+    "lift": 1.0684,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물",
+      "땅콩"
+    ],
+    "consequents": [
+      "파스타"
+    ],
+    "support": 0.159,
+    "confidence": 0.795,
+    "lift": 1.0681,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "참외",
+      "딸기"
+    ],
+    "support": 0.1217,
+    "confidence": 0.4803,
+    "lift": 1.068,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "라면",
+      "참외"
+    ],
+    "support": 0.1217,
+    "confidence": 0.4803,
+    "lift": 1.068,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물",
+      "참외"
+    ],
+    "consequents": [
+      "깻잎"
+    ],
+    "support": 0.079,
+    "confidence": 0.6458,
+    "lift": 1.068,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물",
+      "도라지"
+    ],
+    "consequents": [
+      "참외"
+    ],
+    "support": 0.119,
+    "confidence": 0.4831,
+    "lift": 1.068,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "당면",
+      "탄산음료"
+    ],
+    "support": 0.1317,
+    "confidence": 0.5197,
+    "lift": 1.068,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "파스타",
+      "콩나물"
+    ],
+    "consequents": [
+      "조기"
+    ],
+    "support": 0.1393,
+    "confidence": 0.7073,
+    "lift": 1.0679,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "사과",
+      "참외"
+    ],
+    "support": 0.1223,
+    "confidence": 0.4829,
+    "lift": 1.0676,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "즉석",
+      "참외"
+    ],
+    "support": 0.1223,
+    "confidence": 0.4829,
+    "lift": 1.0676,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "즉석",
+      "콩나물"
+    ],
+    "consequents": [
+      "참외"
+    ],
+    "support": 0.1223,
+    "confidence": 0.4829,
+    "lift": 1.0676,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "참외",
+      "냉동"
+    ],
+    "support": 0.1223,
+    "confidence": 0.4829,
+    "lift": 1.0676,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물",
+      "냉동"
+    ],
+    "consequents": [
+      "참외"
+    ],
+    "support": 0.1223,
+    "confidence": 0.4829,
+    "lift": 1.0676,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "김",
+      "콩나물"
+    ],
+    "consequents": [
+      "참외"
+    ],
+    "support": 0.1223,
+    "confidence": 0.4829,
+    "lift": 1.0676,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "호박",
+      "콩나물"
+    ],
+    "consequents": [
+      "참외"
+    ],
+    "support": 0.1223,
+    "confidence": 0.4829,
+    "lift": 1.0676,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "김치",
+      "콩나물"
+    ],
+    "consequents": [
+      "참외"
+    ],
+    "support": 0.1223,
+    "confidence": 0.4829,
+    "lift": 1.0676,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "사과",
+      "콩나물"
+    ],
+    "consequents": [
+      "참외"
+    ],
+    "support": 0.1223,
+    "confidence": 0.4829,
+    "lift": 1.0676,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물",
+      "고등어"
+    ],
+    "consequents": [
+      "참외"
+    ],
+    "support": 0.1223,
+    "confidence": 0.4829,
+    "lift": 1.0676,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "참외"
+    ],
+    "support": 0.1223,
+    "confidence": 0.4829,
+    "lift": 1.0676,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "토마토",
+      "콩나물"
+    ],
+    "consequents": [
+      "참외"
+    ],
+    "support": 0.1223,
+    "confidence": 0.4829,
+    "lift": 1.0676,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "참외",
+      "고등어"
+    ],
+    "support": 0.1223,
+    "confidence": 0.4829,
+    "lift": 1.0676,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물",
+      "고구마"
+    ],
+    "consequents": [
+      "참외"
+    ],
+    "support": 0.1223,
+    "confidence": 0.4829,
+    "lift": 1.0676,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "참외",
+      "고구마"
+    ],
+    "support": 0.1223,
+    "confidence": 0.4829,
+    "lift": 1.0676,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "토마토",
+      "참외"
+    ],
+    "support": 0.1223,
+    "confidence": 0.4829,
+    "lift": 1.0676,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "당면",
+      "참외"
+    ],
+    "consequents": [
+      "파스타"
+    ],
+    "support": 0.254,
+    "confidence": 0.7946,
+    "lift": 1.0675,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "라면",
+      "콩나물"
+    ],
+    "consequents": [
+      "참외"
+    ],
+    "support": 0.1217,
+    "confidence": 0.4828,
+    "lift": 1.0674,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "깻잎",
+      "아몬드"
+    ],
+    "support": 0.1407,
+    "confidence": 0.5553,
+    "lift": 1.0671,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "나물",
+      "파스타"
+    ],
+    "support": 0.173,
+    "confidence": 0.6829,
+    "lift": 1.067,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "참외",
+      "커피"
+    ],
+    "support": 0.122,
+    "confidence": 0.4816,
+    "lift": 1.067,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "국수",
+      "파스타"
+    ],
+    "support": 0.1817,
+    "confidence": 0.7171,
+    "lift": 1.0666,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "북어",
+      "아몬드"
+    ],
+    "support": 0.1807,
+    "confidence": 0.7132,
+    "lift": 1.0665,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "배",
+      "콩나물"
+    ],
+    "consequents": [
+      "참외"
+    ],
+    "support": 0.1187,
+    "confidence": 0.4824,
+    "lift": 1.0664,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "참외"
+    ],
+    "consequents": [
+      "깻잎",
+      "아몬드"
+    ],
+    "support": 0.251,
+    "confidence": 0.5549,
+    "lift": 1.0664,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "갈치",
+      "콩나물"
+    ],
+    "consequents": [
+      "탄산음료"
+    ],
+    "support": 0.1193,
+    "confidence": 0.7336,
+    "lift": 1.0663,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "생수",
+      "마른안주"
+    ],
+    "consequents": [
+      "깻잎"
+    ],
+    "support": 0.3883,
+    "confidence": 0.6447,
+    "lift": 1.0662,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "맛김",
+      "콩나물"
+    ],
+    "consequents": [
+      "참외"
+    ],
+    "support": 0.1133,
+    "confidence": 0.4823,
+    "lift": 1.0662,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "스낵",
+      "참외"
+    ],
+    "support": 0.121,
+    "confidence": 0.4776,
+    "lift": 1.0661,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "생수",
+      "아몬드"
+    ],
+    "support": 0.1727,
+    "confidence": 0.6816,
+    "lift": 1.0661,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물",
+      "커피"
+    ],
+    "consequents": [
+      "참외"
+    ],
+    "support": 0.122,
+    "confidence": 0.4822,
+    "lift": 1.0661,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물",
+      "딸기"
+    ],
+    "consequents": [
+      "참외"
+    ],
+    "support": 0.1217,
+    "confidence": 0.4822,
+    "lift": 1.066,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "파스타",
+      "배"
+    ],
+    "support": 0.1923,
+    "confidence": 0.7592,
+    "lift": 1.0658,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물",
+      "생수"
+    ],
+    "consequents": [
+      "파스타"
+    ],
+    "support": 0.1547,
+    "confidence": 0.7932,
+    "lift": 1.0656,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "수박",
+      "참외"
+    ],
+    "support": 0.1207,
+    "confidence": 0.4763,
+    "lift": 1.0656,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물",
+      "아몬드"
+    ],
+    "consequents": [
+      "참외"
+    ],
+    "support": 0.107,
+    "confidence": 0.482,
+    "lift": 1.0655,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "맛김",
+      "멸치"
+    ],
+    "support": 0.228,
+    "confidence": 0.9,
+    "lift": 1.0655,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "미역",
+      "참외"
+    ],
+    "support": 0.1213,
+    "confidence": 0.4789,
+    "lift": 1.0651,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "파스타",
+      "탄산음료"
+    ],
+    "support": 0.1407,
+    "confidence": 0.5553,
+    "lift": 1.0651,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "멸치",
+      "깻잎"
+    ],
+    "support": 0.1543,
+    "confidence": 0.6092,
+    "lift": 1.0651,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물",
+      "오징어"
+    ],
+    "consequents": [
+      "조기"
+    ],
+    "support": 0.1643,
+    "confidence": 0.7053,
+    "lift": 1.0649,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "조기",
+      "아몬드"
+    ],
+    "support": 0.1527,
+    "confidence": 0.6026,
+    "lift": 1.0647,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "맛김",
+      "탄산음료"
+    ],
+    "support": 0.1687,
+    "confidence": 0.6658,
+    "lift": 1.0647,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "갈치",
+      "콩나물"
+    ],
+    "consequents": [
+      "참외"
+    ],
+    "support": 0.0783,
+    "confidence": 0.4816,
+    "lift": 1.0646,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "나물",
+      "콩나물"
+    ],
+    "consequents": [
+      "파스타"
+    ],
+    "support": 0.173,
+    "confidence": 0.7924,
+    "lift": 1.0645,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "맛김",
+      "북어"
+    ],
+    "support": 0.192,
+    "confidence": 0.7579,
+    "lift": 1.0645,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물",
+      "참외"
+    ],
+    "consequents": [
+      "북어"
+    ],
+    "support": 0.102,
+    "confidence": 0.8338,
+    "lift": 1.0644,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "참외"
+    ],
+    "consequents": [
+      "국수",
+      "깻잎"
+    ],
+    "support": 0.262,
+    "confidence": 0.5792,
+    "lift": 1.0641,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "파스타",
+      "참외"
+    ],
+    "consequents": [
+      "북어"
+    ],
+    "support": 0.2883,
+    "confidence": 0.8333,
+    "lift": 1.0638,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "밤",
+      "참외"
+    ],
+    "support": 0.1187,
+    "confidence": 0.4684,
+    "lift": 1.0638,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "멸치",
+      "땅콩"
+    ],
+    "support": 0.1943,
+    "confidence": 0.7671,
+    "lift": 1.0635,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "조기",
+      "오징어"
+    ],
+    "support": 0.1643,
+    "confidence": 0.6487,
+    "lift": 1.0634,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "조기",
+      "깻잎"
+    ],
+    "support": 0.1103,
+    "confidence": 0.4355,
+    "lift": 1.0631,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "깻잎"
+    ],
+    "consequents": [
+      "참외",
+      "오징어"
+    ],
+    "support": 0.2657,
+    "confidence": 0.4394,
+    "lift": 1.063,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "스낵",
+      "콩나물"
+    ],
+    "consequents": [
+      "참외"
+    ],
+    "support": 0.121,
+    "confidence": 0.4808,
+    "lift": 1.0629,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "파스타",
+      "콩나물"
+    ],
+    "consequents": [
+      "북어"
+    ],
+    "support": 0.164,
+    "confidence": 0.8325,
+    "lift": 1.0627,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "맛김",
+      "조미료"
+    ],
+    "support": 0.1833,
+    "confidence": 0.7237,
+    "lift": 1.0627,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "맛김",
+      "아몬드"
+    ],
+    "support": 0.2057,
+    "confidence": 0.8118,
+    "lift": 1.0626,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "조기",
+      "콩나물"
+    ],
+    "consequents": [
+      "북어"
+    ],
+    "support": 0.1457,
+    "confidence": 0.8324,
+    "lift": 1.0626,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물",
+      "마른안주"
+    ],
+    "consequents": [
+      "파스타"
+    ],
+    "support": 0.1613,
+    "confidence": 0.7908,
+    "lift": 1.0625,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "참외"
+    ],
+    "consequents": [
+      "깻잎",
+      "탄산음료"
+    ],
+    "support": 0.2053,
+    "confidence": 0.4539,
+    "lift": 1.0623,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "계란",
+      "멸치"
+    ],
+    "support": 0.208,
+    "confidence": 0.8211,
+    "lift": 1.0622,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물",
+      "땅콩"
+    ],
+    "consequents": [
+      "조기"
+    ],
+    "support": 0.1407,
+    "confidence": 0.7033,
+    "lift": 1.0619,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "참외",
+      "소시지"
+    ],
+    "consequents": [
+      "깻잎"
+    ],
+    "support": 0.2787,
+    "confidence": 0.6421,
+    "lift": 1.0619,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물",
+      "닭고기"
+    ],
+    "consequents": [
+      "참외"
+    ],
+    "support": 0.0977,
+    "confidence": 0.4803,
+    "lift": 1.0619,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "갈치",
+      "깻잎"
+    ],
+    "consequents": [
+      "파스타"
+    ],
+    "support": 0.284,
+    "confidence": 0.7904,
+    "lift": 1.0618,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "깻잎"
+    ],
+    "consequents": [
+      "파스타",
+      "당면"
+    ],
+    "support": 0.346,
+    "confidence": 0.5722,
+    "lift": 1.0616,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "조기",
+      "깻잎"
+    ],
+    "consequents": [
+      "당면"
+    ],
+    "support": 0.304,
+    "confidence": 0.7421,
+    "lift": 1.0616,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "참외",
+      "혼합및이온음료"
+    ],
+    "consequents": [
+      "깻잎"
+    ],
+    "support": 0.2767,
+    "confidence": 0.6419,
+    "lift": 1.0616,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "멸치",
+      "생수"
+    ],
+    "support": 0.1893,
+    "confidence": 0.7474,
+    "lift": 1.0616,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "계란",
+      "깻잎"
+    ],
+    "support": 0.1363,
+    "confidence": 0.5382,
+    "lift": 1.0615,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "파스타",
+      "마른안주"
+    ],
+    "support": 0.1613,
+    "confidence": 0.6368,
+    "lift": 1.0614,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "조기",
+      "조미료"
+    ],
+    "support": 0.1377,
+    "confidence": 0.5434,
+    "lift": 1.0614,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "파스타",
+      "전복"
+    ],
+    "support": 0.1923,
+    "confidence": 0.7592,
+    "lift": 1.0613,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "깻잎",
+      "당면"
+    ],
+    "consequents": [
+      "파스타"
+    ],
+    "support": 0.346,
+    "confidence": 0.79,
+    "lift": 1.0613,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "깻잎",
+      "혼합및이온음료"
+    ],
+    "consequents": [
+      "참외"
+    ],
+    "support": 0.2767,
+    "confidence": 0.48,
+    "lift": 1.0613,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "맛김",
+      "파스타"
+    ],
+    "support": 0.182,
+    "confidence": 0.7184,
+    "lift": 1.0612,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "깻잎",
+      "생수"
+    ],
+    "consequents": [
+      "참외"
+    ],
+    "support": 0.224,
+    "confidence": 0.48,
+    "lift": 1.0612,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "깻잎"
+    ],
+    "consequents": [
+      "국수",
+      "참외"
+    ],
+    "support": 0.262,
+    "confidence": 0.4333,
+    "lift": 1.0611,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "쇠고기",
+      "깻잎"
+    ],
+    "support": 0.143,
+    "confidence": 0.5645,
+    "lift": 1.061,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "참외",
+      "땅콩"
+    ],
+    "consequents": [
+      "북어"
+    ],
+    "support": 0.2917,
+    "confidence": 0.831,
+    "lift": 1.0608,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "당면"
+    ],
+    "consequents": [
+      "파스타",
+      "깻잎"
+    ],
+    "support": 0.346,
+    "confidence": 0.495,
+    "lift": 1.0607,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "전복",
+      "참외"
+    ],
+    "support": 0.1173,
+    "confidence": 0.4632,
+    "lift": 1.0607,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "참외"
+    ],
+    "consequents": [
+      "맛김",
+      "깻잎"
+    ],
+    "support": 0.264,
+    "confidence": 0.5836,
+    "lift": 1.0605,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "파스타",
+      "깻잎"
+    ],
+    "consequents": [
+      "생수"
+    ],
+    "support": 0.368,
+    "confidence": 0.7886,
+    "lift": 1.0604,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "참외"
+    ],
+    "consequents": [
+      "깻잎",
+      "풋고추"
+    ],
+    "support": 0.282,
+    "confidence": 0.6234,
+    "lift": 1.0603,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "조기",
+      "국수"
+    ],
+    "support": 0.1603,
+    "confidence": 0.6329,
+    "lift": 1.0601,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "북어",
+      "당면"
+    ],
+    "support": 0.1497,
+    "confidence": 0.5908,
+    "lift": 1.06,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물",
+      "탄산음료"
+    ],
+    "consequents": [
+      "참외"
+    ],
+    "support": 0.0857,
+    "confidence": 0.4795,
+    "lift": 1.06,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "생수",
+      "탄산음료"
+    ],
+    "consequents": [
+      "깻잎"
+    ],
+    "support": 0.332,
+    "confidence": 0.6409,
+    "lift": 1.06,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "깻잎",
+      "조미료"
+    ],
+    "support": 0.1257,
+    "confidence": 0.4961,
+    "lift": 1.0599,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "카레",
+      "파스타"
+    ],
+    "support": 0.185,
+    "confidence": 0.7303,
+    "lift": 1.0599,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "참외",
+      "마른안주"
+    ],
+    "consequents": [
+      "북어"
+    ],
+    "support": 0.2967,
+    "confidence": 0.8302,
+    "lift": 1.0599,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "참외"
+    ],
+    "consequents": [
+      "깻잎",
+      "소시지"
+    ],
+    "support": 0.2787,
+    "confidence": 0.6161,
+    "lift": 1.0597,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "카레",
+      "참외"
+    ],
+    "consequents": [
+      "깻잎"
+    ],
+    "support": 0.2687,
+    "confidence": 0.6407,
+    "lift": 1.0596,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "쇠고기",
+      "파스타"
+    ],
+    "support": 0.176,
+    "confidence": 0.6947,
+    "lift": 1.0596,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "파스타"
+    ],
+    "consequents": [
+      "깻잎",
+      "생수"
+    ],
+    "support": 0.368,
+    "confidence": 0.4944,
+    "lift": 1.0594,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "갈치",
+      "당면"
+    ],
+    "consequents": [
+      "조기"
+    ],
+    "support": 0.2877,
+    "confidence": 0.7016,
+    "lift": 1.0593,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "북어",
+      "조미료"
+    ],
+    "support": 0.16,
+    "confidence": 0.6316,
+    "lift": 1.0591,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "참외"
+    ],
+    "consequents": [
+      "깻잎",
+      "돼지고기"
+    ],
+    "support": 0.2663,
+    "confidence": 0.5888,
+    "lift": 1.059,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "탄산음료"
+    ],
+    "consequents": [
+      "파스타",
+      "깻잎"
+    ],
+    "support": 0.34,
+    "confidence": 0.4942,
+    "lift": 1.059,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "깻잎",
+      "참외"
+    ],
+    "consequents": [
+      "당면"
+    ],
+    "support": 0.2127,
+    "confidence": 0.7401,
+    "lift": 1.0589,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "파스타",
+      "닭고기"
+    ],
+    "support": 0.1593,
+    "confidence": 0.6289,
+    "lift": 1.0588,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물",
+      "돼지고기"
+    ],
+    "consequents": [
+      "조기"
+    ],
+    "support": 0.162,
+    "confidence": 0.7013,
+    "lift": 1.0588,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "조기",
+      "생수"
+    ],
+    "consequents": [
+      "깻잎"
+    ],
+    "support": 0.3173,
+    "confidence": 0.6402,
+    "lift": 1.0588,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "참외"
+    ],
+    "consequents": [
+      "깻잎",
+      "드레싱"
+    ],
+    "support": 0.2613,
+    "confidence": 0.5777,
+    "lift": 1.0588,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "국수",
+      "깻잎"
+    ],
+    "support": 0.146,
+    "confidence": 0.5763,
+    "lift": 1.0588,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "북어",
+      "생수"
+    ],
+    "consequents": [
+      "깻잎"
+    ],
+    "support": 0.3793,
+    "confidence": 0.64,
+    "lift": 1.0585,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "계란",
+      "아몬드"
+    ],
+    "support": 0.1883,
+    "confidence": 0.7434,
+    "lift": 1.0585,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "깻잎",
+      "미역"
+    ],
+    "consequents": [
+      "참외"
+    ],
+    "support": 0.286,
+    "confidence": 0.4788,
+    "lift": 1.0585,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "멸치",
+      "국수"
+    ],
+    "support": 0.2253,
+    "confidence": 0.8895,
+    "lift": 1.0585,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물",
+      "생수"
+    ],
+    "consequents": [
+      "북어"
+    ],
+    "support": 0.1617,
+    "confidence": 0.8291,
+    "lift": 1.0584,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "참외",
+      "탄산음료"
+    ],
+    "consequents": [
+      "북어"
+    ],
+    "support": 0.2587,
+    "confidence": 0.8291,
+    "lift": 1.0584,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "깻잎",
+      "참외"
+    ],
+    "consequents": [
+      "파스타"
+    ],
+    "support": 0.2263,
+    "confidence": 0.7877,
+    "lift": 1.0583,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "깻잎",
+      "땅콩"
+    ],
+    "support": 0.126,
+    "confidence": 0.4974,
+    "lift": 1.0582,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "북어",
+      "땅콩"
+    ],
+    "support": 0.1643,
+    "confidence": 0.6487,
+    "lift": 1.0582,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "갈치",
+      "생수"
+    ],
+    "consequents": [
+      "깻잎"
+    ],
+    "support": 0.2807,
+    "confidence": 0.6398,
+    "lift": 1.0581,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "갈치",
+      "콩나물"
+    ],
+    "consequents": [
+      "조기"
+    ],
+    "support": 0.114,
+    "confidence": 0.7008,
+    "lift": 1.0581,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "조기",
+      "도라지"
+    ],
+    "support": 0.172,
+    "confidence": 0.6789,
+    "lift": 1.0581,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "참외"
+    ],
+    "consequents": [
+      "조기",
+      "북어"
+    ],
+    "support": 0.253,
+    "confidence": 0.5593,
+    "lift": 1.058,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "밤",
+      "콩나물"
+    ],
+    "consequents": [
+      "참외"
+    ],
+    "support": 0.1187,
+    "confidence": 0.4785,
+    "lift": 1.0578,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "참외"
+    ],
+    "consequents": [
+      "북어",
+      "조미료"
+    ],
+    "support": 0.2853,
+    "confidence": 0.6308,
+    "lift": 1.0578,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "쇠고기",
+      "아몬드"
+    ],
+    "support": 0.2,
+    "confidence": 0.7895,
+    "lift": 1.0578,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물",
+      "탄산음료"
+    ],
+    "consequents": [
+      "파스타"
+    ],
+    "support": 0.1407,
+    "confidence": 0.7873,
+    "lift": 1.0577,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "깻잎"
+    ],
+    "consequents": [
+      "멸치",
+      "참외"
+    ],
+    "support": 0.272,
+    "confidence": 0.4498,
+    "lift": 1.0576,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "나물",
+      "깻잎"
+    ],
+    "support": 0.1383,
+    "confidence": 0.5461,
+    "lift": 1.0576,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "갈치",
+      "참외"
+    ],
+    "consequents": [
+      "북어"
+    ],
+    "support": 0.2237,
+    "confidence": 0.8284,
+    "lift": 1.0575,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "북어",
+      "파스타"
+    ],
+    "consequents": [
+      "깻잎"
+    ],
+    "support": 0.3807,
+    "confidence": 0.6394,
+    "lift": 1.0575,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "조기",
+      "배"
+    ],
+    "support": 0.171,
+    "confidence": 0.675,
+    "lift": 1.0574,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "조기",
+      "파스타"
+    ],
+    "consequents": [
+      "당면"
+    ],
+    "support": 0.374,
+    "confidence": 0.7391,
+    "lift": 1.0574,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "갈치",
+      "콩나물"
+    ],
+    "consequents": [
+      "깻잎"
+    ],
+    "support": 0.104,
+    "confidence": 0.6393,
+    "lift": 1.0573,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "깻잎"
+    ],
+    "consequents": [
+      "맛김",
+      "참외"
+    ],
+    "support": 0.264,
+    "confidence": 0.4366,
+    "lift": 1.0572,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "참외",
+      "돼지고기"
+    ],
+    "consequents": [
+      "깻잎"
+    ],
+    "support": 0.2663,
+    "confidence": 0.6392,
+    "lift": 1.0571,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "조미료",
+      "콩나물"
+    ],
+    "consequents": [
+      "아몬드"
+    ],
+    "support": 0.1763,
+    "confidence": 0.8936,
+    "lift": 1.0571,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "조기",
+      "전복"
+    ],
+    "support": 0.1707,
+    "confidence": 0.6737,
+    "lift": 1.057,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "북어",
+      "콩나물"
+    ],
+    "consequents": [
+      "생수"
+    ],
+    "support": 0.1617,
+    "confidence": 0.7861,
+    "lift": 1.057,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "맛김",
+      "땅콩"
+    ],
+    "support": 0.1873,
+    "confidence": 0.7395,
+    "lift": 1.0569,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "쇠고기",
+      "콩나물"
+    ],
+    "consequents": [
+      "참외"
+    ],
+    "support": 0.1087,
+    "confidence": 0.478,
+    "lift": 1.0568,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "파스타"
+    ],
+    "consequents": [
+      "깻잎",
+      "땅콩"
+    ],
+    "support": 0.3697,
+    "confidence": 0.4966,
+    "lift": 1.0567,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "멸치",
+      "쇠고기"
+    ],
+    "support": 0.2207,
+    "confidence": 0.8711,
+    "lift": 1.0567,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "국수",
+      "콩나물"
+    ],
+    "consequents": [
+      "파스타"
+    ],
+    "support": 0.1817,
+    "confidence": 0.7864,
+    "lift": 1.0566,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "북어",
+      "참외"
+    ],
+    "consequents": [
+      "파스타"
+    ],
+    "support": 0.2883,
+    "confidence": 0.7864,
+    "lift": 1.0565,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "멸치",
+      "나물"
+    ],
+    "support": 0.213,
+    "confidence": 0.8408,
+    "lift": 1.0563,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "카레",
+      "깻잎"
+    ],
+    "consequents": [
+      "참외"
+    ],
+    "support": 0.2687,
+    "confidence": 0.4778,
+    "lift": 1.0562,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "깻잎",
+      "파프리카"
+    ],
+    "consequents": [
+      "참외"
+    ],
+    "support": 0.2863,
+    "confidence": 0.4778,
+    "lift": 1.0562,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "깻잎",
+      "참외"
+    ],
+    "consequents": [
+      "조기"
+    ],
+    "support": 0.201,
+    "confidence": 0.6995,
+    "lift": 1.0562,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "갈치",
+      "깻잎"
+    ],
+    "consequents": [
+      "참외"
+    ],
+    "support": 0.1717,
+    "confidence": 0.4777,
+    "lift": 1.0562,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "계란",
+      "참외"
+    ],
+    "consequents": [
+      "깻잎"
+    ],
+    "support": 0.2403,
+    "confidence": 0.6386,
+    "lift": 1.0561,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "깻잎"
+    ],
+    "consequents": [
+      "참외",
+      "잼"
+    ],
+    "support": 0.2857,
+    "confidence": 0.4724,
+    "lift": 1.0561,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "계란",
+      "조기"
+    ],
+    "support": 0.1487,
+    "confidence": 0.5868,
+    "lift": 1.0561,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "갈치",
+      "깻잎"
+    ],
+    "consequents": [
+      "조기"
+    ],
+    "support": 0.2513,
+    "confidence": 0.6994,
+    "lift": 1.056,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "멸치",
+      "탄산음료"
+    ],
+    "support": 0.173,
+    "confidence": 0.6829,
+    "lift": 1.056,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "깻잎"
+    ],
+    "consequents": [
+      "풋고추",
+      "참외"
+    ],
+    "support": 0.282,
+    "confidence": 0.4664,
+    "lift": 1.0559,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "쇠고기",
+      "당면"
+    ],
+    "support": 0.1643,
+    "confidence": 0.6487,
+    "lift": 1.0559,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "계란",
+      "조미료"
+    ],
+    "support": 0.1697,
+    "confidence": 0.6697,
+    "lift": 1.0558,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "맛김",
+      "콩나물"
+    ],
+    "consequents": [
+      "조기"
+    ],
+    "support": 0.1643,
+    "confidence": 0.6993,
+    "lift": 1.0558,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "아몬드",
+      "닭고기"
+    ],
+    "support": 0.18,
+    "confidence": 0.7105,
+    "lift": 1.0558,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "파스타",
+      "콩나물"
+    ],
+    "consequents": [
+      "생수"
+    ],
+    "support": 0.1547,
+    "confidence": 0.7851,
+    "lift": 1.0557,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "당면",
+      "탄산음료"
+    ],
+    "consequents": [
+      "깻잎"
+    ],
+    "support": 0.3107,
+    "confidence": 0.6384,
+    "lift": 1.0557,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "참외"
+    ],
+    "consequents": [
+      "깻잎",
+      "도라지"
+    ],
+    "support": 0.2797,
+    "confidence": 0.6183,
+    "lift": 1.0557,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "깻잎"
+    ],
+    "consequents": [
+      "파스타",
+      "마른안주"
+    ],
+    "support": 0.383,
+    "confidence": 0.6334,
+    "lift": 1.0557,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "북어",
+      "쇠고기"
+    ],
+    "support": 0.1853,
+    "confidence": 0.7316,
+    "lift": 1.0557,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "드레싱",
+      "콩나물"
+    ],
+    "consequents": [
+      "파스타"
+    ],
+    "support": 0.1797,
+    "confidence": 0.7857,
+    "lift": 1.0556,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "깻잎",
+      "잼"
+    ],
+    "consequents": [
+      "참외"
+    ],
+    "support": 0.2857,
+    "confidence": 0.4774,
+    "lift": 1.0555,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "참외",
+      "땅콩"
+    ],
+    "consequents": [
+      "깻잎"
+    ],
+    "support": 0.224,
+    "confidence": 0.6382,
+    "lift": 1.0554,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "깻잎"
+    ],
+    "consequents": [
+      "북어",
+      "당면"
+    ],
+    "support": 0.3557,
+    "confidence": 0.5882,
+    "lift": 1.0554,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "파스타",
+      "드레싱"
+    ],
+    "support": 0.1797,
+    "confidence": 0.7092,
+    "lift": 1.0554,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "조미료",
+      "당면"
+    ],
+    "consequents": [
+      "깻잎"
+    ],
+    "support": 0.3403,
+    "confidence": 0.6381,
+    "lift": 1.0553,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "맛김",
+      "생수"
+    ],
+    "support": 0.18,
+    "confidence": 0.7105,
+    "lift": 1.0552,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "계란",
+      "콩나물"
+    ],
+    "consequents": [
+      "깻잎"
+    ],
+    "support": 0.1363,
+    "confidence": 0.6381,
+    "lift": 1.0552,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "블루베리",
+      "참외"
+    ],
+    "consequents": [
+      "깻잎"
+    ],
+    "support": 0.285,
+    "confidence": 0.6381,
+    "lift": 1.0552,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "당면"
+    ],
+    "consequents": [
+      "파스타",
+      "땅콩"
+    ],
+    "support": 0.431,
+    "confidence": 0.6166,
+    "lift": 1.0552,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "북어",
+      "깻잎"
+    ],
+    "consequents": [
+      "파스타"
+    ],
+    "support": 0.3807,
+    "confidence": 0.7854,
+    "lift": 1.0552,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "참외",
+      "도라지"
+    ],
+    "consequents": [
+      "깻잎"
+    ],
+    "support": 0.2797,
+    "confidence": 0.638,
+    "lift": 1.0552,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "깻잎"
+    ],
+    "consequents": [
+      "나물",
+      "참외"
+    ],
+    "support": 0.245,
+    "confidence": 0.4052,
+    "lift": 1.0552,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "파스타",
+      "조미료"
+    ],
+    "consequents": [
+      "깻잎"
+    ],
+    "support": 0.3653,
+    "confidence": 0.638,
+    "lift": 1.055,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "파스타",
+      "밤"
+    ],
+    "support": 0.1937,
+    "confidence": 0.7645,
+    "lift": 1.0549,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "깻잎",
+      "마른안주"
+    ],
+    "consequents": [
+      "생수"
+    ],
+    "support": 0.3883,
+    "confidence": 0.7845,
+    "lift": 1.0549,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "전복",
+      "콩나물"
+    ],
+    "consequents": [
+      "참외"
+    ],
+    "support": 0.1173,
+    "confidence": 0.477,
+    "lift": 1.0545,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "깻잎",
+      "딸기"
+    ],
+    "consequents": [
+      "참외"
+    ],
+    "support": 0.286,
+    "confidence": 0.4769,
+    "lift": 1.0544,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "빵",
+      "참외"
+    ],
+    "consequents": [
+      "깻잎"
+    ],
+    "support": 0.282,
+    "confidence": 0.6375,
+    "lift": 1.0543,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물",
+      "탄산음료"
+    ],
+    "consequents": [
+      "당면"
+    ],
+    "support": 0.1317,
+    "confidence": 0.7369,
+    "lift": 1.0543,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "조기",
+      "밤"
+    ],
+    "support": 0.172,
+    "confidence": 0.6789,
+    "lift": 1.0543,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "파스타"
+    ],
+    "consequents": [
+      "북어",
+      "당면"
+    ],
+    "support": 0.4373,
+    "confidence": 0.5876,
+    "lift": 1.0542,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "멸치",
+      "당면"
+    ],
+    "support": 0.1773,
+    "confidence": 0.7,
+    "lift": 1.0542,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물",
+      "도라지"
+    ],
+    "consequents": [
+      "조기"
+    ],
+    "support": 0.172,
+    "confidence": 0.6982,
+    "lift": 1.0542,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "맛김",
+      "국수"
+    ],
+    "support": 0.2153,
+    "confidence": 0.85,
+    "lift": 1.0542,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "깻잎"
+    ],
+    "consequents": [
+      "드레싱",
+      "참외"
+    ],
+    "support": 0.2613,
+    "confidence": 0.4322,
+    "lift": 1.0541,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "조기",
+      "돼지고기"
+    ],
+    "support": 0.162,
+    "confidence": 0.6395,
+    "lift": 1.0541,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "빵",
+      "파스타"
+    ],
+    "support": 0.1947,
+    "confidence": 0.7684,
+    "lift": 1.0541,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "참외"
+    ],
+    "consequents": [
+      "깻잎",
+      "상추"
+    ],
+    "support": 0.2873,
+    "confidence": 0.6352,
+    "lift": 1.054,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "깻잎"
+    ],
+    "consequents": [
+      "조기",
+      "당면"
+    ],
+    "support": 0.304,
+    "confidence": 0.5028,
+    "lift": 1.054,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "파스타",
+      "풋고추"
+    ],
+    "support": 0.1937,
+    "confidence": 0.7645,
+    "lift": 1.054,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "갈치",
+      "파스타"
+    ],
+    "consequents": [
+      "깻잎"
+    ],
+    "support": 0.284,
+    "confidence": 0.6372,
+    "lift": 1.0539,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "깻잎"
+    ],
+    "consequents": [
+      "참외",
+      "파프리카"
+    ],
+    "support": 0.2863,
+    "confidence": 0.4735,
+    "lift": 1.0539,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "파스타",
+      "콩나물"
+    ],
+    "consequents": [
+      "조미료"
+    ],
+    "support": 0.157,
+    "confidence": 0.797,
+    "lift": 1.0537,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "깻잎"
+    ],
+    "consequents": [
+      "생수",
+      "오징어"
+    ],
+    "support": 0.4337,
+    "confidence": 0.7172,
+    "lift": 1.0537,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "당면",
+      "아몬드"
+    ],
+    "support": 0.159,
+    "confidence": 0.6276,
+    "lift": 1.0537,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "참외"
+    ],
+    "consequents": [
+      "깻잎",
+      "땅콩"
+    ],
+    "support": 0.224,
+    "confidence": 0.4952,
+    "lift": 1.0536,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "블루베리",
+      "깻잎"
+    ],
+    "consequents": [
+      "참외"
+    ],
+    "support": 0.285,
+    "confidence": 0.4766,
+    "lift": 1.0536,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "당면",
+      "콩나물"
+    ],
+    "consequents": [
+      "탄산음료"
+    ],
+    "support": 0.1317,
+    "confidence": 0.7248,
+    "lift": 1.0534,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "파스타"
+    ],
+    "consequents": [
+      "당면",
+      "땅콩"
+    ],
+    "support": 0.431,
+    "confidence": 0.579,
+    "lift": 1.0534,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "파스타"
+    ],
+    "consequents": [
+      "조기",
+      "당면"
+    ],
+    "support": 0.374,
+    "confidence": 0.5025,
+    "lift": 1.0534,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "북어",
+      "깻잎"
+    ],
+    "support": 0.1293,
+    "confidence": 0.5105,
+    "lift": 1.0534,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "조기",
+      "소시지"
+    ],
+    "support": 0.169,
+    "confidence": 0.6671,
+    "lift": 1.0533,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "북어",
+      "파스타"
+    ],
+    "consequents": [
+      "갈치"
+    ],
+    "support": 0.366,
+    "confidence": 0.6148,
+    "lift": 1.0533,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "조미료",
+      "콩나물"
+    ],
+    "consequents": [
+      "조기"
+    ],
+    "support": 0.1377,
+    "confidence": 0.6976,
+    "lift": 1.0533,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "당면",
+      "땅콩"
+    ],
+    "support": 0.1467,
+    "confidence": 0.5789,
+    "lift": 1.0533,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "조기",
+      "북어"
+    ],
+    "consequents": [
+      "갈치"
+    ],
+    "support": 0.325,
+    "confidence": 0.6148,
+    "lift": 1.0533,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물",
+      "오징어"
+    ],
+    "consequents": [
+      "파스타"
+    ],
+    "support": 0.1827,
+    "confidence": 0.784,
+    "lift": 1.0533,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "수박",
+      "참외"
+    ],
+    "consequents": [
+      "깻잎"
+    ],
+    "support": 0.2847,
+    "confidence": 0.6368,
+    "lift": 1.0532,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "조미료",
+      "콩나물"
+    ],
+    "consequents": [
+      "깻잎"
+    ],
+    "support": 0.1257,
+    "confidence": 0.6368,
+    "lift": 1.0532,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물",
+      "참외"
+    ],
+    "consequents": [
+      "조기"
+    ],
+    "support": 0.0853,
+    "confidence": 0.6975,
+    "lift": 1.0532,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "카레",
+      "콩나물"
+    ],
+    "consequents": [
+      "파스타"
+    ],
+    "support": 0.185,
+    "confidence": 0.7839,
+    "lift": 1.0532,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "조기",
+      "쇠고기"
+    ],
+    "support": 0.1563,
+    "confidence": 0.6171,
+    "lift": 1.0531,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "당면",
+      "마른안주"
+    ],
+    "consequents": [
+      "깻잎"
+    ],
+    "support": 0.3617,
+    "confidence": 0.6367,
+    "lift": 1.053,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물",
+      "아몬드"
+    ],
+    "consequents": [
+      "파스타"
+    ],
+    "support": 0.174,
+    "confidence": 0.7838,
+    "lift": 1.053,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "깻잎"
+    ],
+    "consequents": [
+      "계란",
+      "파스타"
+    ],
+    "support": 0.3943,
+    "confidence": 0.6521,
+    "lift": 1.053,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "깻잎",
+      "참외"
+    ],
+    "consequents": [
+      "북어"
+    ],
+    "support": 0.237,
+    "confidence": 0.8248,
+    "lift": 1.053,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "깻잎"
+    ],
+    "consequents": [
+      "탄산음료",
+      "마른안주"
+    ],
+    "support": 0.3517,
+    "confidence": 0.5816,
+    "lift": 1.053,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "밤",
+      "참외"
+    ],
+    "consequents": [
+      "깻잎"
+    ],
+    "support": 0.2803,
+    "confidence": 0.6366,
+    "lift": 1.0529,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "나물",
+      "조기"
+    ],
+    "consequents": [
+      "당면"
+    ],
+    "support": 0.419,
+    "confidence": 0.7359,
+    "lift": 1.0529,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "깻잎"
+    ],
+    "consequents": [
+      "생수",
+      "아몬드"
+    ],
+    "support": 0.407,
+    "confidence": 0.6731,
+    "lift": 1.0528,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "깻잎"
+    ],
+    "consequents": [
+      "갈치",
+      "당면"
+    ],
+    "support": 0.261,
+    "confidence": 0.4316,
+    "lift": 1.0528,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "깻잎",
+      "닭고기"
+    ],
+    "consequents": [
+      "생수"
+    ],
+    "support": 0.3787,
+    "confidence": 0.7829,
+    "lift": 1.0528,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물",
+      "닭고기"
+    ],
+    "consequents": [
+      "파스타"
+    ],
+    "support": 0.1593,
+    "confidence": 0.7836,
+    "lift": 1.0528,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "계란",
+      "맛김"
+    ],
+    "support": 0.1997,
+    "confidence": 0.7882,
+    "lift": 1.0527,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물",
+      "돼지고기"
+    ],
+    "consequents": [
+      "참외"
+    ],
+    "support": 0.11,
+    "confidence": 0.4762,
+    "lift": 1.0527,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "파스타"
+    ],
+    "consequents": [
+      "조기",
+      "깻잎"
+    ],
+    "support": 0.321,
+    "confidence": 0.4313,
+    "lift": 1.0527,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "참외"
+    ],
+    "consequents": [
+      "낙지",
+      "깻잎"
+    ],
+    "support": 0.2863,
+    "confidence": 0.633,
+    "lift": 1.0527,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "당면",
+      "콩나물"
+    ],
+    "consequents": [
+      "땅콩"
+    ],
+    "support": 0.1467,
+    "confidence": 0.8073,
+    "lift": 1.0526,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "빵",
+      "깻잎"
+    ],
+    "consequents": [
+      "참외"
+    ],
+    "support": 0.282,
+    "confidence": 0.4761,
+    "lift": 1.0525,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "국수",
+      "생수"
+    ],
+    "support": 0.1777,
+    "confidence": 0.7013,
+    "lift": 1.0525,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "깻잎",
+      "소시지"
+    ],
+    "support": 0.155,
+    "confidence": 0.6118,
+    "lift": 1.0525,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "북어",
+      "깻잎"
+    ],
+    "consequents": [
+      "생수"
+    ],
+    "support": 0.3793,
+    "confidence": 0.7827,
+    "lift": 1.0524,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "참외",
+      "닭고기"
+    ],
+    "consequents": [
+      "깻잎"
+    ],
+    "support": 0.2287,
+    "confidence": 0.6364,
+    "lift": 1.0524,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "멸치",
+      "배"
+    ],
+    "support": 0.2383,
+    "confidence": 0.9408,
+    "lift": 1.0523,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "깻잎",
+      "치즈"
+    ],
+    "consequents": [
+      "참외"
+    ],
+    "support": 0.2843,
+    "confidence": 0.476,
+    "lift": 1.0523,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "깻잎"
+    ],
+    "consequents": [
+      "낙지",
+      "참외"
+    ],
+    "support": 0.2863,
+    "confidence": 0.4735,
+    "lift": 1.0523,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "파스타",
+      "콩나물"
+    ],
+    "consequents": [
+      "땅콩"
+    ],
+    "support": 0.159,
+    "confidence": 0.8071,
+    "lift": 1.0523,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "당면"
+    ],
+    "consequents": [
+      "조기",
+      "땅콩"
+    ],
+    "support": 0.381,
+    "confidence": 0.5451,
+    "lift": 1.0522,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "참외"
+    ],
+    "consequents": [
+      "깻잎",
+      "파"
+    ],
+    "support": 0.287,
+    "confidence": 0.6345,
+    "lift": 1.0522,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "깻잎",
+      "밤"
+    ],
+    "consequents": [
+      "참외"
+    ],
+    "support": 0.2803,
+    "confidence": 0.4759,
+    "lift": 1.0522,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "키위",
+      "깻잎"
+    ],
+    "consequents": [
+      "참외"
+    ],
+    "support": 0.2867,
+    "confidence": 0.4759,
+    "lift": 1.0522,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "깻잎",
+      "배"
+    ],
+    "consequents": [
+      "참외"
+    ],
+    "support": 0.2767,
+    "confidence": 0.4759,
+    "lift": 1.0521,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "김",
+      "참외"
+    ],
+    "consequents": [
+      "깻잎"
+    ],
+    "support": 0.2873,
+    "confidence": 0.6362,
+    "lift": 1.0521,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "참외",
+      "상추"
+    ],
+    "consequents": [
+      "깻잎"
+    ],
+    "support": 0.2873,
+    "confidence": 0.6362,
+    "lift": 1.0521,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "드레싱",
+      "콩나물"
+    ],
+    "consequents": [
+      "조기"
+    ],
+    "support": 0.1593,
+    "confidence": 0.6968,
+    "lift": 1.052,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "북어",
+      "국수"
+    ],
+    "support": 0.1897,
+    "confidence": 0.7487,
+    "lift": 1.052,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "나물",
+      "북어"
+    ],
+    "support": 0.179,
+    "confidence": 0.7066,
+    "lift": 1.052,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "나물",
+      "깻잎"
+    ],
+    "consequents": [
+      "당면"
+    ],
+    "support": 0.3797,
+    "confidence": 0.7353,
+    "lift": 1.052,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "북어",
+      "땅콩"
+    ],
+    "consequents": [
+      "참외"
+    ],
+    "support": 0.2917,
+    "confidence": 0.4758,
+    "lift": 1.0519,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "라면",
+      "참외"
+    ],
+    "consequents": [
+      "깻잎"
+    ],
+    "support": 0.286,
+    "confidence": 0.636,
+    "lift": 1.0519,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "참외",
+      "딸기"
+    ],
+    "consequents": [
+      "깻잎"
+    ],
+    "support": 0.286,
+    "confidence": 0.636,
+    "lift": 1.0519,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "깻잎"
+    ],
+    "consequents": [
+      "미역",
+      "참외"
+    ],
+    "support": 0.286,
+    "confidence": 0.473,
+    "lift": 1.0519,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "깻잎",
+      "수박"
+    ],
+    "consequents": [
+      "참외"
+    ],
+    "support": 0.2847,
+    "confidence": 0.4758,
+    "lift": 1.0518,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "깻잎",
+      "아몬드"
+    ],
+    "consequents": [
+      "생수"
+    ],
+    "support": 0.407,
+    "confidence": 0.7822,
+    "lift": 1.0518,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "국수",
+      "땅콩"
+    ],
+    "support": 0.185,
+    "confidence": 0.7303,
+    "lift": 1.0517,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "빵",
+      "콩나물"
+    ],
+    "consequents": [
+      "파스타"
+    ],
+    "support": 0.1947,
+    "confidence": 0.7828,
+    "lift": 1.0517,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "당면",
+      "콩나물"
+    ],
+    "consequents": [
+      "북어"
+    ],
+    "support": 0.1497,
+    "confidence": 0.8239,
+    "lift": 1.0517,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "깻잎",
+      "오징어"
+    ],
+    "consequents": [
+      "파스타"
+    ],
+    "support": 0.4373,
+    "confidence": 0.7828,
+    "lift": 1.0517,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "깻잎",
+      "호박"
+    ],
+    "consequents": [
+      "참외"
+    ],
+    "support": 0.2873,
+    "confidence": 0.4757,
+    "lift": 1.0517,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "조미료",
+      "콩나물"
+    ],
+    "consequents": [
+      "생수"
+    ],
+    "support": 0.1543,
+    "confidence": 0.7821,
+    "lift": 1.0517,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물",
+      "참외"
+    ],
+    "consequents": [
+      "멸치"
+    ],
+    "support": 0.1203,
+    "confidence": 0.9837,
+    "lift": 1.0517,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "멸치",
+      "소시지"
+    ],
+    "support": 0.238,
+    "confidence": 0.9395,
+    "lift": 1.0516,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "파스타",
+      "소시지"
+    ],
+    "support": 0.1893,
+    "confidence": 0.7474,
+    "lift": 1.0516,
+    "ageGroup": "전체"
+  },
+  {
+    "antecedents": [
+      "참외"
+    ],
+    "consequents": [
+      "갈치"
+    ],
+    "support": 0.2976,
+    "confidence": 0.6595,
+    "lift": 1.1013,
+    "ageGroup": "20대"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "참외"
+    ],
+    "support": 0.1268,
+    "confidence": 0.4929,
+    "lift": 1.0924,
+    "ageGroup": "20대"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "탄산음료"
+    ],
+    "support": 0.178,
+    "confidence": 0.6919,
+    "lift": 1.0685,
+    "ageGroup": "20대"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "갈치"
+    ],
+    "support": 0.1646,
+    "confidence": 0.6398,
+    "lift": 1.0685,
+    "ageGroup": "20대"
+  },
+  {
+    "antecedents": [
+      "깻잎"
+    ],
+    "consequents": [
+      "탄산음료"
+    ],
+    "support": 0.4098,
+    "confidence": 0.6899,
+    "lift": 1.0654,
+    "ageGroup": "20대"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "아몬드"
+    ],
+    "support": 0.2268,
+    "confidence": 0.8815,
+    "lift": 1.0568,
+    "ageGroup": "20대"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "땅콩"
+    ],
+    "support": 0.2049,
+    "confidence": 0.7962,
+    "lift": 1.0565,
+    "ageGroup": "20대"
+  },
+  {
+    "antecedents": [
+      "깻잎"
+    ],
+    "consequents": [
+      "파스타"
+    ],
+    "support": 0.4646,
+    "confidence": 0.7823,
+    "lift": 1.0517,
+    "ageGroup": "20대"
+  },
+  {
+    "antecedents": [
+      "갈치"
+    ],
+    "consequents": [
+      "깻잎"
+    ],
+    "support": 0.3732,
+    "confidence": 0.6232,
+    "lift": 1.0494,
+    "ageGroup": "20대"
+  },
+  {
+    "antecedents": [
+      "참외"
+    ],
+    "consequents": [
+      "북어"
+    ],
+    "support": 0.3671,
+    "confidence": 0.8135,
+    "lift": 1.0472,
+    "ageGroup": "20대"
+  },
+  {
+    "antecedents": [
+      "참외"
+    ],
+    "consequents": [
+      "깻잎"
+    ],
+    "support": 0.2805,
+    "confidence": 0.6216,
+    "lift": 1.0467,
+    "ageGroup": "20대"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "깻잎"
+    ],
+    "support": 0.1598,
+    "confidence": 0.6209,
+    "lift": 1.0454,
+    "ageGroup": "20대"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "파스타"
+    ],
+    "support": 0.2,
+    "confidence": 0.7773,
+    "lift": 1.0448,
+    "ageGroup": "20대"
+  },
+  {
+    "antecedents": [
+      "북어"
+    ],
+    "consequents": [
+      "깻잎"
+    ],
+    "support": 0.4817,
+    "confidence": 0.6201,
+    "lift": 1.0441,
+    "ageGroup": "20대"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "당면"
+    ],
+    "support": 0.189,
+    "confidence": 0.7346,
+    "lift": 1.044,
+    "ageGroup": "20대"
+  },
+  {
+    "antecedents": [
+      "당면"
+    ],
+    "consequents": [
+      "땅콩"
+    ],
+    "support": 0.5524,
+    "confidence": 0.7851,
+    "lift": 1.0417,
+    "ageGroup": "20대"
+  },
+  {
+    "antecedents": [
+      "탄산음료"
+    ],
+    "consequents": [
+      "갈치"
+    ],
+    "support": 0.4024,
+    "confidence": 0.6215,
+    "lift": 1.0379,
+    "ageGroup": "20대"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "국수"
+    ],
+    "support": 0.2341,
+    "confidence": 0.91,
+    "lift": 1.0378,
+    "ageGroup": "20대"
+  },
+  {
+    "antecedents": [
+      "당면"
+    ],
+    "consequents": [
+      "참외"
+    ],
+    "support": 0.3293,
+    "confidence": 0.4679,
+    "lift": 1.0371,
+    "ageGroup": "20대"
+  },
+  {
+    "antecedents": [
+      "당면"
+    ],
+    "consequents": [
+      "조기"
+    ],
+    "support": 0.4829,
+    "confidence": 0.6863,
+    "lift": 1.0364,
+    "ageGroup": "20대"
+  },
+  {
+    "antecedents": [
+      "갈치"
+    ],
+    "consequents": [
+      "나물"
+    ],
+    "support": 0.5244,
+    "confidence": 0.8758,
+    "lift": 1.0363,
+    "ageGroup": "20대"
+  },
+  {
+    "antecedents": [
+      "참외"
+    ],
+    "consequents": [
+      "파스타"
+    ],
+    "support": 0.3476,
+    "confidence": 0.7703,
+    "lift": 1.0354,
+    "ageGroup": "20대"
+  },
+  {
+    "antecedents": [
+      "조기"
+    ],
+    "consequents": [
+      "탄산음료"
+    ],
+    "support": 0.4439,
+    "confidence": 0.6703,
+    "lift": 1.0352,
+    "ageGroup": "20대"
+  },
+  {
+    "antecedents": [
+      "참외"
+    ],
+    "consequents": [
+      "탄산음료"
+    ],
+    "support": 0.3024,
+    "confidence": 0.6703,
+    "lift": 1.0351,
+    "ageGroup": "20대"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "멸치"
+    ],
+    "support": 0.2476,
+    "confidence": 0.9621,
+    "lift": 1.034,
+    "ageGroup": "20대"
+  },
+  {
+    "antecedents": [
+      "국수"
+    ],
+    "consequents": [
+      "조기"
+    ],
+    "support": 0.5988,
+    "confidence": 0.6829,
+    "lift": 1.0313,
+    "ageGroup": "20대"
+  },
+  {
+    "antecedents": [
+      "생수"
+    ],
+    "consequents": [
+      "탄산음료"
+    ],
+    "support": 0.5,
+    "confidence": 0.6678,
+    "lift": 1.0312,
+    "ageGroup": "20대"
+  },
+  {
+    "antecedents": [
+      "파스타"
+    ],
+    "consequents": [
+      "땅콩"
+    ],
+    "support": 0.578,
+    "confidence": 0.777,
+    "lift": 1.031,
+    "ageGroup": "20대"
+  },
+  {
+    "antecedents": [
+      "닭고기"
+    ],
+    "consequents": [
+      "탄산음료"
+    ],
+    "support": 0.5256,
+    "confidence": 0.6672,
+    "lift": 1.0303,
+    "ageGroup": "20대"
+  },
+  {
+    "antecedents": [
+      "땅콩"
+    ],
+    "consequents": [
+      "조기"
+    ],
+    "support": 0.5134,
+    "confidence": 0.6812,
+    "lift": 1.0287,
+    "ageGroup": "20대"
+  },
+  {
+    "antecedents": [
+      "갈치"
+    ],
+    "consequents": [
+      "마른안주"
+    ],
+    "support": 0.4817,
+    "confidence": 0.8045,
+    "lift": 1.0275,
+    "ageGroup": "20대"
+  },
+  {
+    "antecedents": [
+      "탄산음료"
+    ],
+    "consequents": [
+      "당면"
+    ],
+    "support": 0.4671,
+    "confidence": 0.7213,
+    "lift": 1.025,
+    "ageGroup": "20대"
+  },
+  {
+    "antecedents": [
+      "조기"
+    ],
+    "consequents": [
+      "참외"
+    ],
+    "support": 0.3061,
+    "confidence": 0.4622,
+    "lift": 1.0244,
+    "ageGroup": "20대"
+  },
+  {
+    "antecedents": [
+      "깻잎"
+    ],
+    "consequents": [
+      "당면"
+    ],
+    "support": 0.428,
+    "confidence": 0.7207,
+    "lift": 1.0243,
+    "ageGroup": "20대"
+  },
+  {
+    "antecedents": [
+      "닭고기"
+    ],
+    "consequents": [
+      "계란"
+    ],
+    "support": 0.6829,
+    "confidence": 0.8669,
+    "lift": 1.0243,
+    "ageGroup": "20대"
+  },
+  {
+    "antecedents": [
+      "국수"
+    ],
+    "consequents": [
+      "북어"
+    ],
+    "support": 0.6976,
+    "confidence": 0.7955,
+    "lift": 1.0241,
+    "ageGroup": "20대"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "쇠고기"
+    ],
+    "support": 0.2329,
+    "confidence": 0.9052,
+    "lift": 1.0238,
+    "ageGroup": "20대"
+  },
+  {
+    "antecedents": [
+      "계란"
+    ],
+    "consequents": [
+      "탄산음료"
+    ],
+    "support": 0.561,
+    "confidence": 0.6628,
+    "lift": 1.0236,
+    "ageGroup": "20대"
+  },
+  {
+    "antecedents": [
+      "참외"
+    ],
+    "consequents": [
+      "나물"
+    ],
+    "support": 0.3902,
+    "confidence": 0.8649,
+    "lift": 1.0234,
+    "ageGroup": "20대"
+  },
+  {
+    "antecedents": [
+      "아몬드"
+    ],
+    "consequents": [
+      "마른안주"
+    ],
+    "support": 0.6683,
+    "confidence": 0.8012,
+    "lift": 1.0233,
+    "ageGroup": "20대"
+  },
+  {
+    "antecedents": [
+      "조기"
+    ],
+    "consequents": [
+      "깻잎"
+    ],
+    "support": 0.4024,
+    "confidence": 0.6077,
+    "lift": 1.0233,
+    "ageGroup": "20대"
+  },
+  {
+    "antecedents": [
+      "갈치"
+    ],
+    "consequents": [
+      "돼지고기"
+    ],
+    "support": 0.5573,
+    "confidence": 0.9308,
+    "lift": 1.0231,
+    "ageGroup": "20대"
+  },
+  {
+    "antecedents": [
+      "땅콩"
+    ],
+    "consequents": [
+      "북어"
+    ],
+    "support": 0.5988,
+    "confidence": 0.7945,
+    "lift": 1.0227,
+    "ageGroup": "20대"
+  },
+  {
+    "antecedents": [
+      "당면"
+    ],
+    "consequents": [
+      "마른안주"
+    ],
+    "support": 0.5634,
+    "confidence": 0.8007,
+    "lift": 1.0227,
+    "ageGroup": "20대"
+  },
+  {
+    "antecedents": [
+      "갈치"
+    ],
+    "consequents": [
+      "북어"
+    ],
+    "support": 0.4756,
+    "confidence": 0.7943,
+    "lift": 1.0225,
+    "ageGroup": "20대"
+  },
+  {
+    "antecedents": [
+      "생수"
+    ],
+    "consequents": [
+      "쇠고기"
+    ],
+    "support": 0.6768,
+    "confidence": 0.9039,
+    "lift": 1.0224,
+    "ageGroup": "20대"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "소시지"
+    ],
+    "support": 0.2524,
+    "confidence": 0.981,
+    "lift": 1.0222,
+    "ageGroup": "20대"
+  },
+  {
+    "antecedents": [
+      "참외"
+    ],
+    "consequents": [
+      "계란"
+    ],
+    "support": 0.3902,
+    "confidence": 0.8649,
+    "lift": 1.0219,
+    "ageGroup": "20대"
+  },
+  {
+    "antecedents": [
+      "멸치"
+    ],
+    "consequents": [
+      "깻잎"
+    ],
+    "support": 0.5646,
+    "confidence": 0.6068,
+    "lift": 1.0217,
+    "ageGroup": "20대"
+  },
+  {
+    "antecedents": [
+      "깻잎"
+    ],
+    "consequents": [
+      "계란"
+    ],
+    "support": 0.5134,
+    "confidence": 0.8645,
+    "lift": 1.0214,
+    "ageGroup": "20대"
+  },
+  {
+    "antecedents": [
+      "닭고기"
+    ],
+    "consequents": [
+      "조미료"
+    ],
+    "support": 0.6024,
+    "confidence": 0.7647,
+    "lift": 1.0213,
+    "ageGroup": "20대"
+  },
+  {
+    "antecedents": [
+      "조기"
+    ],
+    "consequents": [
+      "갈치"
+    ],
+    "support": 0.4049,
+    "confidence": 0.6114,
+    "lift": 1.0211,
+    "ageGroup": "20대"
+  },
+  {
+    "antecedents": [
+      "배"
+    ],
+    "consequents": [
+      "참외"
+    ],
+    "support": 0.4354,
+    "confidence": 0.4606,
+    "lift": 1.0209,
+    "ageGroup": "20대"
+  },
+  {
+    "antecedents": [
+      "갈치"
+    ],
+    "consequents": [
+      "혼합및이온음료"
+    ],
+    "support": 0.5695,
+    "confidence": 0.9511,
+    "lift": 1.0208,
+    "ageGroup": "20대"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "풋고추"
+    ],
+    "support": 0.2537,
+    "confidence": 0.9858,
+    "lift": 1.0206,
+    "ageGroup": "20대"
+  },
+  {
+    "antecedents": [
+      "갈치"
+    ],
+    "consequents": [
+      "아몬드"
+    ],
+    "support": 0.5098,
+    "confidence": 0.8513,
+    "lift": 1.0206,
+    "ageGroup": "20대"
+  },
+  {
+    "antecedents": [
+      "계란"
+    ],
+    "consequents": [
+      "조기"
+    ],
+    "support": 0.572,
+    "confidence": 0.6758,
+    "lift": 1.0205,
+    "ageGroup": "20대"
+  },
+  {
+    "antecedents": [
+      "아몬드"
+    ],
+    "consequents": [
+      "땅콩"
+    ],
+    "support": 0.6415,
+    "confidence": 0.769,
+    "lift": 1.0204,
+    "ageGroup": "20대"
+  },
+  {
+    "antecedents": [
+      "계란"
+    ],
+    "consequents": [
+      "갈치"
+    ],
+    "support": 0.5171,
+    "confidence": 0.611,
+    "lift": 1.0203,
+    "ageGroup": "20대"
+  },
+  {
+    "antecedents": [
+      "생수"
+    ],
+    "consequents": [
+      "땅콩"
+    ],
+    "support": 0.5756,
+    "confidence": 0.7687,
+    "lift": 1.02,
+    "ageGroup": "20대"
+  },
+  {
+    "antecedents": [
+      "갈치"
+    ],
+    "consequents": [
+      "멸치"
+    ],
+    "support": 0.5683,
+    "confidence": 0.9491,
+    "lift": 1.02,
+    "ageGroup": "20대"
+  },
+  {
+    "antecedents": [
+      "국수"
+    ],
+    "consequents": [
+      "당면"
+    ],
+    "support": 0.6293,
+    "confidence": 0.7177,
+    "lift": 1.0199,
+    "ageGroup": "20대"
+  },
+  {
+    "antecedents": [
+      "땅콩"
+    ],
+    "consequents": [
+      "맛김"
+    ],
+    "support": 0.7073,
+    "confidence": 0.9385,
+    "lift": 1.0193,
+    "ageGroup": "20대"
+  },
+  {
+    "antecedents": [
+      "맛김"
+    ],
+    "consequents": [
+      "깻잎"
+    ],
+    "support": 0.5573,
+    "confidence": 0.6053,
+    "lift": 1.0192,
+    "ageGroup": "20대"
+  },
+  {
+    "antecedents": [
+      "돼지고기"
+    ],
+    "consequents": [
+      "땅콩"
+    ],
+    "support": 0.6988,
+    "confidence": 0.7681,
+    "lift": 1.0192,
+    "ageGroup": "20대"
+  },
+  {
+    "antecedents": [
+      "멸치"
+    ],
+    "consequents": [
+      "북어"
+    ],
+    "support": 0.7366,
+    "confidence": 0.7916,
+    "lift": 1.019,
+    "ageGroup": "20대"
+  },
+  {
+    "antecedents": [
+      "생수"
+    ],
+    "consequents": [
+      "북어"
+    ],
+    "support": 0.5927,
+    "confidence": 0.7915,
+    "lift": 1.0189,
+    "ageGroup": "20대"
+  },
+  {
+    "antecedents": [
+      "닭고기"
+    ],
+    "consequents": [
+      "참외"
+    ],
+    "support": 0.3622,
+    "confidence": 0.4598,
+    "lift": 1.0189,
+    "ageGroup": "20대"
+  },
+  {
+    "antecedents": [
+      "당면"
+    ],
+    "consequents": [
+      "멸치"
+    ],
+    "support": 0.6671,
+    "confidence": 0.948,
+    "lift": 1.0188,
+    "ageGroup": "20대"
+  },
+  {
+    "antecedents": [
+      "참외"
+    ],
+    "consequents": [
+      "풋고추"
+    ],
+    "support": 0.4439,
+    "confidence": 0.9838,
+    "lift": 1.0186,
+    "ageGroup": "20대"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "카레"
+    ],
+    "support": 0.2451,
+    "confidence": 0.9526,
+    "lift": 1.0184,
+    "ageGroup": "20대"
+  },
+  {
+    "antecedents": [
+      "돼지고기"
+    ],
+    "consequents": [
+      "조기"
+    ],
+    "support": 0.6134,
+    "confidence": 0.6743,
+    "lift": 1.0182,
+    "ageGroup": "20대"
+  },
+  {
+    "antecedents": [
+      "파스타"
+    ],
+    "consequents": [
+      "당면"
+    ],
+    "support": 0.5329,
+    "confidence": 0.7164,
+    "lift": 1.0181,
+    "ageGroup": "20대"
+  },
+  {
+    "antecedents": [
+      "당면"
+    ],
+    "consequents": [
+      "아몬드"
+    ],
+    "support": 0.5976,
+    "confidence": 0.8492,
+    "lift": 1.0181,
+    "ageGroup": "20대"
+  },
+  {
+    "antecedents": [
+      "파스타"
+    ],
+    "consequents": [
+      "오징어"
+    ],
+    "support": 0.6963,
+    "confidence": 0.9361,
+    "lift": 1.018,
+    "ageGroup": "20대"
+  },
+  {
+    "antecedents": [
+      "참외"
+    ],
+    "consequents": [
+      "조미료"
+    ],
+    "support": 0.3439,
+    "confidence": 0.7622,
+    "lift": 1.0179,
+    "ageGroup": "20대"
+  },
+  {
+    "antecedents": [
+      "생수"
+    ],
+    "consequents": [
+      "깻잎"
+    ],
+    "support": 0.4524,
+    "confidence": 0.6042,
+    "lift": 1.0174,
+    "ageGroup": "20대"
+  },
+  {
+    "antecedents": [
+      "참외"
+    ],
+    "consequents": [
+      "아몬드"
+    ],
+    "support": 0.3829,
+    "confidence": 0.8486,
+    "lift": 1.0174,
+    "ageGroup": "20대"
+  },
+  {
+    "antecedents": [
+      "파스타"
+    ],
+    "consequents": [
+      "국수"
+    ],
+    "support": 0.6634,
+    "confidence": 0.8918,
+    "lift": 1.0171,
+    "ageGroup": "20대"
+  },
+  {
+    "antecedents": [
+      "땅콩"
+    ],
+    "consequents": [
+      "국수"
+    ],
+    "support": 0.672,
+    "confidence": 0.8916,
+    "lift": 1.0168,
+    "ageGroup": "20대"
+  },
+  {
+    "antecedents": [
+      "혼합및이온음료"
+    ],
+    "consequents": [
+      "탄산음료"
+    ],
+    "support": 0.6134,
+    "confidence": 0.6584,
+    "lift": 1.0167,
+    "ageGroup": "20대"
+  },
+  {
+    "antecedents": [
+      "멸치"
+    ],
+    "consequents": [
+      "참외"
+    ],
+    "support": 0.4268,
+    "confidence": 0.4587,
+    "lift": 1.0166,
+    "ageGroup": "20대"
+  },
+  {
+    "antecedents": [
+      "닭고기"
+    ],
+    "consequents": [
+      "깻잎"
+    ],
+    "support": 0.4756,
+    "confidence": 0.6037,
+    "lift": 1.0165,
+    "ageGroup": "20대"
+  },
+  {
+    "antecedents": [
+      "나물"
+    ],
+    "consequents": [
+      "파스타"
+    ],
+    "support": 0.639,
+    "confidence": 0.7561,
+    "lift": 1.0164,
+    "ageGroup": "20대"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "전복"
+    ],
+    "support": 0.25,
+    "confidence": 0.9716,
+    "lift": 1.0162,
+    "ageGroup": "20대"
+  },
+  {
+    "antecedents": [
+      "국수"
+    ],
+    "consequents": [
+      "마른안주"
+    ],
+    "support": 0.6976,
+    "confidence": 0.7955,
+    "lift": 1.0161,
+    "ageGroup": "20대"
+  },
+  {
+    "antecedents": [
+      "갈치"
+    ],
+    "consequents": [
+      "땅콩"
+    ],
+    "support": 0.4585,
+    "confidence": 0.7658,
+    "lift": 1.0161,
+    "ageGroup": "20대"
+  },
+  {
+    "antecedents": [
+      "맛김"
+    ],
+    "consequents": [
+      "조기"
+    ],
+    "support": 0.6195,
+    "confidence": 0.6728,
+    "lift": 1.0161,
+    "ageGroup": "20대"
+  },
+  {
+    "antecedents": [
+      "오징어"
+    ],
+    "consequents": [
+      "깻잎"
+    ],
+    "support": 0.5549,
+    "confidence": 0.6034,
+    "lift": 1.0161,
+    "ageGroup": "20대"
+  },
+  {
+    "antecedents": [
+      "멸치"
+    ],
+    "consequents": [
+      "탄산음료"
+    ],
+    "support": 0.6122,
+    "confidence": 0.6579,
+    "lift": 1.016,
+    "ageGroup": "20대"
+  },
+  {
+    "antecedents": [
+      "아몬드"
+    ],
+    "consequents": [
+      "나물"
+    ],
+    "support": 0.7159,
+    "confidence": 0.8582,
+    "lift": 1.0155,
+    "ageGroup": "20대"
+  },
+  {
+    "antecedents": [
+      "배"
+    ],
+    "consequents": [
+      "국수"
+    ],
+    "support": 0.8415,
+    "confidence": 0.8903,
+    "lift": 1.0154,
+    "ageGroup": "20대"
+  },
+  {
+    "antecedents": [
+      "배"
+    ],
+    "consequents": [
+      "조기"
+    ],
+    "support": 0.6354,
+    "confidence": 0.6723,
+    "lift": 1.0152,
+    "ageGroup": "20대"
+  },
+  {
+    "antecedents": [
+      "나물"
+    ],
+    "consequents": [
+      "쇠고기"
+    ],
+    "support": 0.7585,
+    "confidence": 0.8975,
+    "lift": 1.0152,
+    "ageGroup": "20대"
+  },
+  {
+    "antecedents": [
+      "조기"
+    ],
+    "consequents": [
+      "파스타"
+    ],
+    "support": 0.5,
+    "confidence": 0.7551,
+    "lift": 1.015,
+    "ageGroup": "20대"
+  },
+  {
+    "antecedents": [
+      "오징어"
+    ],
+    "consequents": [
+      "마른안주"
+    ],
+    "support": 0.7305,
+    "confidence": 0.7944,
+    "lift": 1.0147,
+    "ageGroup": "20대"
+  },
+  {
+    "antecedents": [
+      "탄산음료"
+    ],
+    "consequents": [
+      "땅콩"
+    ],
+    "support": 0.4951,
+    "confidence": 0.7646,
+    "lift": 1.0145,
+    "ageGroup": "20대"
+  },
+  {
+    "antecedents": [
+      "갈치"
+    ],
+    "consequents": [
+      "오징어"
+    ],
+    "support": 0.5585,
+    "confidence": 0.9328,
+    "lift": 1.0144,
+    "ageGroup": "20대"
+  },
+  {
+    "antecedents": [
+      "전복"
+    ],
+    "consequents": [
+      "탄산음료"
+    ],
+    "support": 0.628,
+    "confidence": 0.6569,
+    "lift": 1.0144,
+    "ageGroup": "20대"
+  },
+  {
+    "antecedents": [
+      "조기"
+    ],
+    "consequents": [
+      "풋고추"
+    ],
+    "support": 0.6488,
+    "confidence": 0.9797,
+    "lift": 1.0144,
+    "ageGroup": "20대"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "갈치"
+    ],
+    "support": 0.1586,
+    "confidence": 0.6591,
+    "lift": 1.1294,
+    "ageGroup": "30대"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "조기"
+    ],
+    "support": 0.1734,
+    "confidence": 0.7208,
+    "lift": 1.1023,
+    "ageGroup": "30대"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "생수"
+    ],
+    "support": 0.1883,
+    "confidence": 0.7825,
+    "lift": 1.0666,
+    "ageGroup": "30대"
+  },
+  {
+    "antecedents": [
+      "파스타"
+    ],
+    "consequents": [
+      "당면"
+    ],
+    "support": 0.5469,
+    "confidence": 0.7307,
+    "lift": 1.0568,
+    "ageGroup": "30대"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "참외"
+    ],
+    "support": 0.1148,
+    "confidence": 0.4773,
+    "lift": 1.0515,
+    "ageGroup": "30대"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "맛김"
+    ],
+    "support": 0.2242,
+    "confidence": 0.9318,
+    "lift": 1.049,
+    "ageGroup": "30대"
+  },
+  {
+    "antecedents": [
+      "깻잎"
+    ],
+    "consequents": [
+      "생수"
+    ],
+    "support": 0.4609,
+    "confidence": 0.7682,
+    "lift": 1.0472,
+    "ageGroup": "30대"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "조미료"
+    ],
+    "support": 0.1922,
+    "confidence": 0.7987,
+    "lift": 1.0453,
+    "ageGroup": "30대"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "북어"
+    ],
+    "support": 0.1984,
+    "confidence": 0.8247,
+    "lift": 1.0451,
+    "ageGroup": "30대"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "마른안주"
+    ],
+    "support": 0.1992,
+    "confidence": 0.8279,
+    "lift": 1.0441,
+    "ageGroup": "30대"
+  },
+  {
+    "antecedents": [
+      "파스타"
+    ],
+    "consequents": [
+      "조기"
+    ],
+    "support": 0.5109,
+    "confidence": 0.6827,
+    "lift": 1.044,
+    "ageGroup": "30대"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "나물"
+    ],
+    "support": 0.2141,
+    "confidence": 0.8896,
+    "lift": 1.0437,
+    "ageGroup": "30대"
+  },
+  {
+    "antecedents": [
+      "깻잎"
+    ],
+    "consequents": [
+      "참외"
+    ],
+    "support": 0.2836,
+    "confidence": 0.4727,
+    "lift": 1.0413,
+    "ageGroup": "30대"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "계란"
+    ],
+    "support": 0.2055,
+    "confidence": 0.8539,
+    "lift": 1.0409,
+    "ageGroup": "30대"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "멸치"
+    ],
+    "support": 0.2352,
+    "confidence": 0.9773,
+    "lift": 1.0407,
+    "ageGroup": "30대"
+  },
+  {
+    "antecedents": [
+      "조미료"
+    ],
+    "consequents": [
+      "깻잎"
+    ],
+    "support": 0.4766,
+    "confidence": 0.6237,
+    "lift": 1.0395,
+    "ageGroup": "30대"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "깻잎"
+    ],
+    "support": 0.15,
+    "confidence": 0.6234,
+    "lift": 1.039,
+    "ageGroup": "30대"
+  },
+  {
+    "antecedents": [
+      "깻잎"
+    ],
+    "consequents": [
+      "파스타"
+    ],
+    "support": 0.4664,
+    "confidence": 0.7773,
+    "lift": 1.0386,
+    "ageGroup": "30대"
+  },
+  {
+    "antecedents": [
+      "북어"
+    ],
+    "consequents": [
+      "갈치"
+    ],
+    "support": 0.4781,
+    "confidence": 0.6059,
+    "lift": 1.0383,
+    "ageGroup": "30대"
+  },
+  {
+    "antecedents": [
+      "깻잎"
+    ],
+    "consequents": [
+      "마른안주"
+    ],
+    "support": 0.4938,
+    "confidence": 0.8229,
+    "lift": 1.0378,
+    "ageGroup": "30대"
+  },
+  {
+    "antecedents": [
+      "조기"
+    ],
+    "consequents": [
+      "당면"
+    ],
+    "support": 0.4688,
+    "confidence": 0.7168,
+    "lift": 1.0368,
+    "ageGroup": "30대"
+  },
+  {
+    "antecedents": [
+      "조기"
+    ],
+    "consequents": [
+      "탄산음료"
+    ],
+    "support": 0.4758,
+    "confidence": 0.7276,
+    "lift": 1.036,
+    "ageGroup": "30대"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "배"
+    ],
+    "support": 0.2383,
+    "confidence": 0.9903,
+    "lift": 1.033,
+    "ageGroup": "30대"
+  },
+  {
+    "antecedents": [
+      "땅콩"
+    ],
+    "consequents": [
+      "참외"
+    ],
+    "support": 0.3586,
+    "confidence": 0.4688,
+    "lift": 1.0329,
+    "ageGroup": "30대"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "닭고기"
+    ],
+    "support": 0.1938,
+    "confidence": 0.8052,
+    "lift": 1.0327,
+    "ageGroup": "30대"
+  },
+  {
+    "antecedents": [
+      "땅콩"
+    ],
+    "consequents": [
+      "갈치"
+    ],
+    "support": 0.4602,
+    "confidence": 0.6016,
+    "lift": 1.0309,
+    "ageGroup": "30대"
+  },
+  {
+    "antecedents": [
+      "파스타"
+    ],
+    "consequents": [
+      "갈치"
+    ],
+    "support": 0.45,
+    "confidence": 0.6013,
+    "lift": 1.0303,
+    "ageGroup": "30대"
+  },
+  {
+    "antecedents": [
+      "깻잎"
+    ],
+    "consequents": [
+      "당면"
+    ],
+    "support": 0.4273,
+    "confidence": 0.7122,
+    "lift": 1.0301,
+    "ageGroup": "30대"
+  },
+  {
+    "antecedents": [
+      "파스타"
+    ],
+    "consequents": [
+      "탄산음료"
+    ],
+    "support": 0.5414,
+    "confidence": 0.7234,
+    "lift": 1.03,
+    "ageGroup": "30대"
+  },
+  {
+    "antecedents": [
+      "참외"
+    ],
+    "consequents": [
+      "조미료"
+    ],
+    "support": 0.357,
+    "confidence": 0.7866,
+    "lift": 1.0295,
+    "ageGroup": "30대"
+  },
+  {
+    "antecedents": [
+      "참외"
+    ],
+    "consequents": [
+      "국수"
+    ],
+    "support": 0.4164,
+    "confidence": 0.9174,
+    "lift": 1.0291,
+    "ageGroup": "30대"
+  },
+  {
+    "antecedents": [
+      "조기"
+    ],
+    "consequents": [
+      "마른안주"
+    ],
+    "support": 0.5336,
+    "confidence": 0.816,
+    "lift": 1.0291,
+    "ageGroup": "30대"
+  },
+  {
+    "antecedents": [
+      "조기"
+    ],
+    "consequents": [
+      "맛김"
+    ],
+    "support": 0.5969,
+    "confidence": 0.9128,
+    "lift": 1.0276,
+    "ageGroup": "30대"
+  },
+  {
+    "antecedents": [
+      "당면"
+    ],
+    "consequents": [
+      "땅콩"
+    ],
+    "support": 0.543,
+    "confidence": 0.7853,
+    "lift": 1.0268,
+    "ageGroup": "30대"
+  },
+  {
+    "antecedents": [
+      "조기"
+    ],
+    "consequents": [
+      "나물"
+    ],
+    "support": 0.5719,
+    "confidence": 0.8746,
+    "lift": 1.0261,
+    "ageGroup": "30대"
+  },
+  {
+    "antecedents": [
+      "아몬드"
+    ],
+    "consequents": [
+      "나물"
+    ],
+    "support": 0.7344,
+    "confidence": 0.8744,
+    "lift": 1.0259,
+    "ageGroup": "30대"
+  },
+  {
+    "antecedents": [
+      "깻잎"
+    ],
+    "consequents": [
+      "조기"
+    ],
+    "support": 0.4023,
+    "confidence": 0.6706,
+    "lift": 1.0255,
+    "ageGroup": "30대"
+  },
+  {
+    "antecedents": [
+      "쇠고기"
+    ],
+    "consequents": [
+      "닭고기"
+    ],
+    "support": 0.6937,
+    "confidence": 0.7993,
+    "lift": 1.0251,
+    "ageGroup": "30대"
+  },
+  {
+    "antecedents": [
+      "파스타"
+    ],
+    "consequents": [
+      "땅콩"
+    ],
+    "support": 0.5867,
+    "confidence": 0.7839,
+    "lift": 1.0249,
+    "ageGroup": "30대"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "쇠고기"
+    ],
+    "support": 0.2141,
+    "confidence": 0.8896,
+    "lift": 1.0249,
+    "ageGroup": "30대"
+  },
+  {
+    "antecedents": [
+      "맛김"
+    ],
+    "consequents": [
+      "갈치"
+    ],
+    "support": 0.5312,
+    "confidence": 0.5981,
+    "lift": 1.0248,
+    "ageGroup": "30대"
+  },
+  {
+    "antecedents": [
+      "조미료"
+    ],
+    "consequents": [
+      "파스타"
+    ],
+    "support": 0.5859,
+    "confidence": 0.7669,
+    "lift": 1.0246,
+    "ageGroup": "30대"
+  },
+  {
+    "antecedents": [
+      "탄산음료"
+    ],
+    "consequents": [
+      "닭고기"
+    ],
+    "support": 0.5609,
+    "confidence": 0.7987,
+    "lift": 1.0243,
+    "ageGroup": "30대"
+  },
+  {
+    "antecedents": [
+      "파스타"
+    ],
+    "consequents": [
+      "북어"
+    ],
+    "support": 0.6047,
+    "confidence": 0.8079,
+    "lift": 1.0239,
+    "ageGroup": "30대"
+  },
+  {
+    "antecedents": [
+      "조기"
+    ],
+    "consequents": [
+      "계란"
+    ],
+    "support": 0.5492,
+    "confidence": 0.8399,
+    "lift": 1.0239,
+    "ageGroup": "30대"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "파스타"
+    ],
+    "support": 0.1844,
+    "confidence": 0.7662,
+    "lift": 1.0238,
+    "ageGroup": "30대"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "국수"
+    ],
+    "support": 0.2195,
+    "confidence": 0.9123,
+    "lift": 1.0235,
+    "ageGroup": "30대"
+  },
+  {
+    "antecedents": [
+      "참외"
+    ],
+    "consequents": [
+      "파스타"
+    ],
+    "support": 0.3477,
+    "confidence": 0.7659,
+    "lift": 1.0234,
+    "ageGroup": "30대"
+  },
+  {
+    "antecedents": [
+      "마른안주"
+    ],
+    "consequents": [
+      "당면"
+    ],
+    "support": 0.5609,
+    "confidence": 0.7074,
+    "lift": 1.0231,
+    "ageGroup": "30대"
+  },
+  {
+    "antecedents": [
+      "파스타"
+    ],
+    "consequents": [
+      "생수"
+    ],
+    "support": 0.5617,
+    "confidence": 0.7505,
+    "lift": 1.0231,
+    "ageGroup": "30대"
+  },
+  {
+    "antecedents": [
+      "참외"
+    ],
+    "consequents": [
+      "맛김"
+    ],
+    "support": 0.4125,
+    "confidence": 0.9088,
+    "lift": 1.0231,
+    "ageGroup": "30대"
+  },
+  {
+    "antecedents": [
+      "생수"
+    ],
+    "consequents": [
+      "참외"
+    ],
+    "support": 0.3406,
+    "confidence": 0.4643,
+    "lift": 1.023,
+    "ageGroup": "30대"
+  },
+  {
+    "antecedents": [
+      "조기"
+    ],
+    "consequents": [
+      "아몬드"
+    ],
+    "support": 0.5617,
+    "confidence": 0.859,
+    "lift": 1.0228,
+    "ageGroup": "30대"
+  },
+  {
+    "antecedents": [
+      "파스타"
+    ],
+    "consequents": [
+      "마른안주"
+    ],
+    "support": 0.607,
+    "confidence": 0.8111,
+    "lift": 1.0228,
+    "ageGroup": "30대"
+  },
+  {
+    "antecedents": [
+      "갈치"
+    ],
+    "consequents": [
+      "쇠고기"
+    ],
+    "support": 0.518,
+    "confidence": 0.8876,
+    "lift": 1.0226,
+    "ageGroup": "30대"
+  },
+  {
+    "antecedents": [
+      "마른안주"
+    ],
+    "consequents": [
+      "닭고기"
+    ],
+    "support": 0.632,
+    "confidence": 0.797,
+    "lift": 1.0223,
+    "ageGroup": "30대"
+  },
+  {
+    "antecedents": [
+      "당면"
+    ],
+    "consequents": [
+      "나물"
+    ],
+    "support": 0.6023,
+    "confidence": 0.8712,
+    "lift": 1.0221,
+    "ageGroup": "30대"
+  },
+  {
+    "antecedents": [
+      "생수"
+    ],
+    "consequents": [
+      "아몬드"
+    ],
+    "support": 0.6297,
+    "confidence": 0.8584,
+    "lift": 1.022,
+    "ageGroup": "30대"
+  },
+  {
+    "antecedents": [
+      "닭고기"
+    ],
+    "consequents": [
+      "생수"
+    ],
+    "support": 0.5844,
+    "confidence": 0.7495,
+    "lift": 1.0217,
+    "ageGroup": "30대"
+  },
+  {
+    "antecedents": [
+      "파스타"
+    ],
+    "consequents": [
+      "닭고기"
+    ],
+    "support": 0.5961,
+    "confidence": 0.7965,
+    "lift": 1.0215,
+    "ageGroup": "30대"
+  },
+  {
+    "antecedents": [
+      "마른안주"
+    ],
+    "consequents": [
+      "땅콩"
+    ],
+    "support": 0.6195,
+    "confidence": 0.7813,
+    "lift": 1.0215,
+    "ageGroup": "30대"
+  },
+  {
+    "antecedents": [
+      "북어"
+    ],
+    "consequents": [
+      "아몬드"
+    ],
+    "support": 0.6766,
+    "confidence": 0.8574,
+    "lift": 1.0209,
+    "ageGroup": "30대"
+  },
+  {
+    "antecedents": [
+      "오징어"
+    ],
+    "consequents": [
+      "파스타"
+    ],
+    "support": 0.6977,
+    "confidence": 0.7639,
+    "lift": 1.0207,
+    "ageGroup": "30대"
+  },
+  {
+    "antecedents": [
+      "조기"
+    ],
+    "consequents": [
+      "닭고기"
+    ],
+    "support": 0.5203,
+    "confidence": 0.7957,
+    "lift": 1.0205,
+    "ageGroup": "30대"
+  },
+  {
+    "antecedents": [
+      "조기"
+    ],
+    "consequents": [
+      "북어"
+    ],
+    "support": 0.5266,
+    "confidence": 0.8053,
+    "lift": 1.0205,
+    "ageGroup": "30대"
+  },
+  {
+    "antecedents": [
+      "쇠고기"
+    ],
+    "consequents": [
+      "계란"
+    ],
+    "support": 0.7266,
+    "confidence": 0.8371,
+    "lift": 1.0204,
+    "ageGroup": "30대"
+  },
+  {
+    "antecedents": [
+      "마른안주"
+    ],
+    "consequents": [
+      "맛김"
+    ],
+    "support": 0.7188,
+    "confidence": 0.9064,
+    "lift": 1.0204,
+    "ageGroup": "30대"
+  },
+  {
+    "antecedents": [
+      "조미료"
+    ],
+    "consequents": [
+      "아몬드"
+    ],
+    "support": 0.6547,
+    "confidence": 0.8569,
+    "lift": 1.0203,
+    "ageGroup": "30대"
+  },
+  {
+    "antecedents": [
+      "북어"
+    ],
+    "consequents": [
+      "마른안주"
+    ],
+    "support": 0.6383,
+    "confidence": 0.8089,
+    "lift": 1.0201,
+    "ageGroup": "30대"
+  },
+  {
+    "antecedents": [
+      "땅콩"
+    ],
+    "consequents": [
+      "북어"
+    ],
+    "support": 0.6156,
+    "confidence": 0.8049,
+    "lift": 1.0201,
+    "ageGroup": "30대"
+  },
+  {
+    "antecedents": [
+      "국수"
+    ],
+    "consequents": [
+      "파스타"
+    ],
+    "support": 0.6805,
+    "confidence": 0.7634,
+    "lift": 1.0199,
+    "ageGroup": "30대"
+  },
+  {
+    "antecedents": [
+      "마른안주"
+    ],
+    "consequents": [
+      "탄산음료"
+    ],
+    "support": 0.568,
+    "confidence": 0.7163,
+    "lift": 1.0198,
+    "ageGroup": "30대"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "빵"
+    ],
+    "support": 0.2367,
+    "confidence": 0.9838,
+    "lift": 1.0196,
+    "ageGroup": "30대"
+  },
+  {
+    "antecedents": [
+      "갈치"
+    ],
+    "consequents": [
+      "조기"
+    ],
+    "support": 0.3891,
+    "confidence": 0.6667,
+    "lift": 1.0195,
+    "ageGroup": "30대"
+  },
+  {
+    "antecedents": [
+      "오징어"
+    ],
+    "consequents": [
+      "당면"
+    ],
+    "support": 0.6438,
+    "confidence": 0.7049,
+    "lift": 1.0195,
+    "ageGroup": "30대"
+  },
+  {
+    "antecedents": [
+      "계란"
+    ],
+    "consequents": [
+      "당면"
+    ],
+    "support": 0.5781,
+    "confidence": 0.7048,
+    "lift": 1.0193,
+    "ageGroup": "30대"
+  },
+  {
+    "antecedents": [
+      "계란"
+    ],
+    "consequents": [
+      "생수"
+    ],
+    "support": 0.6133,
+    "confidence": 0.7476,
+    "lift": 1.0191,
+    "ageGroup": "30대"
+  },
+  {
+    "antecedents": [
+      "오징어"
+    ],
+    "consequents": [
+      "조기"
+    ],
+    "support": 0.6086,
+    "confidence": 0.6664,
+    "lift": 1.0191,
+    "ageGroup": "30대"
+  },
+  {
+    "antecedents": [
+      "북어"
+    ],
+    "consequents": [
+      "참외"
+    ],
+    "support": 0.3648,
+    "confidence": 0.4624,
+    "lift": 1.0187,
+    "ageGroup": "30대"
+  },
+  {
+    "antecedents": [
+      "아몬드"
+    ],
+    "consequents": [
+      "깻잎"
+    ],
+    "support": 0.5133,
+    "confidence": 0.6112,
+    "lift": 1.0186,
+    "ageGroup": "30대"
+  },
+  {
+    "antecedents": [
+      "드레싱"
+    ],
+    "consequents": [
+      "갈치"
+    ],
+    "support": 0.5289,
+    "confidence": 0.5944,
+    "lift": 1.0185,
+    "ageGroup": "30대"
+  },
+  {
+    "antecedents": [
+      "드레싱"
+    ],
+    "consequents": [
+      "생수"
+    ],
+    "support": 0.6648,
+    "confidence": 0.7471,
+    "lift": 1.0185,
+    "ageGroup": "30대"
+  },
+  {
+    "antecedents": [
+      "조기"
+    ],
+    "consequents": [
+      "땅콩"
+    ],
+    "support": 0.5094,
+    "confidence": 0.779,
+    "lift": 1.0185,
+    "ageGroup": "30대"
+  },
+  {
+    "antecedents": [
+      "생수"
+    ],
+    "consequents": [
+      "나물"
+    ],
+    "support": 0.6367,
+    "confidence": 0.8679,
+    "lift": 1.0183,
+    "ageGroup": "30대"
+  },
+  {
+    "antecedents": [
+      "생수"
+    ],
+    "consequents": [
+      "갈치"
+    ],
+    "support": 0.4359,
+    "confidence": 0.5942,
+    "lift": 1.0183,
+    "ageGroup": "30대"
+  },
+  {
+    "antecedents": [
+      "맛김"
+    ],
+    "consequents": [
+      "탄산음료"
+    ],
+    "support": 0.6352,
+    "confidence": 0.715,
+    "lift": 1.0181,
+    "ageGroup": "30대"
+  },
+  {
+    "antecedents": [
+      "땅콩"
+    ],
+    "consequents": [
+      "쇠고기"
+    ],
+    "support": 0.6758,
+    "confidence": 0.8836,
+    "lift": 1.018,
+    "ageGroup": "30대"
+  },
+  {
+    "antecedents": [
+      "닭고기"
+    ],
+    "consequents": [
+      "땅콩"
+    ],
+    "support": 0.607,
+    "confidence": 0.7786,
+    "lift": 1.0179,
+    "ageGroup": "30대"
+  },
+  {
+    "antecedents": [
+      "북어"
+    ],
+    "consequents": [
+      "탄산음료"
+    ],
+    "support": 0.5641,
+    "confidence": 0.7149,
+    "lift": 1.0178,
+    "ageGroup": "30대"
+  },
+  {
+    "antecedents": [
+      "깻잎"
+    ],
+    "consequents": [
+      "탄산음료"
+    ],
+    "support": 0.4289,
+    "confidence": 0.7148,
+    "lift": 1.0178,
+    "ageGroup": "30대"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "카레"
+    ],
+    "support": 0.2242,
+    "confidence": 0.9318,
+    "lift": 1.0177,
+    "ageGroup": "30대"
+  },
+  {
+    "antecedents": [
+      "맛김"
+    ],
+    "consequents": [
+      "땅콩"
+    ],
+    "support": 0.6914,
+    "confidence": 0.7784,
+    "lift": 1.0177,
+    "ageGroup": "30대"
+  },
+  {
+    "antecedents": [
+      "나물"
+    ],
+    "consequents": [
+      "땅콩"
+    ],
+    "support": 0.6633,
+    "confidence": 0.7782,
+    "lift": 1.0174,
+    "ageGroup": "30대"
+  },
+  {
+    "antecedents": [
+      "아몬드"
+    ],
+    "consequents": [
+      "마른안주"
+    ],
+    "support": 0.6773,
+    "confidence": 0.8065,
+    "lift": 1.0171,
+    "ageGroup": "30대"
+  },
+  {
+    "antecedents": [
+      "오징어"
+    ],
+    "consequents": [
+      "북어"
+    ],
+    "support": 0.7328,
+    "confidence": 0.8024,
+    "lift": 1.0169,
+    "ageGroup": "30대"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "아몬드"
+    ],
+    "support": 0.2055,
+    "confidence": 0.8539,
+    "lift": 1.0167,
+    "ageGroup": "30대"
+  },
+  {
+    "antecedents": [
+      "아몬드"
+    ],
+    "consequents": [
+      "파스타"
+    ],
+    "support": 0.6391,
+    "confidence": 0.7609,
+    "lift": 1.0167,
+    "ageGroup": "30대"
+  },
+  {
+    "antecedents": [
+      "갈치"
+    ],
+    "consequents": [
+      "계란"
+    ],
+    "support": 0.4867,
+    "confidence": 0.834,
+    "lift": 1.0167,
+    "ageGroup": "30대"
+  },
+  {
+    "antecedents": [
+      "파스타"
+    ],
+    "consequents": [
+      "나물"
+    ],
+    "support": 0.6484,
+    "confidence": 0.8664,
+    "lift": 1.0165,
+    "ageGroup": "30대"
+  },
+  {
+    "antecedents": [
+      "땅콩"
+    ],
+    "consequents": [
+      "국수"
+    ],
+    "support": 0.693,
+    "confidence": 0.906,
+    "lift": 1.0164,
+    "ageGroup": "30대"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "파스타"
+    ],
+    "support": 0.2055,
+    "confidence": 0.8235,
+    "lift": 1.1321,
+    "ageGroup": "40대"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "갈치"
+    ],
+    "support": 0.1656,
+    "confidence": 0.6639,
+    "lift": 1.1309,
+    "ageGroup": "40대"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "북어"
+    ],
+    "support": 0.218,
+    "confidence": 0.8739,
+    "lift": 1.1058,
+    "ageGroup": "40대"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "땅콩"
+    ],
+    "support": 0.218,
+    "confidence": 0.8739,
+    "lift": 1.0942,
+    "ageGroup": "40대"
+  },
+  {
+    "antecedents": [
+      "참외"
+    ],
+    "consequents": [
+      "조기"
+    ],
+    "support": 0.3229,
+    "confidence": 0.7299,
+    "lift": 1.0812,
+    "ageGroup": "40대"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "조기"
+    ],
+    "support": 0.1803,
+    "confidence": 0.7227,
+    "lift": 1.0706,
+    "ageGroup": "40대"
+  },
+  {
+    "antecedents": [
+      "파스타"
+    ],
+    "consequents": [
+      "갈치"
+    ],
+    "support": 0.4549,
+    "confidence": 0.6254,
+    "lift": 1.0653,
+    "ageGroup": "40대"
+  },
+  {
+    "antecedents": [
+      "생수"
+    ],
+    "consequents": [
+      "참외"
+    ],
+    "support": 0.348,
+    "confidence": 0.4703,
+    "lift": 1.0631,
+    "ageGroup": "40대"
+  },
+  {
+    "antecedents": [
+      "조기"
+    ],
+    "consequents": [
+      "갈치"
+    ],
+    "support": 0.4193,
+    "confidence": 0.6211,
+    "lift": 1.0581,
+    "ageGroup": "40대"
+  },
+  {
+    "antecedents": [
+      "북어"
+    ],
+    "consequents": [
+      "참외"
+    ],
+    "support": 0.369,
+    "confidence": 0.4668,
+    "lift": 1.0554,
+    "ageGroup": "40대"
+  },
+  {
+    "antecedents": [
+      "참외"
+    ],
+    "consequents": [
+      "깻잎"
+    ],
+    "support": 0.2893,
+    "confidence": 0.654,
+    "lift": 1.054,
+    "ageGroup": "40대"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "마른안주"
+    ],
+    "support": 0.2117,
+    "confidence": 0.8487,
+    "lift": 1.0488,
+    "ageGroup": "40대"
+  },
+  {
+    "antecedents": [
+      "깻잎"
+    ],
+    "consequents": [
+      "당면"
+    ],
+    "support": 0.4675,
+    "confidence": 0.7534,
+    "lift": 1.0447,
+    "ageGroup": "40대"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "깻잎"
+    ],
+    "support": 0.1614,
+    "confidence": 0.6471,
+    "lift": 1.0427,
+    "ageGroup": "40대"
+  },
+  {
+    "antecedents": [
+      "북어"
+    ],
+    "consequents": [
+      "마른안주"
+    ],
+    "support": 0.6667,
+    "confidence": 0.8435,
+    "lift": 1.0424,
+    "ageGroup": "40대"
+  },
+  {
+    "antecedents": [
+      "땅콩"
+    ],
+    "consequents": [
+      "갈치"
+    ],
+    "support": 0.4885,
+    "confidence": 0.6115,
+    "lift": 1.0418,
+    "ageGroup": "40대"
+  },
+  {
+    "antecedents": [
+      "참외"
+    ],
+    "consequents": [
+      "갈치"
+    ],
+    "support": 0.2704,
+    "confidence": 0.6114,
+    "lift": 1.0415,
+    "ageGroup": "40대"
+  },
+  {
+    "antecedents": [
+      "갈치"
+    ],
+    "consequents": [
+      "탄산음료"
+    ],
+    "support": 0.4151,
+    "confidence": 0.7071,
+    "lift": 1.0411,
+    "ageGroup": "40대"
+  },
+  {
+    "antecedents": [
+      "북어"
+    ],
+    "consequents": [
+      "당면"
+    ],
+    "support": 0.5933,
+    "confidence": 0.7507,
+    "lift": 1.0409,
+    "ageGroup": "40대"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "쇠고기"
+    ],
+    "support": 0.2285,
+    "confidence": 0.916,
+    "lift": 1.0378,
+    "ageGroup": "40대"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "오징어"
+    ],
+    "support": 0.2327,
+    "confidence": 0.9328,
+    "lift": 1.0371,
+    "ageGroup": "40대"
+  },
+  {
+    "antecedents": [
+      "깻잎"
+    ],
+    "consequents": [
+      "생수"
+    ],
+    "support": 0.4759,
+    "confidence": 0.7669,
+    "lift": 1.0363,
+    "ageGroup": "40대"
+  },
+  {
+    "antecedents": [
+      "깻잎"
+    ],
+    "consequents": [
+      "땅콩"
+    ],
+    "support": 0.5136,
+    "confidence": 0.8277,
+    "lift": 1.0363,
+    "ageGroup": "40대"
+  },
+  {
+    "antecedents": [
+      "생수"
+    ],
+    "consequents": [
+      "마른안주"
+    ],
+    "support": 0.6205,
+    "confidence": 0.8385,
+    "lift": 1.0362,
+    "ageGroup": "40대"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "아몬드"
+    ],
+    "support": 0.2243,
+    "confidence": 0.8992,
+    "lift": 1.036,
+    "ageGroup": "40대"
+  },
+  {
+    "antecedents": [
+      "북어"
+    ],
+    "consequents": [
+      "갈치"
+    ],
+    "support": 0.4801,
+    "confidence": 0.6074,
+    "lift": 1.0348,
+    "ageGroup": "40대"
+  },
+  {
+    "antecedents": [
+      "조미료"
+    ],
+    "consequents": [
+      "조기"
+    ],
+    "support": 0.5241,
+    "confidence": 0.6983,
+    "lift": 1.0345,
+    "ageGroup": "40대"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "생수"
+    ],
+    "support": 0.1908,
+    "confidence": 0.7647,
+    "lift": 1.0333,
+    "ageGroup": "40대"
+  },
+  {
+    "antecedents": [
+      "계란"
+    ],
+    "consequents": [
+      "조미료"
+    ],
+    "support": 0.6226,
+    "confidence": 0.7755,
+    "lift": 1.0332,
+    "ageGroup": "40대"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "맛김"
+    ],
+    "support": 0.2285,
+    "confidence": 0.916,
+    "lift": 1.0305,
+    "ageGroup": "40대"
+  },
+  {
+    "antecedents": [
+      "북어"
+    ],
+    "consequents": [
+      "국수"
+    ],
+    "support": 0.7358,
+    "confidence": 0.931,
+    "lift": 1.0304,
+    "ageGroup": "40대"
+  },
+  {
+    "antecedents": [
+      "생수"
+    ],
+    "consequents": [
+      "계란"
+    ],
+    "support": 0.6122,
+    "confidence": 0.8272,
+    "lift": 1.0302,
+    "ageGroup": "40대"
+  },
+  {
+    "antecedents": [
+      "깻잎"
+    ],
+    "consequents": [
+      "갈치"
+    ],
+    "support": 0.3753,
+    "confidence": 0.6047,
+    "lift": 1.0302,
+    "ageGroup": "40대"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "조미료"
+    ],
+    "support": 0.1929,
+    "confidence": 0.7731,
+    "lift": 1.0301,
+    "ageGroup": "40대"
+  },
+  {
+    "antecedents": [
+      "당면"
+    ],
+    "consequents": [
+      "생수"
+    ],
+    "support": 0.5493,
+    "confidence": 0.7616,
+    "lift": 1.0292,
+    "ageGroup": "40대"
+  },
+  {
+    "antecedents": [
+      "파스타"
+    ],
+    "consequents": [
+      "오징어"
+    ],
+    "support": 0.673,
+    "confidence": 0.9251,
+    "lift": 1.0286,
+    "ageGroup": "40대"
+  },
+  {
+    "antecedents": [
+      "갈치"
+    ],
+    "consequents": [
+      "오징어"
+    ],
+    "support": 0.543,
+    "confidence": 0.925,
+    "lift": 1.0285,
+    "ageGroup": "40대"
+  },
+  {
+    "antecedents": [
+      "땅콩"
+    ],
+    "consequents": [
+      "마른안주"
+    ],
+    "support": 0.6646,
+    "confidence": 0.832,
+    "lift": 1.0282,
+    "ageGroup": "40대"
+  },
+  {
+    "antecedents": [
+      "마른안주"
+    ],
+    "consequents": [
+      "깻잎"
+    ],
+    "support": 0.5157,
+    "confidence": 0.6373,
+    "lift": 1.027,
+    "ageGroup": "40대"
+  },
+  {
+    "antecedents": [
+      "당면"
+    ],
+    "consequents": [
+      "파스타"
+    ],
+    "support": 0.5388,
+    "confidence": 0.7471,
+    "lift": 1.027,
+    "ageGroup": "40대"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "탄산음료"
+    ],
+    "support": 0.174,
+    "confidence": 0.6975,
+    "lift": 1.0268,
+    "ageGroup": "40대"
+  },
+  {
+    "antecedents": [
+      "배"
+    ],
+    "consequents": [
+      "조기"
+    ],
+    "support": 0.6583,
+    "confidence": 0.6932,
+    "lift": 1.0268,
+    "ageGroup": "40대"
+  },
+  {
+    "antecedents": [
+      "아몬드"
+    ],
+    "consequents": [
+      "조미료"
+    ],
+    "support": 0.6688,
+    "confidence": 0.7705,
+    "lift": 1.0267,
+    "ageGroup": "40대"
+  },
+  {
+    "antecedents": [
+      "조기"
+    ],
+    "consequents": [
+      "땅콩"
+    ],
+    "support": 0.5535,
+    "confidence": 0.8199,
+    "lift": 1.0265,
+    "ageGroup": "40대"
+  },
+  {
+    "antecedents": [
+      "땅콩"
+    ],
+    "consequents": [
+      "쇠고기"
+    ],
+    "support": 0.7233,
+    "confidence": 0.9055,
+    "lift": 1.026,
+    "ageGroup": "40대"
+  },
+  {
+    "antecedents": [
+      "깻잎"
+    ],
+    "consequents": [
+      "북어"
+    ],
+    "support": 0.5031,
+    "confidence": 0.8108,
+    "lift": 1.0259,
+    "ageGroup": "40대"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "참외"
+    ],
+    "support": 0.1132,
+    "confidence": 0.4538,
+    "lift": 1.0258,
+    "ageGroup": "40대"
+  },
+  {
+    "antecedents": [
+      "오징어"
+    ],
+    "consequents": [
+      "깻잎"
+    ],
+    "support": 0.5723,
+    "confidence": 0.6364,
+    "lift": 1.0255,
+    "ageGroup": "40대"
+  },
+  {
+    "antecedents": [
+      "아몬드"
+    ],
+    "consequents": [
+      "땅콩"
+    ],
+    "support": 0.7107,
+    "confidence": 0.8188,
+    "lift": 1.0252,
+    "ageGroup": "40대"
+  },
+  {
+    "antecedents": [
+      "북어"
+    ],
+    "consequents": [
+      "파스타"
+    ],
+    "support": 0.5891,
+    "confidence": 0.7454,
+    "lift": 1.0246,
+    "ageGroup": "40대"
+  },
+  {
+    "antecedents": [
+      "파스타"
+    ],
+    "consequents": [
+      "조기"
+    ],
+    "support": 0.5031,
+    "confidence": 0.6916,
+    "lift": 1.0246,
+    "ageGroup": "40대"
+  },
+  {
+    "antecedents": [
+      "조미료"
+    ],
+    "consequents": [
+      "탄산음료"
+    ],
+    "support": 0.522,
+    "confidence": 0.6955,
+    "lift": 1.024,
+    "ageGroup": "40대"
+  },
+  {
+    "antecedents": [
+      "맛김"
+    ],
+    "consequents": [
+      "조기"
+    ],
+    "support": 0.6143,
+    "confidence": 0.691,
+    "lift": 1.0237,
+    "ageGroup": "40대"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "국수"
+    ],
+    "support": 0.2306,
+    "confidence": 0.9244,
+    "lift": 1.023,
+    "ageGroup": "40대"
+  },
+  {
+    "antecedents": [
+      "참외"
+    ],
+    "consequents": [
+      "조미료"
+    ],
+    "support": 0.3396,
+    "confidence": 0.7678,
+    "lift": 1.023,
+    "ageGroup": "40대"
+  },
+  {
+    "antecedents": [
+      "참외"
+    ],
+    "consequents": [
+      "파스타"
+    ],
+    "support": 0.3291,
+    "confidence": 0.7441,
+    "lift": 1.0228,
+    "ageGroup": "40대"
+  },
+  {
+    "antecedents": [
+      "파스타"
+    ],
+    "consequents": [
+      "아몬드"
+    ],
+    "support": 0.6457,
+    "confidence": 0.8876,
+    "lift": 1.0227,
+    "ageGroup": "40대"
+  },
+  {
+    "antecedents": [
+      "참외"
+    ],
+    "consequents": [
+      "오징어"
+    ],
+    "support": 0.4067,
+    "confidence": 0.9194,
+    "lift": 1.0223,
+    "ageGroup": "40대"
+  },
+  {
+    "antecedents": [
+      "카레"
+    ],
+    "consequents": [
+      "참외"
+    ],
+    "support": 0.4151,
+    "confidence": 0.4521,
+    "lift": 1.0219,
+    "ageGroup": "40대"
+  },
+  {
+    "antecedents": [
+      "북어"
+    ],
+    "consequents": [
+      "생수"
+    ],
+    "support": 0.5975,
+    "confidence": 0.756,
+    "lift": 1.0215,
+    "ageGroup": "40대"
+  },
+  {
+    "antecedents": [
+      "조미료"
+    ],
+    "consequents": [
+      "땅콩"
+    ],
+    "support": 0.6122,
+    "confidence": 0.8156,
+    "lift": 1.0212,
+    "ageGroup": "40대"
+  },
+  {
+    "antecedents": [
+      "아몬드"
+    ],
+    "consequents": [
+      "나물"
+    ],
+    "support": 0.7505,
+    "confidence": 0.8647,
+    "lift": 1.021,
+    "ageGroup": "40대"
+  },
+  {
+    "antecedents": [
+      "닭고기"
+    ],
+    "consequents": [
+      "땅콩"
+    ],
+    "support": 0.6667,
+    "confidence": 0.8154,
+    "lift": 1.0208,
+    "ageGroup": "40대"
+  },
+  {
+    "antecedents": [
+      "아몬드"
+    ],
+    "consequents": [
+      "쇠고기"
+    ],
+    "support": 0.782,
+    "confidence": 0.901,
+    "lift": 1.0208,
+    "ageGroup": "40대"
+  },
+  {
+    "antecedents": [
+      "나물"
+    ],
+    "consequents": [
+      "갈치"
+    ],
+    "support": 0.5073,
+    "confidence": 0.599,
+    "lift": 1.0205,
+    "ageGroup": "40대"
+  },
+  {
+    "antecedents": [
+      "쇠고기"
+    ],
+    "consequents": [
+      "오징어"
+    ],
+    "support": 0.8092,
+    "confidence": 0.9169,
+    "lift": 1.0195,
+    "ageGroup": "40대"
+  },
+  {
+    "antecedents": [
+      "돼지고기"
+    ],
+    "consequents": [
+      "탄산음료"
+    ],
+    "support": 0.6457,
+    "confidence": 0.6921,
+    "lift": 1.019,
+    "ageGroup": "40대"
+  },
+  {
+    "antecedents": [
+      "아몬드"
+    ],
+    "consequents": [
+      "생수"
+    ],
+    "support": 0.6541,
+    "confidence": 0.7536,
+    "lift": 1.0184,
+    "ageGroup": "40대"
+  },
+  {
+    "antecedents": [
+      "멸치"
+    ],
+    "consequents": [
+      "갈치"
+    ],
+    "support": 0.5577,
+    "confidence": 0.5978,
+    "lift": 1.0183,
+    "ageGroup": "40대"
+  },
+  {
+    "antecedents": [
+      "오징어"
+    ],
+    "consequents": [
+      "나물"
+    ],
+    "support": 0.7757,
+    "confidence": 0.8625,
+    "lift": 1.0183,
+    "ageGroup": "40대"
+  },
+  {
+    "antecedents": [
+      "조미료"
+    ],
+    "consequents": [
+      "마른안주"
+    ],
+    "support": 0.6184,
+    "confidence": 0.824,
+    "lift": 1.0183,
+    "ageGroup": "40대"
+  },
+  {
+    "antecedents": [
+      "탄산음료"
+    ],
+    "consequents": [
+      "파스타"
+    ],
+    "support": 0.5031,
+    "confidence": 0.7407,
+    "lift": 1.0183,
+    "ageGroup": "40대"
+  },
+  {
+    "antecedents": [
+      "깻잎"
+    ],
+    "consequents": [
+      "쇠고기"
+    ],
+    "support": 0.5577,
+    "confidence": 0.8986,
+    "lift": 1.0182,
+    "ageGroup": "40대"
+  },
+  {
+    "antecedents": [
+      "나물"
+    ],
+    "consequents": [
+      "드레싱"
+    ],
+    "support": 0.8008,
+    "confidence": 0.9455,
+    "lift": 1.0181,
+    "ageGroup": "40대"
+  },
+  {
+    "antecedents": [
+      "아몬드"
+    ],
+    "consequents": [
+      "오징어"
+    ],
+    "support": 0.7945,
+    "confidence": 0.9155,
+    "lift": 1.0179,
+    "ageGroup": "40대"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "멸치"
+    ],
+    "support": 0.2369,
+    "confidence": 0.9496,
+    "lift": 1.0179,
+    "ageGroup": "40대"
+  },
+  {
+    "antecedents": [
+      "나물"
+    ],
+    "consequents": [
+      "북어"
+    ],
+    "support": 0.6813,
+    "confidence": 0.8045,
+    "lift": 1.0178,
+    "ageGroup": "40대"
+  },
+  {
+    "antecedents": [
+      "계란"
+    ],
+    "consequents": [
+      "드레싱"
+    ],
+    "support": 0.7589,
+    "confidence": 0.9452,
+    "lift": 1.0177,
+    "ageGroup": "40대"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "배"
+    ],
+    "support": 0.2411,
+    "confidence": 0.9664,
+    "lift": 1.0176,
+    "ageGroup": "40대"
+  },
+  {
+    "antecedents": [
+      "파스타"
+    ],
+    "consequents": [
+      "조미료"
+    ],
+    "support": 0.5556,
+    "confidence": 0.7637,
+    "lift": 1.0175,
+    "ageGroup": "40대"
+  },
+  {
+    "antecedents": [
+      "멸치"
+    ],
+    "consequents": [
+      "아몬드"
+    ],
+    "support": 0.8239,
+    "confidence": 0.8831,
+    "lift": 1.0175,
+    "ageGroup": "40대"
+  },
+  {
+    "antecedents": [
+      "나물"
+    ],
+    "consequents": [
+      "파스타"
+    ],
+    "support": 0.6268,
+    "confidence": 0.7401,
+    "lift": 1.0174,
+    "ageGroup": "40대"
+  },
+  {
+    "antecedents": [
+      "생수"
+    ],
+    "consequents": [
+      "멸치"
+    ],
+    "support": 0.7023,
+    "confidence": 0.949,
+    "lift": 1.0173,
+    "ageGroup": "40대"
+  },
+  {
+    "antecedents": [
+      "나물"
+    ],
+    "consequents": [
+      "깻잎"
+    ],
+    "support": 0.5346,
+    "confidence": 0.6312,
+    "lift": 1.0172,
+    "ageGroup": "40대"
+  },
+  {
+    "antecedents": [
+      "계란"
+    ],
+    "consequents": [
+      "마른안주"
+    ],
+    "support": 0.6604,
+    "confidence": 0.8225,
+    "lift": 1.0163,
+    "ageGroup": "40대"
+  },
+  {
+    "antecedents": [
+      "계란"
+    ],
+    "consequents": [
+      "맛김"
+    ],
+    "support": 0.7254,
+    "confidence": 0.9034,
+    "lift": 1.0163,
+    "ageGroup": "40대"
+  },
+  {
+    "antecedents": [
+      "파스타"
+    ],
+    "consequents": [
+      "멸치"
+    ],
+    "support": 0.6897,
+    "confidence": 0.9481,
+    "lift": 1.0163,
+    "ageGroup": "40대"
+  },
+  {
+    "antecedents": [
+      "당면"
+    ],
+    "consequents": [
+      "나물"
+    ],
+    "support": 0.6205,
+    "confidence": 0.8605,
+    "lift": 1.0159,
+    "ageGroup": "40대"
+  },
+  {
+    "antecedents": [
+      "참외"
+    ],
+    "consequents": [
+      "소시지"
+    ],
+    "support": 0.4277,
+    "confidence": 0.9668,
+    "lift": 1.0158,
+    "ageGroup": "40대"
+  },
+  {
+    "antecedents": [
+      "계란"
+    ],
+    "consequents": [
+      "파스타"
+    ],
+    "support": 0.5933,
+    "confidence": 0.7389,
+    "lift": 1.0157,
+    "ageGroup": "40대"
+  },
+  {
+    "antecedents": [
+      "조기"
+    ],
+    "consequents": [
+      "나물"
+    ],
+    "support": 0.5807,
+    "confidence": 0.8602,
+    "lift": 1.0157,
+    "ageGroup": "40대"
+  },
+  {
+    "antecedents": [
+      "쇠고기"
+    ],
+    "consequents": [
+      "갈치"
+    ],
+    "support": 0.5262,
+    "confidence": 0.5962,
+    "lift": 1.0157,
+    "ageGroup": "40대"
+  },
+  {
+    "antecedents": [
+      "참외"
+    ],
+    "consequents": [
+      "도라지"
+    ],
+    "support": 0.4361,
+    "confidence": 0.9858,
+    "lift": 1.0156,
+    "ageGroup": "40대"
+  },
+  {
+    "antecedents": [
+      "생수"
+    ],
+    "consequents": [
+      "조미료"
+    ],
+    "support": 0.5639,
+    "confidence": 0.762,
+    "lift": 1.0153,
+    "ageGroup": "40대"
+  },
+  {
+    "antecedents": [
+      "오징어"
+    ],
+    "consequents": [
+      "조기"
+    ],
+    "support": 0.6164,
+    "confidence": 0.6853,
+    "lift": 1.0152,
+    "ageGroup": "40대"
+  },
+  {
+    "antecedents": [
+      "국수"
+    ],
+    "consequents": [
+      "마른안주"
+    ],
+    "support": 0.7421,
+    "confidence": 0.8213,
+    "lift": 1.015,
+    "ageGroup": "40대"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "미역"
+    ],
+    "support": 0.2495,
+    "confidence": 1.0,
+    "lift": 1.0149,
+    "ageGroup": "40대"
+  },
+  {
+    "antecedents": [
+      "닭고기"
+    ],
+    "consequents": [
+      "조미료"
+    ],
+    "support": 0.6226,
+    "confidence": 0.7615,
+    "lift": 1.0147,
+    "ageGroup": "40대"
+  },
+  {
+    "antecedents": [
+      "참외"
+    ],
+    "consequents": [
+      "땅콩"
+    ],
+    "support": 0.3585,
+    "confidence": 0.8104,
+    "lift": 1.0146,
+    "ageGroup": "40대"
+  },
+  {
+    "antecedents": [
+      "오징어"
+    ],
+    "consequents": [
+      "북어"
+    ],
+    "support": 0.7212,
+    "confidence": 0.8019,
+    "lift": 1.0146,
+    "ageGroup": "40대"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "참외"
+    ],
+    "support": 0.1443,
+    "confidence": 0.5455,
+    "lift": 1.2025,
+    "ageGroup": "50대"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "당면"
+    ],
+    "support": 0.2131,
+    "confidence": 0.8052,
+    "lift": 1.1486,
+    "ageGroup": "50대"
+  },
+  {
+    "antecedents": [
+      "갈치"
+    ],
+    "consequents": [
+      "참외"
+    ],
+    "support": 0.2749,
+    "confidence": 0.5031,
+    "lift": 1.1092,
+    "ageGroup": "50대"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "갈치"
+    ],
+    "support": 0.1581,
+    "confidence": 0.5974,
+    "lift": 1.0934,
+    "ageGroup": "50대"
+  },
+  {
+    "antecedents": [
+      "조미료"
+    ],
+    "consequents": [
+      "갈치"
+    ],
+    "support": 0.4536,
+    "confidence": 0.5973,
+    "lift": 1.0931,
+    "ageGroup": "50대"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "계란"
+    ],
+    "support": 0.2302,
+    "confidence": 0.8701,
+    "lift": 1.0914,
+    "ageGroup": "50대"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "나물"
+    ],
+    "support": 0.2371,
+    "confidence": 0.8961,
+    "lift": 1.082,
+    "ageGroup": "50대"
+  },
+  {
+    "antecedents": [
+      "당면"
+    ],
+    "consequents": [
+      "깻잎"
+    ],
+    "support": 0.4674,
+    "confidence": 0.6667,
+    "lift": 1.0778,
+    "ageGroup": "50대"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "조미료"
+    ],
+    "support": 0.2165,
+    "confidence": 0.8182,
+    "lift": 1.0773,
+    "ageGroup": "50대"
+  },
+  {
+    "antecedents": [
+      "조미료"
+    ],
+    "consequents": [
+      "조기"
+    ],
+    "support": 0.5567,
+    "confidence": 0.733,
+    "lift": 1.0719,
+    "ageGroup": "50대"
+  },
+  {
+    "antecedents": [
+      "아몬드"
+    ],
+    "consequents": [
+      "갈치"
+    ],
+    "support": 0.5086,
+    "confidence": 0.585,
+    "lift": 1.0706,
+    "ageGroup": "50대"
+  },
+  {
+    "antecedents": [
+      "조미료"
+    ],
+    "consequents": [
+      "깻잎"
+    ],
+    "support": 0.5017,
+    "confidence": 0.6606,
+    "lift": 1.068,
+    "ageGroup": "50대"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "아몬드"
+    ],
+    "support": 0.244,
+    "confidence": 0.9221,
+    "lift": 1.0606,
+    "ageGroup": "50대"
+  },
+  {
+    "antecedents": [
+      "참외"
+    ],
+    "consequents": [
+      "맛김"
+    ],
+    "support": 0.433,
+    "confidence": 0.9545,
+    "lift": 1.0522,
+    "ageGroup": "50대"
+  },
+  {
+    "antecedents": [
+      "갈치"
+    ],
+    "consequents": [
+      "탄산음료"
+    ],
+    "support": 0.4124,
+    "confidence": 0.7547,
+    "lift": 1.0508,
+    "ageGroup": "50대"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "북어"
+    ],
+    "support": 0.2131,
+    "confidence": 0.8052,
+    "lift": 1.0507,
+    "ageGroup": "50대"
+  },
+  {
+    "antecedents": [
+      "탄산음료"
+    ],
+    "consequents": [
+      "북어"
+    ],
+    "support": 0.5773,
+    "confidence": 0.8038,
+    "lift": 1.0489,
+    "ageGroup": "50대"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "탄산음료"
+    ],
+    "support": 0.1993,
+    "confidence": 0.7532,
+    "lift": 1.0488,
+    "ageGroup": "50대"
+  },
+  {
+    "antecedents": [
+      "깻잎"
+    ],
+    "consequents": [
+      "갈치"
+    ],
+    "support": 0.354,
+    "confidence": 0.5722,
+    "lift": 1.0473,
+    "ageGroup": "50대"
+  },
+  {
+    "antecedents": [
+      "오징어"
+    ],
+    "consequents": [
+      "당면"
+    ],
+    "support": 0.6598,
+    "confidence": 0.7328,
+    "lift": 1.0454,
+    "ageGroup": "50대"
+  },
+  {
+    "antecedents": [
+      "계란"
+    ],
+    "consequents": [
+      "조미료"
+    ],
+    "support": 0.6323,
+    "confidence": 0.7931,
+    "lift": 1.0443,
+    "ageGroup": "50대"
+  },
+  {
+    "antecedents": [
+      "오징어"
+    ],
+    "consequents": [
+      "깻잎"
+    ],
+    "support": 0.5808,
+    "confidence": 0.645,
+    "lift": 1.0428,
+    "ageGroup": "50대"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "돼지고기"
+    ],
+    "support": 0.2474,
+    "confidence": 0.9351,
+    "lift": 1.0425,
+    "ageGroup": "50대"
+  },
+  {
+    "antecedents": [
+      "쇠고기"
+    ],
+    "consequents": [
+      "갈치"
+    ],
+    "support": 0.5086,
+    "confidence": 0.5692,
+    "lift": 1.0418,
+    "ageGroup": "50대"
+  },
+  {
+    "antecedents": [
+      "참외"
+    ],
+    "consequents": [
+      "깻잎"
+    ],
+    "support": 0.2921,
+    "confidence": 0.6439,
+    "lift": 1.041,
+    "ageGroup": "50대"
+  },
+  {
+    "antecedents": [
+      "조기"
+    ],
+    "consequents": [
+      "당면"
+    ],
+    "support": 0.4983,
+    "confidence": 0.7286,
+    "lift": 1.0394,
+    "ageGroup": "50대"
+  },
+  {
+    "antecedents": [
+      "참외"
+    ],
+    "consequents": [
+      "돼지고기"
+    ],
+    "support": 0.4227,
+    "confidence": 0.9318,
+    "lift": 1.0389,
+    "ageGroup": "50대"
+  },
+  {
+    "antecedents": [
+      "마른안주"
+    ],
+    "consequents": [
+      "생수"
+    ],
+    "support": 0.6564,
+    "confidence": 0.7992,
+    "lift": 1.0382,
+    "ageGroup": "50대"
+  },
+  {
+    "antecedents": [
+      "북어"
+    ],
+    "consequents": [
+      "참외"
+    ],
+    "support": 0.3608,
+    "confidence": 0.4709,
+    "lift": 1.038,
+    "ageGroup": "50대"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "국수"
+    ],
+    "support": 0.2509,
+    "confidence": 0.9481,
+    "lift": 1.0372,
+    "ageGroup": "50대"
+  },
+  {
+    "antecedents": [
+      "생수"
+    ],
+    "consequents": [
+      "북어"
+    ],
+    "support": 0.6117,
+    "confidence": 0.7946,
+    "lift": 1.037,
+    "ageGroup": "50대"
+  },
+  {
+    "antecedents": [
+      "북어"
+    ],
+    "consequents": [
+      "조기"
+    ],
+    "support": 0.543,
+    "confidence": 0.7085,
+    "lift": 1.0361,
+    "ageGroup": "50대"
+  },
+  {
+    "antecedents": [
+      "계란"
+    ],
+    "consequents": [
+      "참외"
+    ],
+    "support": 0.3746,
+    "confidence": 0.4698,
+    "lift": 1.0358,
+    "ageGroup": "50대"
+  },
+  {
+    "antecedents": [
+      "혼합및이온음료"
+    ],
+    "consequents": [
+      "참외"
+    ],
+    "support": 0.4502,
+    "confidence": 0.4695,
+    "lift": 1.0351,
+    "ageGroup": "50대"
+  },
+  {
+    "antecedents": [
+      "깻잎"
+    ],
+    "consequents": [
+      "마른안주"
+    ],
+    "support": 0.5258,
+    "confidence": 0.85,
+    "lift": 1.0349,
+    "ageGroup": "50대"
+  },
+  {
+    "antecedents": [
+      "나물"
+    ],
+    "consequents": [
+      "탄산음료"
+    ],
+    "support": 0.6151,
+    "confidence": 0.7427,
+    "lift": 1.0341,
+    "ageGroup": "50대"
+  },
+  {
+    "antecedents": [
+      "깻잎"
+    ],
+    "consequents": [
+      "파스타"
+    ],
+    "support": 0.488,
+    "confidence": 0.7889,
+    "lift": 1.0341,
+    "ageGroup": "50대"
+  },
+  {
+    "antecedents": [
+      "참외"
+    ],
+    "consequents": [
+      "나물"
+    ],
+    "support": 0.3883,
+    "confidence": 0.8561,
+    "lift": 1.0337,
+    "ageGroup": "50대"
+  },
+  {
+    "antecedents": [
+      "탄산음료"
+    ],
+    "consequents": [
+      "쇠고기"
+    ],
+    "support": 0.6632,
+    "confidence": 0.9234,
+    "lift": 1.0335,
+    "ageGroup": "50대"
+  },
+  {
+    "antecedents": [
+      "땅콩"
+    ],
+    "consequents": [
+      "참외"
+    ],
+    "support": 0.3574,
+    "confidence": 0.4685,
+    "lift": 1.0328,
+    "ageGroup": "50대"
+  },
+  {
+    "antecedents": [
+      "파스타"
+    ],
+    "consequents": [
+      "참외"
+    ],
+    "support": 0.3574,
+    "confidence": 0.4685,
+    "lift": 1.0328,
+    "ageGroup": "50대"
+  },
+  {
+    "antecedents": [
+      "마른안주"
+    ],
+    "consequents": [
+      "당면"
+    ],
+    "support": 0.5945,
+    "confidence": 0.7238,
+    "lift": 1.0325,
+    "ageGroup": "50대"
+  },
+  {
+    "antecedents": [
+      "계란"
+    ],
+    "consequents": [
+      "탄산음료"
+    ],
+    "support": 0.5911,
+    "confidence": 0.7414,
+    "lift": 1.0323,
+    "ageGroup": "50대"
+  },
+  {
+    "antecedents": [
+      "깻잎"
+    ],
+    "consequents": [
+      "생수"
+    ],
+    "support": 0.4914,
+    "confidence": 0.7944,
+    "lift": 1.0321,
+    "ageGroup": "50대"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "멸치"
+    ],
+    "support": 0.2543,
+    "confidence": 0.961,
+    "lift": 1.032,
+    "ageGroup": "50대"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "맛김"
+    ],
+    "support": 0.2474,
+    "confidence": 0.9351,
+    "lift": 1.0307,
+    "ageGroup": "50대"
+  },
+  {
+    "antecedents": [
+      "파스타"
+    ],
+    "consequents": [
+      "갈치"
+    ],
+    "support": 0.4296,
+    "confidence": 0.5631,
+    "lift": 1.0305,
+    "ageGroup": "50대"
+  },
+  {
+    "antecedents": [
+      "당면"
+    ],
+    "consequents": [
+      "나물"
+    ],
+    "support": 0.5979,
+    "confidence": 0.8529,
+    "lift": 1.0299,
+    "ageGroup": "50대"
+  },
+  {
+    "antecedents": [
+      "북어"
+    ],
+    "consequents": [
+      "당면"
+    ],
+    "support": 0.5533,
+    "confidence": 0.722,
+    "lift": 1.0299,
+    "ageGroup": "50대"
+  },
+  {
+    "antecedents": [
+      "나물"
+    ],
+    "consequents": [
+      "생수"
+    ],
+    "support": 0.6564,
+    "confidence": 0.7925,
+    "lift": 1.0296,
+    "ageGroup": "50대"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "혼합및이온음료"
+    ],
+    "support": 0.2612,
+    "confidence": 0.987,
+    "lift": 1.0295,
+    "ageGroup": "50대"
+  },
+  {
+    "antecedents": [
+      "닭고기"
+    ],
+    "consequents": [
+      "드레싱"
+    ],
+    "support": 0.7354,
+    "confidence": 0.9264,
+    "lift": 1.0289,
+    "ageGroup": "50대"
+  },
+  {
+    "antecedents": [
+      "아몬드"
+    ],
+    "consequents": [
+      "깻잎"
+    ],
+    "support": 0.5533,
+    "confidence": 0.6364,
+    "lift": 1.0288,
+    "ageGroup": "50대"
+  },
+  {
+    "antecedents": [
+      "북어"
+    ],
+    "consequents": [
+      "파스타"
+    ],
+    "support": 0.6014,
+    "confidence": 0.7848,
+    "lift": 1.0287,
+    "ageGroup": "50대"
+  },
+  {
+    "antecedents": [
+      "참외"
+    ],
+    "consequents": [
+      "아몬드"
+    ],
+    "support": 0.4055,
+    "confidence": 0.8939,
+    "lift": 1.0282,
+    "ageGroup": "50대"
+  },
+  {
+    "antecedents": [
+      "맛김"
+    ],
+    "consequents": [
+      "파스타"
+    ],
+    "support": 0.7113,
+    "confidence": 0.7841,
+    "lift": 1.0278,
+    "ageGroup": "50대"
+  },
+  {
+    "antecedents": [
+      "참외"
+    ],
+    "consequents": [
+      "조미료"
+    ],
+    "support": 0.354,
+    "confidence": 0.7803,
+    "lift": 1.0275,
+    "ageGroup": "50대"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "도라지"
+    ],
+    "support": 0.2577,
+    "confidence": 0.974,
+    "lift": 1.027,
+    "ageGroup": "50대"
+  },
+  {
+    "antecedents": [
+      "조미료"
+    ],
+    "consequents": [
+      "탄산음료"
+    ],
+    "support": 0.5601,
+    "confidence": 0.7376,
+    "lift": 1.0269,
+    "ageGroup": "50대"
+  },
+  {
+    "antecedents": [
+      "계란"
+    ],
+    "consequents": [
+      "당면"
+    ],
+    "support": 0.5739,
+    "confidence": 0.7198,
+    "lift": 1.0268,
+    "ageGroup": "50대"
+  },
+  {
+    "antecedents": [
+      "조기"
+    ],
+    "consequents": [
+      "카레"
+    ],
+    "support": 0.6632,
+    "confidence": 0.9698,
+    "lift": 1.0263,
+    "ageGroup": "50대"
+  },
+  {
+    "antecedents": [
+      "갈치"
+    ],
+    "consequents": [
+      "소시지"
+    ],
+    "support": 0.5258,
+    "confidence": 0.9623,
+    "lift": 1.0257,
+    "ageGroup": "50대"
+  },
+  {
+    "antecedents": [
+      "소시지"
+    ],
+    "consequents": [
+      "참외"
+    ],
+    "support": 0.4364,
+    "confidence": 0.4652,
+    "lift": 1.0256,
+    "ageGroup": "50대"
+  },
+  {
+    "antecedents": [
+      "갈치"
+    ],
+    "consequents": [
+      "국수"
+    ],
+    "support": 0.512,
+    "confidence": 0.9371,
+    "lift": 1.0252,
+    "ageGroup": "50대"
+  },
+  {
+    "antecedents": [
+      "돼지고기"
+    ],
+    "consequents": [
+      "북어"
+    ],
+    "support": 0.7045,
+    "confidence": 0.7854,
+    "lift": 1.0249,
+    "ageGroup": "50대"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "드레싱"
+    ],
+    "support": 0.244,
+    "confidence": 0.9221,
+    "lift": 1.0241,
+    "ageGroup": "50대"
+  },
+  {
+    "antecedents": [
+      "참외"
+    ],
+    "consequents": [
+      "생수"
+    ],
+    "support": 0.3574,
+    "confidence": 0.7879,
+    "lift": 1.0235,
+    "ageGroup": "50대"
+  },
+  {
+    "antecedents": [
+      "북어"
+    ],
+    "consequents": [
+      "나물"
+    ],
+    "support": 0.6495,
+    "confidence": 0.8475,
+    "lift": 1.0234,
+    "ageGroup": "50대"
+  },
+  {
+    "antecedents": [
+      "혼합및이온음료"
+    ],
+    "consequents": [
+      "탄산음료"
+    ],
+    "support": 0.7045,
+    "confidence": 0.7348,
+    "lift": 1.023,
+    "ageGroup": "50대"
+  },
+  {
+    "antecedents": [
+      "쇠고기"
+    ],
+    "consequents": [
+      "조미료"
+    ],
+    "support": 0.6942,
+    "confidence": 0.7769,
+    "lift": 1.023,
+    "ageGroup": "50대"
+  },
+  {
+    "antecedents": [
+      "닭고기"
+    ],
+    "consequents": [
+      "국수"
+    ],
+    "support": 0.7423,
+    "confidence": 0.9351,
+    "lift": 1.0229,
+    "ageGroup": "50대"
+  },
+  {
+    "antecedents": [
+      "맛김"
+    ],
+    "consequents": [
+      "땅콩"
+    ],
+    "support": 0.7079,
+    "confidence": 0.7803,
+    "lift": 1.0228,
+    "ageGroup": "50대"
+  },
+  {
+    "antecedents": [
+      "도라지"
+    ],
+    "consequents": [
+      "참외"
+    ],
+    "support": 0.4399,
+    "confidence": 0.4638,
+    "lift": 1.0224,
+    "ageGroup": "50대"
+  },
+  {
+    "antecedents": [
+      "북어"
+    ],
+    "consequents": [
+      "깻잎"
+    ],
+    "support": 0.4845,
+    "confidence": 0.6323,
+    "lift": 1.0222,
+    "ageGroup": "50대"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "밤"
+    ],
+    "support": 0.2612,
+    "confidence": 0.987,
+    "lift": 1.0221,
+    "ageGroup": "50대"
+  },
+  {
+    "antecedents": [
+      "땅콩"
+    ],
+    "consequents": [
+      "당면"
+    ],
+    "support": 0.5464,
+    "confidence": 0.7162,
+    "lift": 1.0217,
+    "ageGroup": "50대"
+  },
+  {
+    "antecedents": [
+      "땅콩"
+    ],
+    "consequents": [
+      "파스타"
+    ],
+    "support": 0.5945,
+    "confidence": 0.7793,
+    "lift": 1.0215,
+    "ageGroup": "50대"
+  },
+  {
+    "antecedents": [
+      "도라지"
+    ],
+    "consequents": [
+      "파스타"
+    ],
+    "support": 0.7388,
+    "confidence": 0.779,
+    "lift": 1.0211,
+    "ageGroup": "50대"
+  },
+  {
+    "antecedents": [
+      "생수"
+    ],
+    "consequents": [
+      "멸치"
+    ],
+    "support": 0.732,
+    "confidence": 0.9509,
+    "lift": 1.0211,
+    "ageGroup": "50대"
+  },
+  {
+    "antecedents": [
+      "갈치"
+    ],
+    "consequents": [
+      "조기"
+    ],
+    "support": 0.3814,
+    "confidence": 0.6981,
+    "lift": 1.0209,
+    "ageGroup": "50대"
+  },
+  {
+    "antecedents": [
+      "탄산음료"
+    ],
+    "consequents": [
+      "국수"
+    ],
+    "support": 0.6701,
+    "confidence": 0.933,
+    "lift": 1.0207,
+    "ageGroup": "50대"
+  },
+  {
+    "antecedents": [
+      "오징어"
+    ],
+    "consequents": [
+      "탄산음료"
+    ],
+    "support": 0.6598,
+    "confidence": 0.7328,
+    "lift": 1.0203,
+    "ageGroup": "50대"
+  },
+  {
+    "antecedents": [
+      "아몬드"
+    ],
+    "consequents": [
+      "조미료"
+    ],
+    "support": 0.6735,
+    "confidence": 0.7747,
+    "lift": 1.0201,
+    "ageGroup": "50대"
+  },
+  {
+    "antecedents": [
+      "땅콩"
+    ],
+    "consequents": [
+      "국수"
+    ],
+    "support": 0.7113,
+    "confidence": 0.9324,
+    "lift": 1.0201,
+    "ageGroup": "50대"
+  },
+  {
+    "antecedents": [
+      "조미료"
+    ],
+    "consequents": [
+      "당면"
+    ],
+    "support": 0.543,
+    "confidence": 0.7149,
+    "lift": 1.0198,
+    "ageGroup": "50대"
+  },
+  {
+    "antecedents": [
+      "돼지고기"
+    ],
+    "consequents": [
+      "조기"
+    ],
+    "support": 0.6254,
+    "confidence": 0.6973,
+    "lift": 1.0197,
+    "ageGroup": "50대"
+  },
+  {
+    "antecedents": [
+      "아몬드"
+    ],
+    "consequents": [
+      "소시지"
+    ],
+    "support": 0.8316,
+    "confidence": 0.9565,
+    "lift": 1.0196,
+    "ageGroup": "50대"
+  },
+  {
+    "antecedents": [
+      "참외"
+    ],
+    "consequents": [
+      "국수"
+    ],
+    "support": 0.4227,
+    "confidence": 0.9318,
+    "lift": 1.0194,
+    "ageGroup": "50대"
+  },
+  {
+    "antecedents": [
+      "깻잎"
+    ],
+    "consequents": [
+      "도라지"
+    ],
+    "support": 0.5979,
+    "confidence": 0.9667,
+    "lift": 1.0192,
+    "ageGroup": "50대"
+  },
+  {
+    "antecedents": [
+      "조기"
+    ],
+    "consequents": [
+      "참외"
+    ],
+    "support": 0.3162,
+    "confidence": 0.4623,
+    "lift": 1.0192,
+    "ageGroup": "50대"
+  },
+  {
+    "antecedents": [
+      "계란"
+    ],
+    "consequents": [
+      "생수"
+    ],
+    "support": 0.6254,
+    "confidence": 0.7845,
+    "lift": 1.0191,
+    "ageGroup": "50대"
+  },
+  {
+    "antecedents": [
+      "맛김"
+    ],
+    "consequents": [
+      "갈치"
+    ],
+    "support": 0.5052,
+    "confidence": 0.5568,
+    "lift": 1.0191,
+    "ageGroup": "50대"
+  },
+  {
+    "antecedents": [
+      "배"
+    ],
+    "consequents": [
+      "아몬드"
+    ],
+    "support": 0.8522,
+    "confidence": 0.8857,
+    "lift": 1.0187,
+    "ageGroup": "50대"
+  },
+  {
+    "antecedents": [
+      "소시지"
+    ],
+    "consequents": [
+      "깻잎"
+    ],
+    "support": 0.5911,
+    "confidence": 0.63,
+    "lift": 1.0186,
+    "ageGroup": "50대"
+  },
+  {
+    "antecedents": [
+      "드레싱"
+    ],
+    "consequents": [
+      "나물"
+    ],
+    "support": 0.7595,
+    "confidence": 0.8435,
+    "lift": 1.0185,
+    "ageGroup": "50대"
+  },
+  {
+    "antecedents": [
+      "밤"
+    ],
+    "consequents": [
+      "깻잎"
+    ],
+    "support": 0.6082,
+    "confidence": 0.6299,
+    "lift": 1.0183,
+    "ageGroup": "50대"
+  },
+  {
+    "antecedents": [
+      "당면"
+    ],
+    "consequents": [
+      "드레싱"
+    ],
+    "support": 0.6426,
+    "confidence": 0.9167,
+    "lift": 1.0181,
+    "ageGroup": "50대"
+  },
+  {
+    "antecedents": [
+      "맛김"
+    ],
+    "consequents": [
+      "드레싱"
+    ],
+    "support": 0.8316,
+    "confidence": 0.9167,
+    "lift": 1.0181,
+    "ageGroup": "50대"
+  },
+  {
+    "antecedents": [
+      "계란"
+    ],
+    "consequents": [
+      "쇠고기"
+    ],
+    "support": 0.7251,
+    "confidence": 0.9095,
+    "lift": 1.0179,
+    "ageGroup": "50대"
+  },
+  {
+    "antecedents": [
+      "닭고기"
+    ],
+    "consequents": [
+      "생수"
+    ],
+    "support": 0.622,
+    "confidence": 0.7835,
+    "lift": 1.0179,
+    "ageGroup": "50대"
+  },
+  {
+    "antecedents": [
+      "참외"
+    ],
+    "consequents": [
+      "깻잎"
+    ],
+    "support": 0.3485,
+    "confidence": 0.7302,
+    "lift": 1.1612,
+    "ageGroup": "60대"
+  },
+  {
+    "antecedents": [
+      "생수"
+    ],
+    "consequents": [
+      "파스타"
+    ],
+    "support": 0.6061,
+    "confidence": 0.7921,
+    "lift": 1.0891,
+    "ageGroup": "60대"
+  },
+  {
+    "antecedents": [
+      "깻잎"
+    ],
+    "consequents": [
+      "탄산음료"
+    ],
+    "support": 0.5227,
+    "confidence": 0.8313,
+    "lift": 1.0865,
+    "ageGroup": "60대"
+  },
+  {
+    "antecedents": [
+      "깻잎"
+    ],
+    "consequents": [
+      "생수"
+    ],
+    "support": 0.5227,
+    "confidence": 0.8313,
+    "lift": 1.0865,
+    "ageGroup": "60대"
+  },
+  {
+    "antecedents": [
+      "당면"
+    ],
+    "consequents": [
+      "탄산음료"
+    ],
+    "support": 0.5455,
+    "confidence": 0.8276,
+    "lift": 1.0816,
+    "ageGroup": "60대"
+  },
+  {
+    "antecedents": [
+      "마른안주"
+    ],
+    "consequents": [
+      "아몬드"
+    ],
+    "support": 0.7424,
+    "confidence": 0.8991,
+    "lift": 1.0789,
+    "ageGroup": "60대"
+  },
+  {
+    "antecedents": [
+      "파스타"
+    ],
+    "consequents": [
+      "깻잎"
+    ],
+    "support": 0.4924,
+    "confidence": 0.6771,
+    "lift": 1.0768,
+    "ageGroup": "60대"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "마른안주"
+    ],
+    "support": 0.303,
+    "confidence": 0.8889,
+    "lift": 1.0765,
+    "ageGroup": "60대"
+  },
+  {
+    "antecedents": [
+      "북어"
+    ],
+    "consequents": [
+      "당면"
+    ],
+    "support": 0.553,
+    "confidence": 0.7087,
+    "lift": 1.0753,
+    "ageGroup": "60대"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "탄산음료"
+    ],
+    "support": 0.2803,
+    "confidence": 0.8222,
+    "lift": 1.0746,
+    "ageGroup": "60대"
+  },
+  {
+    "antecedents": [
+      "탄산음료"
+    ],
+    "consequents": [
+      "조미료"
+    ],
+    "support": 0.6061,
+    "confidence": 0.7921,
+    "lift": 1.0669,
+    "ageGroup": "60대"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "맛김"
+    ],
+    "support": 0.3182,
+    "confidence": 0.9333,
+    "lift": 1.0621,
+    "ageGroup": "60대"
+  },
+  {
+    "antecedents": [
+      "당면"
+    ],
+    "consequents": [
+      "파스타"
+    ],
+    "support": 0.5076,
+    "confidence": 0.7701,
+    "lift": 1.0589,
+    "ageGroup": "60대"
+  },
+  {
+    "antecedents": [
+      "조기"
+    ],
+    "consequents": [
+      "북어"
+    ],
+    "support": 0.5379,
+    "confidence": 0.8256,
+    "lift": 1.058,
+    "ageGroup": "60대"
+  },
+  {
+    "antecedents": [
+      "갈치"
+    ],
+    "consequents": [
+      "조기"
+    ],
+    "support": 0.3864,
+    "confidence": 0.6892,
+    "lift": 1.0578,
+    "ageGroup": "60대"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "소시지"
+    ],
+    "support": 0.3409,
+    "confidence": 1.0,
+    "lift": 1.056,
+    "ageGroup": "60대"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "멸치"
+    ],
+    "support": 0.3409,
+    "confidence": 1.0,
+    "lift": 1.056,
+    "ageGroup": "60대"
+  },
+  {
+    "antecedents": [
+      "갈치"
+    ],
+    "consequents": [
+      "조미료"
+    ],
+    "support": 0.4394,
+    "confidence": 0.7838,
+    "lift": 1.0557,
+    "ageGroup": "60대"
+  },
+  {
+    "antecedents": [
+      "조기"
+    ],
+    "consequents": [
+      "깻잎"
+    ],
+    "support": 0.4318,
+    "confidence": 0.6628,
+    "lift": 1.0541,
+    "ageGroup": "60대"
+  },
+  {
+    "antecedents": [
+      "나물"
+    ],
+    "consequents": [
+      "갈치"
+    ],
+    "support": 0.4773,
+    "confidence": 0.5888,
+    "lift": 1.0503,
+    "ageGroup": "60대"
+  },
+  {
+    "antecedents": [
+      "파스타"
+    ],
+    "consequents": [
+      "아몬드"
+    ],
+    "support": 0.6364,
+    "confidence": 0.875,
+    "lift": 1.05,
+    "ageGroup": "60대"
+  },
+  {
+    "antecedents": [
+      "조기"
+    ],
+    "consequents": [
+      "참외"
+    ],
+    "support": 0.3258,
+    "confidence": 0.5,
+    "lift": 1.0476,
+    "ageGroup": "60대"
+  },
+  {
+    "antecedents": [
+      "마른안주"
+    ],
+    "consequents": [
+      "파스타"
+    ],
+    "support": 0.6288,
+    "confidence": 0.7615,
+    "lift": 1.047,
+    "ageGroup": "60대"
+  },
+  {
+    "antecedents": [
+      "당면"
+    ],
+    "consequents": [
+      "맛김"
+    ],
+    "support": 0.6061,
+    "confidence": 0.9195,
+    "lift": 1.0464,
+    "ageGroup": "60대"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "땅콩"
+    ],
+    "support": 0.2727,
+    "confidence": 0.8,
+    "lift": 1.0455,
+    "ageGroup": "60대"
+  },
+  {
+    "antecedents": [
+      "생수"
+    ],
+    "consequents": [
+      "계란"
+    ],
+    "support": 0.697,
+    "confidence": 0.9109,
+    "lift": 1.0455,
+    "ageGroup": "60대"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "당면"
+    ],
+    "support": 0.2348,
+    "confidence": 0.6889,
+    "lift": 1.0452,
+    "ageGroup": "60대"
+  },
+  {
+    "antecedents": [
+      "당면"
+    ],
+    "consequents": [
+      "빵"
+    ],
+    "support": 0.6364,
+    "confidence": 0.9655,
+    "lift": 1.0447,
+    "ageGroup": "60대"
+  },
+  {
+    "antecedents": [
+      "당면"
+    ],
+    "consequents": [
+      "풋고추"
+    ],
+    "support": 0.6515,
+    "confidence": 0.9885,
+    "lift": 1.0439,
+    "ageGroup": "60대"
+  },
+  {
+    "antecedents": [
+      "닭고기"
+    ],
+    "consequents": [
+      "국수"
+    ],
+    "support": 0.7576,
+    "confidence": 0.9009,
+    "lift": 1.0431,
+    "ageGroup": "60대"
+  },
+  {
+    "antecedents": [
+      "아몬드"
+    ],
+    "consequents": [
+      "나물"
+    ],
+    "support": 0.7045,
+    "confidence": 0.8455,
+    "lift": 1.043,
+    "ageGroup": "60대"
+  },
+  {
+    "antecedents": [
+      "땅콩"
+    ],
+    "consequents": [
+      "갈치"
+    ],
+    "support": 0.447,
+    "confidence": 0.5842,
+    "lift": 1.042,
+    "ageGroup": "60대"
+  },
+  {
+    "antecedents": [
+      "깻잎"
+    ],
+    "consequents": [
+      "당면"
+    ],
+    "support": 0.4318,
+    "confidence": 0.6867,
+    "lift": 1.042,
+    "ageGroup": "60대"
+  },
+  {
+    "antecedents": [
+      "아몬드"
+    ],
+    "consequents": [
+      "깻잎"
+    ],
+    "support": 0.5455,
+    "confidence": 0.6545,
+    "lift": 1.041,
+    "ageGroup": "60대"
+  },
+  {
+    "antecedents": [
+      "북어"
+    ],
+    "consequents": [
+      "땅콩"
+    ],
+    "support": 0.6212,
+    "confidence": 0.7961,
+    "lift": 1.0405,
+    "ageGroup": "60대"
+  },
+  {
+    "antecedents": [
+      "깻잎"
+    ],
+    "consequents": [
+      "나물"
+    ],
+    "support": 0.5303,
+    "confidence": 0.8434,
+    "lift": 1.0404,
+    "ageGroup": "60대"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "아몬드"
+    ],
+    "support": 0.2955,
+    "confidence": 0.8667,
+    "lift": 1.04,
+    "ageGroup": "60대"
+  },
+  {
+    "antecedents": [
+      "북어"
+    ],
+    "consequents": [
+      "빵"
+    ],
+    "support": 0.75,
+    "confidence": 0.9612,
+    "lift": 1.0399,
+    "ageGroup": "60대"
+  },
+  {
+    "antecedents": [
+      "땅콩"
+    ],
+    "consequents": [
+      "빵"
+    ],
+    "support": 0.7348,
+    "confidence": 0.9604,
+    "lift": 1.0391,
+    "ageGroup": "60대"
+  },
+  {
+    "antecedents": [
+      "갈치"
+    ],
+    "consequents": [
+      "북어"
+    ],
+    "support": 0.4545,
+    "confidence": 0.8108,
+    "lift": 1.0391,
+    "ageGroup": "60대"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "파스타"
+    ],
+    "support": 0.2576,
+    "confidence": 0.7556,
+    "lift": 1.0389,
+    "ageGroup": "60대"
+  },
+  {
+    "antecedents": [
+      "생수"
+    ],
+    "consequents": [
+      "나물"
+    ],
+    "support": 0.6439,
+    "confidence": 0.8416,
+    "lift": 1.0382,
+    "ageGroup": "60대"
+  },
+  {
+    "antecedents": [
+      "북어"
+    ],
+    "consequents": [
+      "참외"
+    ],
+    "support": 0.3864,
+    "confidence": 0.4951,
+    "lift": 1.0374,
+    "ageGroup": "60대"
+  },
+  {
+    "antecedents": [
+      "깻잎"
+    ],
+    "consequents": [
+      "계란"
+    ],
+    "support": 0.5682,
+    "confidence": 0.9036,
+    "lift": 1.0372,
+    "ageGroup": "60대"
+  },
+  {
+    "antecedents": [
+      "돼지고기"
+    ],
+    "consequents": [
+      "땅콩"
+    ],
+    "support": 0.7273,
+    "confidence": 0.7934,
+    "lift": 1.0369,
+    "ageGroup": "60대"
+  },
+  {
+    "antecedents": [
+      "나물"
+    ],
+    "consequents": [
+      "풋고추"
+    ],
+    "support": 0.7955,
+    "confidence": 0.9813,
+    "lift": 1.0363,
+    "ageGroup": "60대"
+  },
+  {
+    "antecedents": [
+      "닭고기"
+    ],
+    "consequents": [
+      "탄산음료"
+    ],
+    "support": 0.6667,
+    "confidence": 0.7928,
+    "lift": 1.0361,
+    "ageGroup": "60대"
+  },
+  {
+    "antecedents": [
+      "조미료"
+    ],
+    "consequents": [
+      "쇠고기"
+    ],
+    "support": 0.6818,
+    "confidence": 0.9184,
+    "lift": 1.0361,
+    "ageGroup": "60대"
+  },
+  {
+    "antecedents": [
+      "파스타"
+    ],
+    "consequents": [
+      "탄산음료"
+    ],
+    "support": 0.5758,
+    "confidence": 0.7917,
+    "lift": 1.0347,
+    "ageGroup": "60대"
+  },
+  {
+    "antecedents": [
+      "깻잎"
+    ],
+    "consequents": [
+      "북어"
+    ],
+    "support": 0.5076,
+    "confidence": 0.8072,
+    "lift": 1.0345,
+    "ageGroup": "60대"
+  },
+  {
+    "antecedents": [
+      "당면"
+    ],
+    "consequents": [
+      "아몬드"
+    ],
+    "support": 0.5682,
+    "confidence": 0.8621,
+    "lift": 1.0345,
+    "ageGroup": "60대"
+  },
+  {
+    "antecedents": [
+      "혼합및이온음료"
+    ],
+    "consequents": [
+      "조미료"
+    ],
+    "support": 0.7273,
+    "confidence": 0.768,
+    "lift": 1.0344,
+    "ageGroup": "60대"
+  },
+  {
+    "antecedents": [
+      "파스타"
+    ],
+    "consequents": [
+      "쇠고기"
+    ],
+    "support": 0.6667,
+    "confidence": 0.9167,
+    "lift": 1.0342,
+    "ageGroup": "60대"
+  },
+  {
+    "antecedents": [
+      "파스타"
+    ],
+    "consequents": [
+      "소시지"
+    ],
+    "support": 0.7121,
+    "confidence": 0.9792,
+    "lift": 1.034,
+    "ageGroup": "60대"
+  },
+  {
+    "antecedents": [
+      "땅콩"
+    ],
+    "consequents": [
+      "아몬드"
+    ],
+    "support": 0.6591,
+    "confidence": 0.8614,
+    "lift": 1.0337,
+    "ageGroup": "60대"
+  },
+  {
+    "antecedents": [
+      "생수"
+    ],
+    "consequents": [
+      "조기"
+    ],
+    "support": 0.5152,
+    "confidence": 0.6733,
+    "lift": 1.0334,
+    "ageGroup": "60대"
+  },
+  {
+    "antecedents": [
+      "탄산음료"
+    ],
+    "consequents": [
+      "조기"
+    ],
+    "support": 0.5152,
+    "confidence": 0.6733,
+    "lift": 1.0334,
+    "ageGroup": "60대"
+  },
+  {
+    "antecedents": [
+      "아몬드"
+    ],
+    "consequents": [
+      "계란"
+    ],
+    "support": 0.75,
+    "confidence": 0.9,
+    "lift": 1.033,
+    "ageGroup": "60대"
+  },
+  {
+    "antecedents": [
+      "나물"
+    ],
+    "consequents": [
+      "조기"
+    ],
+    "support": 0.5455,
+    "confidence": 0.6729,
+    "lift": 1.0328,
+    "ageGroup": "60대"
+  },
+  {
+    "antecedents": [
+      "깻잎"
+    ],
+    "consequents": [
+      "국수"
+    ],
+    "support": 0.5606,
+    "confidence": 0.8916,
+    "lift": 1.0323,
+    "ageGroup": "60대"
+  },
+  {
+    "antecedents": [
+      "탄산음료"
+    ],
+    "consequents": [
+      "드레싱"
+    ],
+    "support": 0.6818,
+    "confidence": 0.8911,
+    "lift": 1.0318,
+    "ageGroup": "60대"
+  },
+  {
+    "antecedents": [
+      "당면"
+    ],
+    "consequents": [
+      "멸치"
+    ],
+    "support": 0.6439,
+    "confidence": 0.977,
+    "lift": 1.0317,
+    "ageGroup": "60대"
+  },
+  {
+    "antecedents": [
+      "밤"
+    ],
+    "consequents": [
+      "아몬드"
+    ],
+    "support": 0.8333,
+    "confidence": 0.8594,
+    "lift": 1.0312,
+    "ageGroup": "60대"
+  },
+  {
+    "antecedents": [
+      "잼"
+    ],
+    "consequents": [
+      "갈치"
+    ],
+    "support": 0.5606,
+    "confidence": 0.5781,
+    "lift": 1.0312,
+    "ageGroup": "60대"
+  },
+  {
+    "antecedents": [
+      "오징어"
+    ],
+    "consequents": [
+      "닭고기"
+    ],
+    "support": 0.7879,
+    "confidence": 0.8667,
+    "lift": 1.0306,
+    "ageGroup": "60대"
+  },
+  {
+    "antecedents": [
+      "깻잎"
+    ],
+    "consequents": [
+      "소시지"
+    ],
+    "support": 0.6136,
+    "confidence": 0.9759,
+    "lift": 1.0306,
+    "ageGroup": "60대"
+  },
+  {
+    "antecedents": [
+      "마른안주"
+    ],
+    "consequents": [
+      "당면"
+    ],
+    "support": 0.5606,
+    "confidence": 0.6789,
+    "lift": 1.0301,
+    "ageGroup": "60대"
+  },
+  {
+    "antecedents": [
+      "나물"
+    ],
+    "consequents": [
+      "북어"
+    ],
+    "support": 0.6515,
+    "confidence": 0.8037,
+    "lift": 1.03,
+    "ageGroup": "60대"
+  },
+  {
+    "antecedents": [
+      "쇠고기"
+    ],
+    "consequents": [
+      "멸치"
+    ],
+    "support": 0.8636,
+    "confidence": 0.9744,
+    "lift": 1.0289,
+    "ageGroup": "60대"
+  },
+  {
+    "antecedents": [
+      "깻잎"
+    ],
+    "consequents": [
+      "맛김"
+    ],
+    "support": 0.5682,
+    "confidence": 0.9036,
+    "lift": 1.0283,
+    "ageGroup": "60대"
+  },
+  {
+    "antecedents": [
+      "멸치"
+    ],
+    "consequents": [
+      "국수"
+    ],
+    "support": 0.8409,
+    "confidence": 0.888,
+    "lift": 1.0282,
+    "ageGroup": "60대"
+  },
+  {
+    "antecedents": [
+      "맛김"
+    ],
+    "consequents": [
+      "국수"
+    ],
+    "support": 0.7803,
+    "confidence": 0.8879,
+    "lift": 1.0281,
+    "ageGroup": "60대"
+  },
+  {
+    "antecedents": [
+      "파스타"
+    ],
+    "consequents": [
+      "나물"
+    ],
+    "support": 0.6061,
+    "confidence": 0.8333,
+    "lift": 1.028,
+    "ageGroup": "60대"
+  },
+  {
+    "antecedents": [
+      "북어"
+    ],
+    "consequents": [
+      "파스타"
+    ],
+    "support": 0.5833,
+    "confidence": 0.7476,
+    "lift": 1.0279,
+    "ageGroup": "60대"
+  },
+  {
+    "antecedents": [
+      "생수"
+    ],
+    "consequents": [
+      "북어"
+    ],
+    "support": 0.6136,
+    "confidence": 0.802,
+    "lift": 1.0278,
+    "ageGroup": "60대"
+  },
+  {
+    "antecedents": [
+      "쇠고기"
+    ],
+    "consequents": [
+      "탄산음료"
+    ],
+    "support": 0.697,
+    "confidence": 0.7863,
+    "lift": 1.0277,
+    "ageGroup": "60대"
+  },
+  {
+    "antecedents": [
+      "쇠고기"
+    ],
+    "consequents": [
+      "생수"
+    ],
+    "support": 0.697,
+    "confidence": 0.7863,
+    "lift": 1.0277,
+    "ageGroup": "60대"
+  },
+  {
+    "antecedents": [
+      "북어"
+    ],
+    "consequents": [
+      "닭고기"
+    ],
+    "support": 0.6742,
+    "confidence": 0.8641,
+    "lift": 1.0276,
+    "ageGroup": "60대"
+  },
+  {
+    "antecedents": [
+      "소시지"
+    ],
+    "consequents": [
+      "갈치"
+    ],
+    "support": 0.5455,
+    "confidence": 0.576,
+    "lift": 1.0275,
+    "ageGroup": "60대"
+  },
+  {
+    "antecedents": [
+      "갈치"
+    ],
+    "consequents": [
+      "혼합및이온음료"
+    ],
+    "support": 0.5455,
+    "confidence": 0.973,
+    "lift": 1.0275,
+    "ageGroup": "60대"
+  },
+  {
+    "antecedents": [
+      "맛김"
+    ],
+    "consequents": [
+      "북어"
+    ],
+    "support": 0.7045,
+    "confidence": 0.8017,
+    "lift": 1.0275,
+    "ageGroup": "60대"
+  },
+  {
+    "antecedents": [
+      "마른안주"
+    ],
+    "consequents": [
+      "풋고추"
+    ],
+    "support": 0.803,
+    "confidence": 0.9725,
+    "lift": 1.0269,
+    "ageGroup": "60대"
+  },
+  {
+    "antecedents": [
+      "마른안주"
+    ],
+    "consequents": [
+      "멸치"
+    ],
+    "support": 0.803,
+    "confidence": 0.9725,
+    "lift": 1.0269,
+    "ageGroup": "60대"
+  },
+  {
+    "antecedents": [
+      "혼합및이온음료"
+    ],
+    "consequents": [
+      "나물"
+    ],
+    "support": 0.7879,
+    "confidence": 0.832,
+    "lift": 1.0264,
+    "ageGroup": "60대"
+  },
+  {
+    "antecedents": [
+      "전복"
+    ],
+    "consequents": [
+      "조미료"
+    ],
+    "support": 0.7273,
+    "confidence": 0.7619,
+    "lift": 1.0262,
+    "ageGroup": "60대"
+  },
+  {
+    "antecedents": [
+      "카레"
+    ],
+    "consequents": [
+      "땅콩"
+    ],
+    "support": 0.7197,
+    "confidence": 0.7851,
+    "lift": 1.0261,
+    "ageGroup": "60대"
+  },
+  {
+    "antecedents": [
+      "파스타"
+    ],
+    "consequents": [
+      "참외"
+    ],
+    "support": 0.3561,
+    "confidence": 0.4896,
+    "lift": 1.0258,
+    "ageGroup": "60대"
+  },
+  {
+    "antecedents": [
+      "갈치"
+    ],
+    "consequents": [
+      "오징어"
+    ],
+    "support": 0.5227,
+    "confidence": 0.9324,
+    "lift": 1.0257,
+    "ageGroup": "60대"
+  },
+  {
+    "antecedents": [
+      "파스타"
+    ],
+    "consequents": [
+      "빵"
+    ],
+    "support": 0.6894,
+    "confidence": 0.9479,
+    "lift": 1.0256,
+    "ageGroup": "60대"
+  },
+  {
+    "antecedents": [
+      "소시지"
+    ],
+    "consequents": [
+      "북어"
+    ],
+    "support": 0.7576,
+    "confidence": 0.8,
+    "lift": 1.0252,
+    "ageGroup": "60대"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "깻잎"
+    ],
+    "support": 0.2197,
+    "confidence": 0.6444,
+    "lift": 1.0249,
+    "ageGroup": "60대"
+  },
+  {
+    "antecedents": [
+      "마른안주"
+    ],
+    "consequents": [
+      "쇠고기"
+    ],
+    "support": 0.75,
+    "confidence": 0.9083,
+    "lift": 1.0247,
+    "ageGroup": "60대"
+  },
+  {
+    "antecedents": [
+      "멸치"
+    ],
+    "consequents": [
+      "땅콩"
+    ],
+    "support": 0.7424,
+    "confidence": 0.784,
+    "lift": 1.0246,
+    "ageGroup": "60대"
+  },
+  {
+    "antecedents": [
+      "당면"
+    ],
+    "consequents": [
+      "쇠고기"
+    ],
+    "support": 0.5985,
+    "confidence": 0.908,
+    "lift": 1.0245,
+    "ageGroup": "60대"
+  },
+  {
+    "antecedents": [
+      "갈치"
+    ],
+    "consequents": [
+      "생수"
+    ],
+    "support": 0.4394,
+    "confidence": 0.7838,
+    "lift": 1.0244,
+    "ageGroup": "60대"
+  },
+  {
+    "antecedents": [
+      "콩나물"
+    ],
+    "consequents": [
+      "전복"
+    ],
+    "support": 0.3333,
+    "confidence": 0.9778,
+    "lift": 1.0243,
+    "ageGroup": "60대"
+  },
+  {
+    "antecedents": [
+      "아몬드"
+    ],
+    "consequents": [
+      "맛김"
+    ],
+    "support": 0.75,
+    "confidence": 0.9,
+    "lift": 1.0241,
+    "ageGroup": "60대"
+  },
+  {
+    "antecedents": [
+      "카레"
+    ],
+    "consequents": [
+      "조미료"
+    ],
+    "support": 0.697,
+    "confidence": 0.7603,
+    "lift": 1.0241,
+    "ageGroup": "60대"
+  },
+  {
+    "antecedents": [
+      "오징어"
+    ],
+    "consequents": [
+      "땅콩"
+    ],
+    "support": 0.7121,
+    "confidence": 0.7833,
+    "lift": 1.0238,
+    "ageGroup": "60대"
+  },
+  {
+    "antecedents": [
+      "전복"
+    ],
+    "consequents": [
+      "당면"
+    ],
+    "support": 0.6439,
+    "confidence": 0.6746,
+    "lift": 1.0235,
+    "ageGroup": "60대"
+  }
+]
