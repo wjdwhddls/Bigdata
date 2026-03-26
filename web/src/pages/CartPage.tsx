@@ -225,7 +225,8 @@ export default function CartPage({ cartItems, onRemoveFromCart, currentUserId }:
             함께 보면 좋은 상품
           </h3>
           <p className="text-sm text-gray-400 mb-6">같이사면 할인되는 상품</p>
-          <div className="flex gap-4 overflow-x-auto pb-4">
+          <div className="bg-white rounded-2xl border border-gray-100 p-5">
+          <div className="flex gap-4 overflow-x-auto pb-2">
             {recommendedProducts.map(item => {
               const { emoji, bgColor, image } = getProductVisual(item.name)
               return (
@@ -252,6 +253,7 @@ export default function CartPage({ cartItems, onRemoveFromCart, currentUserId }:
                 </Link>
               )
             })}
+          </div>
           </div>
         </div>
       )}
