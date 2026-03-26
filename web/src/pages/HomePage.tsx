@@ -719,7 +719,7 @@ export default function HomePage({ categoryFilter = null, onCategoryChange, curr
           className="hero-logo text-gray-900 tracking-tighter pointer-events-none"
           style={{ fontSize: 'clamp(4rem, 15vw, 12rem)' }}
         >
-          PORKULY
+          POKURLY
         </h2>
         <p
           className="text-gray-400 text-lg md:text-xl tracking-wide mt-2 pointer-events-none"
