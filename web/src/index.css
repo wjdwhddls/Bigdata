@@ -281,10 +281,26 @@ body {
 
 /* ===== Mart Door Animation ===== */
 
+@keyframes doorSlideLeft {
+  from { transform: translateX(0); }
+  to { transform: translateX(-100%); }
+}
+
+@keyframes doorSlideRight {
+  from { transform: translateX(0); }
+  to { transform: translateX(100%); }
+}
+
+@keyframes doorSignFade {
+  0% { opacity: 1; }
+  60% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
 .door-overlay {
   position: fixed;
   inset: 0;
-  z-index: 50;
+  z-index: 9999;
   display: flex;
   pointer-events: none;
 }
@@ -293,7 +309,6 @@ body {
   width: 50%;
   height: 100%;
   position: relative;
-  transition: transform 1.2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
   overflow: hidden;
 }
 
@@ -356,13 +371,13 @@ body {
 .door-frame-top { top: 0; }
 .door-frame-bottom { bottom: 0; }
 
-/* 열림 상태 */
+/* 열림 애니메이션 (transition 대신 animation 사용 — 마운트 시에도 확실히 재생) */
 .door-panel-left.door-open {
-  transform: translateX(-100%);
+  animation: doorSlideLeft 1.2s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
 }
 
 .door-panel-right.door-open {
-  transform: translateX(100%);
+  animation: doorSlideRight 1.2s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
 }
 
 /* 간판 */
@@ -375,6 +390,10 @@ body {
   display: flex;
   justify-content: center;
   padding-top: 32vh;
+}
+
+.door-sign.door-sign-fade {
+  animation: doorSignFade 1.2s ease-out forwards;
 }
 
 /* ===== Smooth scrollbar ===== */
