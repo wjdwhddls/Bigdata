@@ -143,6 +143,7 @@ export default function Header({ currentUserId, onUserChange, onSignup, onCatego
             {/* My Page button (logged in only) */}
             {currentUserId && (
               <Link
+                id="mypage-btn"
                 to={`/my/${currentUserId}`}
                 className="text-xs text-gray-500 hover:text-emerald-600 border border-gray-200 rounded-full px-3 py-1.5 hover:border-emerald-300 transition-all duration-200"
               >

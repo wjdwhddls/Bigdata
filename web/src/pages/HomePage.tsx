@@ -2,6 +2,8 @@ import { useMemo, useState, useEffect, useRef, useCallback } from 'react'
 import { useData } from '../stores/dataStore'
 import { useScrollAnimation } from '../hooks/useScrollAnimation'
 import ProductCard from '../components/ProductCard'
+import { getProductVisual } from '../utils/productImages'
+import VoteModal from '../components/VoteModal'
 
 interface HeroImage {
   image: string
@@ -13,6 +15,12 @@ interface HeroImage {
   phase: number
   rotate: number
 }
+
+const bundleDeals = [
+  { items: ['돼지고기', '상추'], discount: 15 },
+  { items: ['라면', '김치'], discount: 10 },
+  { items: ['북어', '콩나물'], discount: 12 },
+]
 
 const promoSlides = [
   {
@@ -35,21 +43,19 @@ const promoSlides = [
     cards: [],
   },
   {
-    title: '오늘의 혜택은?',
-    subtitle: '진행 중인 이벤트 모아보기',
-    description: '이벤트 참여하고 혜택 받기',
+    title: '등급별 할인 혜택',
+    subtitle: '포컬리 멤버 전용',
+    description: '등급이 올라갈수록 더 큰 할인!',
     bg: 'from-purple-100 to-purple-50',
     accent: 'text-purple-900',
-    cards: [
-      { label: 'COUPON', color: 'bg-purple-300', icon: '🎫' },
-      { label: 'BENEFIT', color: 'bg-purple-400', icon: '🎁' },
-      { label: 'TODAY', color: 'bg-purple-800 text-white', icon: '📅' },
-    ],
+    custom: true as const,
+    customType: 'gradeDiscount' as const,
+    cards: [],
   },
   {
     title: '첫 구매 혜택',
     subtitle: '가입하고 바로 받는 할인',
-    description: '최대 30% 할인 쿠폰팩',
+    description: '최대 20% 할인 쿠폰팩',
     bg: 'from-amber-100 to-amber-50',
     accent: 'text-amber-900',
     cards: [
@@ -132,6 +138,9 @@ export default function HomePage({ categoryFilter = null, onCategoryChange, curr
   const [showProducts, setShowProducts] = useState(() => sessionStorage.getItem('showProducts') === 'true' || !!currentUserId)
   const [animPhase, setAnimPhase] = useState(0)
   const [currentSlide, setCurrentSlide] = useState(0)
+  const [isPaused, setIsPaused] = useState(false)
+  const [showVoteModal, setShowVoteModal] = useState(false)
+  const [hasVoted, setHasVoted] = useState(() => sessionStorage.getItem('hasVoted') === 'true')
 
   // Auto-show products when logged in
   useEffect(() => {
@@ -150,6 +159,15 @@ export default function HomePage({ categoryFilter = null, onCategoryChange, curr
     const t3 = setTimeout(() => setAnimPhase(3), 2500)
     return () => { clearTimeout(t1); clearTimeout(t2); clearTimeout(t3) }
   }, [])
+
+  // Auto-slide promo slides
+  useEffect(() => {
+    if (isPaused) return
+    const interval = setInterval(() => {
+      setCurrentSlide(prev => (prev + 1) % promoSlides.length)
+    }, 4000)
+    return () => clearInterval(interval)
+  }, [isPaused])
 
 
   const goSlide = useCallback((dir: number) => {
@@ -184,7 +202,52 @@ export default function HomePage({ categoryFilter = null, onCategoryChange, curr
                 className={`w-full h-full flex-shrink-0 bg-gradient-to-r ${slide.bg} flex items-center justify-center`}
               >
                 {'custom' in slide && slide.custom ? (
-                  'customType' in slide && slide.customType === 'health' ? (
+                  'customType' in slide && slide.customType === 'gradeDiscount' ? (
+                  /* Custom: 등급별 할인 혜택 슬라이드 */
+                  <div className="max-w-6xl mx-auto px-4 flex items-center justify-between w-full">
+                    <div className="space-y-4 max-w-md">
+                      <div className="flex items-center gap-2 mb-1">
+                        <div className="w-8 h-8 bg-purple-600 rounded-lg flex items-center justify-center">
+                          <span className="text-white text-sm font-black">P</span>
+                        </div>
+                        <span className="text-base font-bold text-purple-800">포컬리</span>
+                      </div>
+                      <p className="text-sm font-semibold text-purple-600 tracking-wide">포컬리 멤버 전용</p>
+                      <h3 className="text-5xl font-black text-purple-900 leading-tight">
+                        등급별 할인 혜택
+                      </h3>
+                      <p className="text-lg text-purple-700">
+                        등급이 올라갈수록 더 큰 할인!
+                      </p>
+                    </div>
+                    <div className="flex items-end gap-5">
+                      {/* VIP Card */}
+                      <div className="flex flex-col items-center">
+                        <div className="w-36 h-44 rounded-2xl bg-gradient-to-b from-red-400 to-rose-600 flex flex-col items-center justify-center shadow-xl text-white relative overflow-hidden" style={{ transform: 'rotate(-3deg)' }}>
+                          <div className="absolute inset-0 bg-white/5 rounded-2xl" />
+                          <span className="text-3xl mb-2">🎖️</span>
+                          <span className="text-2xl font-black">VIP</span>
+                          <div className="mt-2 bg-white/20 rounded-full px-4 py-1">
+                            <span className="text-lg font-extrabold">10% 할인</span>
+                          </div>
+                          <span className="text-[10px] mt-1 opacity-70">모든 상품 적용</span>
+                        </div>
+                      </div>
+                      {/* Gold Card */}
+                      <div className="flex flex-col items-center">
+                        <div className="w-36 h-44 rounded-2xl bg-gradient-to-b from-amber-400 to-yellow-600 flex flex-col items-center justify-center shadow-xl text-white relative overflow-hidden" style={{ transform: 'rotate(3deg)' }}>
+                          <div className="absolute inset-0 bg-white/5 rounded-2xl" />
+                          <span className="text-3xl mb-2">🏅</span>
+                          <span className="text-2xl font-black">Gold</span>
+                          <div className="mt-2 bg-white/20 rounded-full px-4 py-1">
+                            <span className="text-lg font-extrabold">5% 할인</span>
+                          </div>
+                          <span className="text-[10px] mt-1 opacity-70">모든 상품 적용</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  ) : 'customType' in slide && slide.customType === 'health' ? (
                   /* Custom: 건강기능식품 출시 슬라이드 */
                   <div className="max-w-6xl mx-auto px-4 flex items-center justify-between w-full">
                     <div className="space-y-4 max-w-md">
@@ -307,6 +370,12 @@ export default function HomePage({ categoryFilter = null, onCategoryChange, curr
 
           {/* Bottom controls */}
           <div className="absolute bottom-4 right-6 flex items-center gap-2">
+            <button
+              onClick={() => setIsPaused(p => !p)}
+              className="w-7 h-7 rounded-full bg-black/50 hover:bg-black/70 text-white flex items-center justify-center transition-colors text-xs"
+            >
+              {isPaused ? '▶' : '❚❚'}
+            </button>
             <div className="bg-black/50 text-white text-xs rounded-full px-3 py-1.5 flex items-center gap-1">
               <span className="font-bold">{String(currentSlide + 1).padStart(2, '0')}</span>
               <span className="opacity-50">/ {String(promoSlides.length).padStart(2, '0')}</span>
@@ -436,6 +505,124 @@ export default function HomePage({ categoryFilter = null, onCategoryChange, curr
             </div>
           </div>
         )}
+
+        {/* Vote Banner (logged-in, not yet voted) */}
+        {currentUserId && !hasVoted && (
+          <ScrollSection>
+            <div className="max-w-6xl mx-auto px-4 pb-10">
+              <div className="relative overflow-hidden rounded-2xl bg-gradient-to-r from-violet-500 via-purple-500 to-fuchsia-500 p-6 shadow-lg shadow-purple-200/50">
+                {/* Background decorations */}
+                <div className="absolute top-0 right-0 w-40 h-40 bg-white/10 rounded-full -translate-y-1/2 translate-x-1/4" />
+                <div className="absolute bottom-0 left-0 w-32 h-32 bg-white/10 rounded-full translate-y-1/2 -translate-x-1/4" />
+                <div className="absolute top-1/2 right-1/4 w-3 h-3 bg-white/30 rounded-full animate-float" />
+                <div className="absolute top-1/3 right-1/3 w-2 h-2 bg-white/20 rounded-full animate-float" style={{ animationDelay: '1s' }} />
+
+                <div className="relative flex items-center justify-between">
+                  <div className="flex items-center gap-5">
+                    <div className="w-16 h-16 bg-white/20 rounded-2xl flex items-center justify-center backdrop-blur-sm">
+                      <span className="text-4xl">🗳️</span>
+                    </div>
+                    <div>
+                      <h3 className="text-xl font-extrabold text-white mb-1">
+                        원하는 신제품이 있으면 투표해주세요!
+                      </h3>
+                      <p className="text-violet-100 text-sm flex items-center gap-2">
+                        <span className="inline-flex items-center gap-1 bg-white/20 rounded-full px-3 py-0.5 text-xs font-bold text-white">
+                          🎁 무료배송쿠폰 증정
+                        </span>
+                        투표에 참여하시면 무료배송 쿠폰을 드립니다
+                      </p>
+                    </div>
+                  </div>
+                  <button
+                    onClick={() => setShowVoteModal(true)}
+                    className="flex-shrink-0 bg-white text-purple-600 font-bold px-6 py-3 rounded-xl hover:bg-purple-50 hover:scale-105 active:scale-95 transition-all duration-200 shadow-lg"
+                  >
+                    투표하러가기 →
+                  </button>
+                </div>
+              </div>
+            </div>
+          </ScrollSection>
+        )}
+
+        {/* Vote Modal */}
+        {showVoteModal && (
+          <VoteModal
+            onClose={() => setShowVoteModal(false)}
+            onVoteComplete={() => {
+              setHasVoted(true)
+              sessionStorage.setItem('hasVoted', 'true')
+            }}
+          />
+        )}
+
+        {/* Bundle Deals */}
+        <ScrollSection>
+          <div className="max-w-6xl mx-auto px-4 pb-10">
+            <div className="flex items-center gap-3 mb-6">
+              <div className="w-9 h-9 bg-gradient-to-br from-red-400 to-orange-500 rounded-xl flex items-center justify-center shadow-lg shadow-red-200/50">
+                <span className="text-white text-base font-bold">%</span>
+              </div>
+              <div>
+                <h3 className="text-2xl font-extrabold text-gray-900 tracking-tight">특가 묶음상품</h3>
+                <p className="text-sm text-gray-400">함께 사면 더 저렴하게!</p>
+              </div>
+            </div>
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-5">
+              {bundleDeals.map((bundle, idx) => (
+                <div
+                  key={idx}
+                  className="relative bg-gradient-to-br from-white to-orange-50 rounded-2xl border border-orange-100 p-5 hover:shadow-lg hover:-translate-y-1 transition-all duration-300 group"
+                >
+                  {/* Discount badge */}
+                  <span className="absolute -top-3 -right-3 bg-gradient-to-r from-red-500 to-orange-500 text-white text-xs font-bold px-3 py-1.5 rounded-full shadow-lg">
+                    {bundle.discount}% OFF
+                  </span>
+
+                  {/* Product images */}
+                  <div className="flex items-center justify-center gap-3 mb-4">
+                    {bundle.items.map((item, i) => {
+                      const visual = getProductVisual(item)
+                      return (
+                        <div key={item} className="flex items-center gap-3">
+                          {i > 0 && (
+                            <span className="text-2xl font-bold text-orange-300">+</span>
+                          )}
+                          <div className="flex flex-col items-center">
+                            <div
+                              className="w-20 h-20 rounded-xl overflow-hidden shadow-md group-hover:scale-105 transition-transform duration-300"
+                              style={{ backgroundColor: visual.bgColor }}
+                            >
+                              {visual.image ? (
+                                <img src={visual.image} alt={item} className="w-full h-full object-cover" />
+                              ) : (
+                                <div className="w-full h-full flex items-center justify-center text-3xl">
+                                  {visual.emoji}
+                                </div>
+                              )}
+                            </div>
+                            <span className="text-xs font-semibold text-gray-700 mt-1.5">{item}</span>
+                          </div>
+                        </div>
+                      )
+                    })}
+                  </div>
+
+                  {/* Bundle label */}
+                  <div className="text-center">
+                    <p className="text-base font-bold text-gray-800">
+                      {bundle.items.join(' + ')}
+                    </p>
+                    <p className="text-sm text-orange-500 font-semibold mt-1">
+                      함께 구매 시 {bundle.discount}% 할인
+                    </p>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </ScrollSection>
 
         {/* Divider */}
         <div className="max-w-6xl mx-auto px-4">

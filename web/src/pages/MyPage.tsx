@@ -92,11 +92,6 @@ export default function MyPage({ onUserChange }: MyPageProps) {
               <span className="bg-white/15 backdrop-blur rounded-full px-3 py-1 text-sm">{customer.AgeGroup}</span>
               <span className="bg-white/15 backdrop-blur rounded-full px-3 py-1 text-sm">{customer.Gender}</span>
               <span className="bg-white/15 backdrop-blur rounded-full px-3 py-1 text-sm">가족 {customer.FamilyCount}명</span>
-              {customer.MemberYN === 'Y' && (
-                <span className="bg-white/20 backdrop-blur rounded-full px-3 py-1 text-sm border border-white/30">
-                  멤버십
-                </span>
-              )}
               <span className={`backdrop-blur rounded-full px-3 py-1 text-sm font-bold border ${gc.tagBg}`}>
                 {gc.label}
               </span>
@@ -109,6 +104,57 @@ export default function MyPage({ onUserChange }: MyPageProps) {
           </div>
         </div>
       </div>
+
+      {/* Grade Discount Banner + VIP Progress */}
+      {(() => {
+        const vipThreshold = 5000000
+        const progress = Math.min((customer.total_spend / vipThreshold) * 100, 100)
+        const remaining = Math.max(vipThreshold - customer.total_spend, 0)
+        const isVIP = grade === 'VIP'
+        const isGold = grade === 'Gold'
+        return (
+          <div className={`mb-6 rounded-2xl p-5 border ${
+            isVIP
+              ? 'bg-gradient-to-r from-red-50 to-rose-50 border-red-200/60'
+              : isGold
+              ? 'bg-gradient-to-r from-amber-50 to-yellow-50 border-amber-200/60'
+              : 'bg-gradient-to-r from-gray-50 to-slate-50 border-gray-200/60'
+          }`}>
+            {/* Discount info for VIP/Gold */}
+            {(isVIP || isGold) && (
+              <div className="flex items-center gap-3 mb-4">
+                <span className="text-2xl">{isVIP ? '🎖️' : '🏅'}</span>
+                <div>
+                  <span className={`text-sm font-bold ${isVIP ? 'text-red-600' : 'text-amber-700'}`}>
+                    {grade} 등급 혜택
+                  </span>
+                  <p className={`text-lg font-extrabold ${isVIP ? 'text-red-700' : 'text-amber-800'}`}>
+                    모든 상품 {isVIP ? '10%' : '5%'} 할인 적용 중
+                  </p>
+                </div>
+              </div>
+            )}
+
+            {/* VIP Progress */}
+            <div>
+              <div className="flex items-center justify-between mb-2">
+                <span className={`text-sm font-bold ${isVIP ? 'text-red-600' : 'text-gray-600'}`}>
+                  {isVIP ? 'VIP 달성 완료!' : `VIP까지 ${formatKRW(remaining)} 남았습니다`}
+                </span>
+                <span className="text-xs text-gray-400">
+                  {formatKRW(customer.total_spend)} / {formatKRW(vipThreshold)}
+                </span>
+              </div>
+              <div className="w-full h-6 bg-gray-200 rounded-full overflow-hidden">
+                <div
+                  className="h-full rounded-full bg-gradient-to-r from-pink-400 to-rose-500 transition-all duration-1000 ease-out"
+                  style={{ width: `${progress}%` }}
+                />
+              </div>
+            </div>
+          </div>
+        )
+      })()}
 
       {/* Quick Stats */}
       <ScrollSection className="mb-12">
