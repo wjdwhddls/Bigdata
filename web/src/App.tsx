@@ -8,6 +8,7 @@ import MyPage from './pages/MyPage'
 import ProductPage from './pages/ProductPage'
 import DashboardPage from './pages/DashboardPage'
 import SegmentationPage from './pages/SegmentationPage'
+import CartPage from './pages/CartPage'
 import './index.css'
 
 function ScrollToTop() {
@@ -56,12 +57,13 @@ function AppContent() {
   return (
     <div className="min-h-screen bg-organic">
       <ScrollToTop />
-      <Header currentUserId={currentUserId} onUserChange={handleUserChange} onSignup={handleSignup} onCategoryChange={setActiveCategory} activeCategory={activeCategory} cartItems={cartItems} onRemoveFromCart={removeFromCart} onClearCart={() => setCartItems([])} />
+      <Header currentUserId={currentUserId} onUserChange={handleUserChange} onSignup={handleSignup} onCategoryChange={setActiveCategory} activeCategory={activeCategory} cartItems={cartItems} />
       {showCouponModal && <CouponModal onClose={() => setShowCouponModal(false)} />}
       <Routes>
         <Route path="/" element={<HomePage categoryFilter={activeCategory} onCategoryChange={setActiveCategory} currentUserId={currentUserId} newUserAgeGroup={newUserAgeGroup} />} />
         <Route path="/my/:userId" element={<MyPage onUserChange={setCurrentUserId} />} />
         <Route path="/product/:name" element={<ProductPage currentUserId={currentUserId} cartItems={cartItems} onAddToCart={addToCart} />} />
+        <Route path="/cart" element={<CartPage cartItems={cartItems} onRemoveFromCart={removeFromCart} onClearCart={() => setCartItems([])} />} />
         <Route path="/dashboard" element={<DashboardPage />} />
         <Route path="/segmentation" element={<SegmentationPage />} />
       </Routes>

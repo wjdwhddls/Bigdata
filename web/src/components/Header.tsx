@@ -9,8 +9,6 @@ interface HeaderProps {
   onCategoryChange?: (category: string | null) => void
   activeCategory?: string | null
   cartItems?: CartItem[]
-  onRemoveFromCart?: (code: string) => void
-  onClearCart?: () => void
 }
 
 const categories = [
@@ -24,11 +22,10 @@ const categories = [
 
 const ageGroups = ['20대', '30대', '40대', '50대', '60대']
 
-export default function Header({ currentUserId, onUserChange, onSignup, onCategoryChange, activeCategory, cartItems = [], onRemoveFromCart, onClearCart }: HeaderProps) {
+export default function Header({ currentUserId, onUserChange, onSignup, onCategoryChange, activeCategory, cartItems = [] }: HeaderProps) {
   const [scrolled, setScrolled] = useState(false)
   const [loginOpen, setLoginOpen] = useState(false)
   const [signupOpen, setSignupOpen] = useState(false)
-  const [cartOpen, setCartOpen] = useState(false)
   const [searchId, setSearchId] = useState('')
   const [signupId, setSignupId] = useState('')
   const [signupAge, setSignupAge] = useState('20대')
@@ -36,7 +33,6 @@ export default function Header({ currentUserId, onUserChange, onSignup, onCatego
   const location = useLocation()
   const dropdownRef = useRef<HTMLDivElement>(null)
   const signupRef = useRef<HTMLDivElement>(null)
-  const cartRef = useRef<HTMLDivElement>(null)
   const inputRef = useRef<HTMLInputElement>(null)
   const signupInputRef = useRef<HTMLInputElement>(null)
 
@@ -53,9 +49,6 @@ export default function Header({ currentUserId, onUserChange, onSignup, onCatego
       }
       if (signupRef.current && !signupRef.current.contains(e.target as Node)) {
         setSignupOpen(false)
-      }
-      if (cartRef.current && !cartRef.current.contains(e.target as Node)) {
-        setCartOpen(false)
       }
     }
     document.addEventListener('mousedown', handleClickOutside)
@@ -174,67 +167,20 @@ export default function Header({ currentUserId, onUserChange, onSignup, onCatego
                     {currentUserId}
                   </Link>
                   {/* Cart button */}
-                  <div className="relative" ref={cartRef}>
-                    <button
-                      onClick={() => setCartOpen(!cartOpen)}
-                      className="relative p-1.5 text-gray-400 hover:text-emerald-600 hover:bg-emerald-50 rounded-full transition-all duration-200"
-                      title="장바구니"
-                    >
-                      <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 100 4 2 2 0 000-4z" />
-                      </svg>
-                      {cartItems.length > 0 && (
-                        <span className="absolute -top-1 -right-1 w-4 h-4 bg-emerald-500 text-white text-[10px] font-bold rounded-full flex items-center justify-center">
-                          {cartItems.length}
-                        </span>
-                      )}
-                    </button>
-                    {/* Cart dropdown */}
-                    {cartOpen && (
-                      <div className="absolute right-0 top-full mt-2 w-80 bg-white rounded-2xl shadow-xl border border-gray-100 p-4 animate-fade-in-up z-50">
-                        <div className="flex items-center justify-between mb-3">
-                          <p className="text-sm font-bold text-gray-700">장바구니</p>
-                          {cartItems.length > 0 && (
-                            <button
-                              onClick={() => onClearCart?.()}
-                              className="text-xs text-gray-400 hover:text-red-500 transition-colors"
-                            >
-                              전체 삭제
-                            </button>
-                          )}
-                        </div>
-                        {cartItems.length === 0 ? (
-                          <p className="text-sm text-gray-400 text-center py-6">장바구니가 비어있습니다</p>
-                        ) : (
-                          <div className="space-y-2 max-h-64 overflow-y-auto">
-                            {cartItems.map(item => (
-                              <div key={item.code} className="flex items-center justify-between bg-gray-50 rounded-xl px-3 py-2">
-                                <div>
-                                  <Link
-                                    to={`/product/${encodeURIComponent(item.name)}`}
-                                    className="text-sm font-medium text-gray-700 hover:text-emerald-600 transition-colors"
-                                    onClick={() => setCartOpen(false)}
-                                  >
-                                    {item.name}
-                                  </Link>
-                                  <p className="text-xs text-gray-400">{item.category} &gt; {item.subCategory}</p>
-                                </div>
-                                <button
-                                  onClick={() => onRemoveFromCart?.(item.code)}
-                                  className="p-1 text-gray-300 hover:text-red-500 transition-colors"
-                                  title="삭제"
-                                >
-                                  <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
-                                  </svg>
-                                </button>
-                              </div>
-                            ))}
-                          </div>
-                        )}
-                      </div>
+                  <Link
+                    to="/cart"
+                    className="relative p-1.5 text-gray-400 hover:text-emerald-600 hover:bg-emerald-50 rounded-full transition-all duration-200"
+                    title="장바구니"
+                  >
+                    <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 100 4 2 2 0 000-4z" />
+                    </svg>
+                    {cartItems.length > 0 && (
+                      <span className="absolute -top-1 -right-1 w-4 h-4 bg-emerald-500 text-white text-[10px] font-bold rounded-full flex items-center justify-center">
+                        {cartItems.length}
+                      </span>
                     )}
-                  </div>
+                  </Link>
                   <button
                     onClick={() => {
                       onUserChange?.(undefined)
