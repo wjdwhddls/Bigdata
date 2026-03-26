@@ -63,7 +63,7 @@ function AppContent() {
         <Route path="/" element={<HomePage categoryFilter={activeCategory} onCategoryChange={setActiveCategory} currentUserId={currentUserId} newUserAgeGroup={newUserAgeGroup} />} />
         <Route path="/my/:userId" element={<MyPage onUserChange={setCurrentUserId} />} />
         <Route path="/product/:name" element={<ProductPage currentUserId={currentUserId} cartItems={cartItems} onAddToCart={addToCart} />} />
-        <Route path="/cart" element={<CartPage cartItems={cartItems} onRemoveFromCart={removeFromCart} onClearCart={() => setCartItems([])} />} />
+        <Route path="/cart" element={<CartPage cartItems={cartItems} onRemoveFromCart={removeFromCart} onClearCart={() => setCartItems([])} currentUserId={currentUserId} />} />
         <Route path="/dashboard" element={<DashboardPage />} />
         <Route path="/segmentation" element={<SegmentationPage />} />
       </Routes>

@@ -2,14 +2,17 @@ import { useState, useMemo } from 'react'
 import { Link } from 'react-router-dom'
 import type { CartItem } from '../App'
 import { getProductVisual } from '../utils/productImages'
+import { useData } from '../stores/dataStore'
 
 interface CartPageProps {
   cartItems: CartItem[]
   onRemoveFromCart: (code: string) => void
   onClearCart: () => void
+  currentUserId?: string
 }
 
-export default function CartPage({ cartItems, onRemoveFromCart }: CartPageProps) {
+export default function CartPage({ cartItems, onRemoveFromCart, currentUserId }: CartPageProps) {
+  const { rules, customers, products } = useData()
   const [selectedCodes, setSelectedCodes] = useState<Set<string>>(
     () => new Set(cartItems.map(i => i.code))
   )
@@ -40,10 +43,44 @@ export default function CartPage({ cartItems, onRemoveFromCart }: CartPageProps)
 
   const selectedCount = selectedCodes.size
 
-  const selectedItems = useMemo(
-    () => cartItems.filter(i => selectedCodes.has(i.code)),
-    [cartItems, selectedCodes]
-  )
+  const userAgeGroup = currentUserId
+    ? customers.get(currentUserId)?.AgeGroup
+    : undefined
+
+  const cartProductNames = useMemo(() => new Set(cartItems.map(i => i.name)), [cartItems])
+
+  const recommendedProducts = useMemo(() => {
+    const seen = new Set<string>()
+    const results: { name: string; lift: number }[] = []
+
+    for (const item of cartItems) {
+      let matched = rules.filter(r =>
+        r.antecedents.includes(item.name) &&
+        r.ageGroup === (userAgeGroup || '전체')
+      )
+      if (matched.length === 0 && userAgeGroup) {
+        matched = rules.filter(r =>
+          r.antecedents.includes(item.name) && r.ageGroup === '전체'
+        )
+      }
+      for (const rule of matched) {
+        for (const name of rule.consequents) {
+          if (!cartProductNames.has(name) && !seen.has(name)) {
+            seen.add(name)
+            results.push({ name, lift: rule.lift })
+          }
+        }
+      }
+    }
+
+    return results
+      .sort((a, b) => b.lift - a.lift)
+      .slice(0, 12)
+      .map(r => {
+        const p = products.find(p => p.name === r.name)
+        return { name: r.name, category: p?.category || '' }
+      })
+  }, [cartItems, rules, userAgeGroup, cartProductNames, products])
 
   if (cartItems.length === 0) {
     return (
@@ -182,21 +219,26 @@ export default function CartPage({ cartItems, onRemoveFromCart }: CartPageProps)
       </div>
 
       {/* Recommended products section */}
-      {selectedItems.length > 0 && (
+      {recommendedProducts.length > 0 && (
         <div className="mt-16">
-          <h3 className="text-xl font-extrabold text-gray-800 mb-6 tracking-tight">
+          <h3 className="text-xl font-extrabold text-gray-800 mb-2 tracking-tight">
             함께 보면 좋은 상품
           </h3>
+          <p className="text-sm text-gray-400 mb-6">같이사면 할인되는 상품</p>
           <div className="flex gap-4 overflow-x-auto pb-4">
-            {cartItems.slice(0, 6).map(item => {
+            {recommendedProducts.map(item => {
               const { emoji, bgColor, image } = getProductVisual(item.name)
               return (
                 <Link
-                  key={item.code}
+                  key={item.name}
                   to={`/product/${encodeURIComponent(item.name)}`}
-                  className="flex-shrink-0 w-40 bg-white rounded-2xl border border-gray-100 overflow-hidden hover:shadow-lg hover:-translate-y-1 transition-all duration-300 group"
+                  className="flex-shrink-0 w-44 bg-white rounded-2xl border border-gray-100 overflow-hidden hover:shadow-lg hover:-translate-y-1 transition-all duration-300 group relative"
                 >
-                  <div className="w-full h-32 flex items-center justify-center" style={{ backgroundColor: bgColor }}>
+                  {/* 10% OFF badge */}
+                  <span className="absolute top-2 left-2 z-10 px-2.5 py-1 text-xs font-bold text-white rounded-full bg-gradient-to-r from-orange-500 to-red-500 shadow-md">
+                    10% OFF
+                  </span>
+                  <div className="w-full h-36 flex items-center justify-center" style={{ backgroundColor: bgColor }}>
                     {image ? (
                       <img src={image} alt={item.name} className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300" />
                     ) : (
