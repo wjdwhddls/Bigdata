@@ -270,10 +270,10 @@ export default function HomePage({ categoryFilter = null, onCategoryChange, curr
                     {/* 제품 이미지들 */}
                     <div className="flex items-end gap-3">
                       {[
-                        { src: '/images/products/홍삼.jpg', name: '홍삼' },
-                        { src: '/images/products/비타민C.jpg', name: '비타민C' },
-                        { src: '/images/products/유산균.avif', name: '유산균' },
-                        { src: '/images/products/프로폴리스.jpg', name: '프로폴리스' },
+                        { src: `${import.meta.env.BASE_URL}images/products/홍삼.jpg`, name: '홍삼' },
+                        { src: `${import.meta.env.BASE_URL}images/products/비타민C.jpg`, name: '비타민C' },
+                        { src: `${import.meta.env.BASE_URL}images/products/유산균.avif`, name: '유산균' },
+                        { src: `${import.meta.env.BASE_URL}images/products/프로폴리스.jpg`, name: '프로폴리스' },
                       ].map((item, idx) => (
                         <div key={idx} className="flex flex-col items-center" style={{ transform: `translateY(${idx % 2 === 0 ? -8 : 8}px)` }}>
                           <div className="w-28 h-28 rounded-2xl overflow-hidden shadow-xl bg-white border border-gray-100">
