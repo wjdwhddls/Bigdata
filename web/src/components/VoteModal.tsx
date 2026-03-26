@@ -58,18 +58,33 @@ export default function VoteModal({ onClose, onVoteComplete }: VoteModalProps) {
     const timer = setTimeout(() => {
       const couponEl = couponRef.current
       const mypageBtn = document.getElementById('mypage-btn')
-      if (!couponEl || !mypageBtn) {
-        // Fallback: just close
+
+      if (!couponEl) {
         onVoteComplete()
         onClose()
         return
       }
 
+      // Calculate target position (mypage button or fallback to top-right corner)
       const couponRect = couponEl.getBoundingClientRect()
-      const targetRect = mypageBtn.getBoundingClientRect()
+      let dx: number, dy: number
 
-      const dx = targetRect.left + targetRect.width / 2 - (couponRect.left + couponRect.width / 2)
-      const dy = targetRect.top + targetRect.height / 2 - (couponRect.top + couponRect.height / 2)
+      if (mypageBtn) {
+        const targetRect = mypageBtn.getBoundingClientRect()
+        dx = targetRect.left + targetRect.width / 2 - (couponRect.left + couponRect.width / 2)
+        dy = targetRect.top + targetRect.height / 2 - (couponRect.top + couponRect.height / 2)
+      } else {
+        // Fallback: fly to top-right area where mypage button would be
+        dx = window.innerWidth * 0.7 - (couponRect.left + couponRect.width / 2)
+        dy = 28 - (couponRect.top + couponRect.height / 2)
+      }
+
+      // Fade out overlay during flying
+      const overlayEl = document.querySelector('[data-vote-overlay]') as HTMLElement
+      if (overlayEl) {
+        overlayEl.style.transition = 'opacity 0.8s ease'
+        overlayEl.style.opacity = '0'
+      }
 
       couponEl.style.transition = 'transform 0.8s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.8s ease-in'
       couponEl.style.transform = `translate(${dx}px, ${dy}px) scale(0.1)`
@@ -79,13 +94,15 @@ export default function VoteModal({ onClose, onVoteComplete }: VoteModalProps) {
 
       setTimeout(() => {
         // Flash the mypage button
-        mypageBtn.style.transition = 'all 0.3s ease'
-        mypageBtn.style.transform = 'scale(1.3)'
-        mypageBtn.style.boxShadow = '0 0 20px rgba(16, 185, 129, 0.6)'
-        setTimeout(() => {
-          mypageBtn.style.transform = 'scale(1)'
-          mypageBtn.style.boxShadow = 'none'
-        }, 400)
+        if (mypageBtn) {
+          mypageBtn.style.transition = 'all 0.3s ease'
+          mypageBtn.style.transform = 'scale(1.3)'
+          mypageBtn.style.boxShadow = '0 0 20px rgba(16, 185, 129, 0.6)'
+          setTimeout(() => {
+            mypageBtn.style.transform = 'scale(1)'
+            mypageBtn.style.boxShadow = 'none'
+          }, 400)
+        }
 
         onVoteComplete()
         onClose()
@@ -99,6 +116,7 @@ export default function VoteModal({ onClose, onVoteComplete }: VoteModalProps) {
     <div className="fixed inset-0 z-[9999] flex items-center justify-center animate-overlay-fade">
       {/* Overlay */}
       <div
+        data-vote-overlay
         className="absolute inset-0 bg-black/50"
         onClick={phase === 'vote' ? onClose : undefined}
       />
@@ -183,6 +201,16 @@ export default function VoteModal({ onClose, onVoteComplete }: VoteModalProps) {
             <p className="text-center text-xs text-gray-400 mt-3">
               투표 완료 시 <span className="font-bold text-emerald-600">무료배송 쿠폰</span>이 지급됩니다
             </p>
+          </div>
+
+          {/* 닫기 버튼 */}
+          <div className="border-t border-gray-100">
+            <button
+              onClick={onClose}
+              className="w-full py-4 text-sm text-gray-400 hover:text-gray-600 hover:bg-gray-50 transition-colors duration-200"
+            >
+              닫기
+            </button>
           </div>
         </div>
       ) : (

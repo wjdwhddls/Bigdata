@@ -139,12 +139,28 @@ export default function HomePage({ categoryFilter = null, onCategoryChange, curr
   const [animPhase, setAnimPhase] = useState(0)
   const [currentSlide, setCurrentSlide] = useState(0)
   const [isPaused, setIsPaused] = useState(false)
-  const [showVoteModal, setShowVoteModal] = useState(false)
-  const [hasVoted, setHasVoted] = useState(() => sessionStorage.getItem('hasVoted') === 'true')
+  const [showVoteModal, setShowVoteModal] = useState(() => {
+    if (!currentUserId) return false
+    return sessionStorage.getItem(`hasVoted_${currentUserId}`) !== 'true'
+  })
+  const [hasVoted, setHasVoted] = useState(() => {
+    if (!currentUserId) return false
+    return sessionStorage.getItem(`hasVoted_${currentUserId}`) === 'true'
+  })
 
-  // Auto-show products when logged in
+  // Auto-show products when logged in + reset hasVoted per user + auto-show vote modal
   useEffect(() => {
-    if (currentUserId) setShowProducts(true)
+    // Clean up old global key
+    sessionStorage.removeItem('hasVoted')
+
+    if (currentUserId) {
+      setShowProducts(true)
+      const voted = sessionStorage.getItem(`hasVoted_${currentUserId}`) === 'true'
+      setHasVoted(voted)
+      setShowVoteModal(!voted)
+    } else {
+      setShowVoteModal(false)
+    }
   }, [currentUserId])
 
   // Persist showProducts to sessionStorage
@@ -506,53 +522,13 @@ export default function HomePage({ categoryFilter = null, onCategoryChange, curr
           </div>
         )}
 
-        {/* Vote Banner (logged-in, not yet voted) */}
-        {currentUserId && !hasVoted && (
-          <ScrollSection>
-            <div className="max-w-6xl mx-auto px-4 pb-10">
-              <div className="relative overflow-hidden rounded-2xl bg-gradient-to-r from-violet-500 via-purple-500 to-fuchsia-500 p-6 shadow-lg shadow-purple-200/50">
-                {/* Background decorations */}
-                <div className="absolute top-0 right-0 w-40 h-40 bg-white/10 rounded-full -translate-y-1/2 translate-x-1/4" />
-                <div className="absolute bottom-0 left-0 w-32 h-32 bg-white/10 rounded-full translate-y-1/2 -translate-x-1/4" />
-                <div className="absolute top-1/2 right-1/4 w-3 h-3 bg-white/30 rounded-full animate-float" />
-                <div className="absolute top-1/3 right-1/3 w-2 h-2 bg-white/20 rounded-full animate-float" style={{ animationDelay: '1s' }} />
-
-                <div className="relative flex items-center justify-between">
-                  <div className="flex items-center gap-5">
-                    <div className="w-16 h-16 bg-white/20 rounded-2xl flex items-center justify-center backdrop-blur-sm">
-                      <span className="text-4xl">🗳️</span>
-                    </div>
-                    <div>
-                      <h3 className="text-xl font-extrabold text-white mb-1">
-                        원하는 신제품이 있으면 투표해주세요!
-                      </h3>
-                      <p className="text-violet-100 text-sm flex items-center gap-2">
-                        <span className="inline-flex items-center gap-1 bg-white/20 rounded-full px-3 py-0.5 text-xs font-bold text-white">
-                          🎁 무료배송쿠폰 증정
-                        </span>
-                        투표에 참여하시면 무료배송 쿠폰을 드립니다
-                      </p>
-                    </div>
-                  </div>
-                  <button
-                    onClick={() => setShowVoteModal(true)}
-                    className="flex-shrink-0 bg-white text-purple-600 font-bold px-6 py-3 rounded-xl hover:bg-purple-50 hover:scale-105 active:scale-95 transition-all duration-200 shadow-lg"
-                  >
-                    투표하러가기 →
-                  </button>
-                </div>
-              </div>
-            </div>
-          </ScrollSection>
-        )}
-
-        {/* Vote Modal */}
+        {/* Vote Modal (overlay on main page) */}
         {showVoteModal && (
           <VoteModal
             onClose={() => setShowVoteModal(false)}
             onVoteComplete={() => {
               setHasVoted(true)
-              sessionStorage.setItem('hasVoted', 'true')
+              if (currentUserId) sessionStorage.setItem(`hasVoted_${currentUserId}`, 'true')
             }}
           />
         )}
