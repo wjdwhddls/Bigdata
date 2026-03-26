@@ -281,20 +281,14 @@ body {
 
 /* ===== Mart Door Animation ===== */
 
-@keyframes doorSlideLeft {
-  from { transform: translateX(0); }
-  to { transform: translateX(-100%); }
+@keyframes doorPullLeft {
+  from { transform: rotateY(0deg); }
+  to { transform: rotateY(-105deg); }
 }
 
-@keyframes doorSlideRight {
-  from { transform: translateX(0); }
-  to { transform: translateX(100%); }
-}
-
-@keyframes doorSignFade {
-  0% { opacity: 1; }
-  60% { opacity: 1; }
-  100% { opacity: 0; }
+@keyframes doorPullRight {
+  from { transform: rotateY(0deg); }
+  to { transform: rotateY(105deg); }
 }
 
 .door-overlay {
@@ -302,6 +296,7 @@ body {
   inset: 0;
   z-index: 9999;
   display: flex;
+  perspective: 1200px;
   pointer-events: none;
 }
 
@@ -310,16 +305,20 @@ body {
   height: 100%;
   position: relative;
   overflow: hidden;
+  transform-style: preserve-3d;
+  backface-visibility: hidden;
 }
 
 .door-panel-left {
   background: linear-gradient(135deg, #e8f5f0 0%, #d1ede4 50%, #c8e6dc 100%);
   border-right: 2px solid #b0c4bc;
+  transform-origin: left center;
 }
 
 .door-panel-right {
   background: linear-gradient(225deg, #e8f5f0 0%, #d1ede4 50%, #c8e6dc 100%);
   border-left: 2px solid #b0c4bc;
+  transform-origin: right center;
 }
 
 /* 유리 반사 효과 */
@@ -371,29 +370,13 @@ body {
 .door-frame-top { top: 0; }
 .door-frame-bottom { bottom: 0; }
 
-/* 열림 애니메이션 (transition 대신 animation 사용 — 마운트 시에도 확실히 재생) */
+/* 당겨서 열리는 3D 애니메이션 */
 .door-panel-left.door-open {
-  animation: doorSlideLeft 1.2s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
+  animation: doorPullLeft 1.2s cubic-bezier(0.4, 0, 0.2, 1) forwards;
 }
 
 .door-panel-right.door-open {
-  animation: doorSlideRight 1.2s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
-}
-
-/* 간판 */
-.door-sign {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 3;
-  display: flex;
-  justify-content: center;
-  padding-top: 32vh;
-}
-
-.door-sign.door-sign-fade {
-  animation: doorSignFade 1.2s ease-out forwards;
+  animation: doorPullRight 1.2s cubic-bezier(0.4, 0, 0.2, 1) forwards;
 }
 
 /* ===== Smooth scrollbar ===== */

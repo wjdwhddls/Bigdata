@@ -203,20 +203,6 @@ export default function HomePage({ categoryFilter = null, onCategoryChange, curr
       {/* 마트 자동문 오버레이 */}
       {doorPhase !== 'idle' && doorPhase !== 'done' && (
         <div className="door-overlay">
-          <div className={`door-sign ${doorPhase === 'opening' ? 'door-sign-fade' : ''}`}>
-            <span
-              style={{
-                fontFamily: "'Georgia', 'Times New Roman', serif",
-                fontSize: 'clamp(2rem, 5vw, 4rem)',
-                fontWeight: 900,
-                color: '#1f2937',
-                letterSpacing: '-0.02em',
-                textShadow: '0 2px 8px rgba(0,0,0,0.08)',
-              }}
-            >
-              PORKULY MART
-            </span>
-          </div>
           <div className={`door-panel door-panel-left ${doorPhase === 'opening' ? 'door-open' : ''}`}>
             <div className="door-frame-top" />
             <div className="door-frame-bottom" />
@@ -716,20 +702,6 @@ export default function HomePage({ categoryFilter = null, onCategoryChange, curr
       {/* 마트 자동문 오버레이 */}
       {doorPhase !== 'idle' && doorPhase !== 'done' && (
         <div className="door-overlay">
-          <div className={`door-sign ${doorPhase === 'opening' ? 'door-sign-fade' : ''}`}>
-            <span
-              style={{
-                fontFamily: "'Georgia', 'Times New Roman', serif",
-                fontSize: 'clamp(2rem, 5vw, 4rem)',
-                fontWeight: 900,
-                color: '#1f2937',
-                letterSpacing: '-0.02em',
-                textShadow: '0 2px 8px rgba(0,0,0,0.08)',
-              }}
-            >
-              PORKULY MART
-            </span>
-          </div>
           <div className={`door-panel door-panel-left ${doorPhase === 'opening' ? 'door-open' : ''}`}>
             <div className="door-frame-top" />
             <div className="door-frame-bottom" />
