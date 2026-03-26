@@ -15,12 +15,12 @@ export function DataProvider({ children }: { children: ReactNode }) {
 
   useEffect(() => {
     Promise.all([
-      fetch('/data/customers.json').then(r => r.json()) as Promise<Customer[]>,
-      fetch('/data/recommendations.json').then(r => r.json()) as Promise<Recommendation[]>,
-      fetch('/data/association_rules.json').then(r => r.json()).catch(() => []) as Promise<AssociationRule[]>,
-      fetch('/data/products.json').then(r => r.json()) as Promise<Product[]>,
-      fetch('/data/stats.json').then(r => r.json()) as Promise<Stats>,
-      fetch('/data/rfm_grades.json').then(r => r.json()).catch(() => []) as Promise<RfmGrade[]>,
+      fetch(`${import.meta.env.BASE_URL}data/customers.json`).then(r => r.json()) as Promise<Customer[]>,
+      fetch(`${import.meta.env.BASE_URL}data/recommendations.json`).then(r => r.json()) as Promise<Recommendation[]>,
+      fetch(`${import.meta.env.BASE_URL}data/association_rules.json`).then(r => r.json()).catch(() => []) as Promise<AssociationRule[]>,
+      fetch(`${import.meta.env.BASE_URL}data/products.json`).then(r => r.json()) as Promise<Product[]>,
+      fetch(`${import.meta.env.BASE_URL}data/stats.json`).then(r => r.json()) as Promise<Stats>,
+      fetch(`${import.meta.env.BASE_URL}data/rfm_grades.json`).then(r => r.json()).catch(() => []) as Promise<RfmGrade[]>,
     ]).then(([customers, recs, rules, products, stats, rfmGrades]) => {
       setData({
         customers: new Map(customers.map(c => [c.idUser, c])),
