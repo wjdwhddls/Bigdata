@@ -140,10 +140,10 @@ export default function HomePage({ categoryFilter = null, onCategoryChange, curr
   const [currentSlide, setCurrentSlide] = useState(0)
   const [isPaused, setIsPaused] = useState(false)
   const [showVoteModal, setShowVoteModal] = useState(() => {
-    if (!currentUserId) return false
+    if (!currentUserId || newUserAgeGroup) return false
     return sessionStorage.getItem(`hasVoted_${currentUserId}`) !== 'true'
   })
-  // Auto-show products when logged in + auto-show vote modal per user
+  // Auto-show products when logged in + auto-show vote modal per user (not for new signups)
   useEffect(() => {
     // Clean up old global key
     sessionStorage.removeItem('hasVoted')
@@ -151,11 +151,11 @@ export default function HomePage({ categoryFilter = null, onCategoryChange, curr
     if (currentUserId) {
       setShowProducts(true)
       const voted = sessionStorage.getItem(`hasVoted_${currentUserId}`) === 'true'
-      setShowVoteModal(!voted)
+      setShowVoteModal(!voted && !newUserAgeGroup)
     } else {
       setShowVoteModal(false)
     }
-  }, [currentUserId])
+  }, [currentUserId, newUserAgeGroup])
 
   // Persist showProducts to sessionStorage
   useEffect(() => {
